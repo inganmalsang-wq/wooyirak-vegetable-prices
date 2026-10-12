@@ -1,2 +1,78 @@
-# wooyirak-vegetable-prices
-Wooyirak Vegetable Price Dashboard
+# 우이락 농산물 경락 시세 대시보드 (공식 API 2종 연동 준비본)
+
+이 패키지는 프랜차이즈 SV/본사 운영용 농산물 가격 HTML 화면과 **실제 공식 시세를 수집하는 Python 코드**, **하루 2회 자동갱신 GitHub Actions 설정**을 포함합니다.
+
+**현 상태: 코드·오프라인 테스트 완료 / 공개 배포 및 실제 인증키 연결 테스트 미완료.** 2026-10-12 작성. 현재 데이터 JSON은 비어 있으며 화면은 가격을 임의 생성하지 않습니다.
+
+## 출처 및 지표 차이
+
+1. [농림축산식품 공공데이터포털 - 전국 공영도매시장 실시간 경매정보](https://data.mafra.go.kr/opendata/data/indexOpenDataDetail.do?data_id=20240625000000002460): 서비스 코드 `Grid_20240625000000000654_1`, 낙찰가격 `COST`, 수량 `QTY`, 규격 `STD`, 시장 `WHSALCD`, 일자 `SALEDATE`. 업데이트: 수시.
+2. [한국농수산식품유통공사 - 농수축산물 도매가격](https://data.mafra.go.kr/opendata/data/indexOpenDataDetail.do?data_id=20141016000000000288): 서비스 코드 `Grid_20150406000000000217_1`, 조사 가격 `AMT`, `EXAMIN_UNIT`, `GRAD_NM`, `MRKT_NM`, 일자 `EXAMIN_DE`. 업데이트: 일간.
+
+**주의:** 조사 도매가격은 경매 낙찰가격이 아닙니다. 두 표를 합산하거나 동일 통계로 취급하지 않습니다. 실거래 경락가격은 kg 환산이 가능한 거래의 **중앙값**이며, 전체 시장 평균가격은 아닙니다. 부류/품목/품종/포장중량이 다르면 비교를 신중히 해석하세요.
+
+## 1. 인증키 연결 시험 (Q1)
+
+이미 신청한 공식 API 2종이 승인되었어도 실제 인증/접속 성공은 별도입니다. 사용자 PC에서 테스트하려면:
+
+1. 이 ZIP 파일을 압축 해제합니다. PC에 **Python 3.11 이상**을 설치합니다.
+2. PowerShell 또는 명령 프롬프트를 열고 압축 해제 폴더로 이동합니다.
+3. `python test_api_connection.py`를 실행합니다. 키 입력 안내가 뜨면 **새로 발급받은 공식 API 인증키**를 붙여넣습니다. 화면에 키가 표시되지 않으며, 코드에도 저장되지 않습니다.
+4. 두 서비스 모두 `인증·연결 성공`으로 출력되는지 확인합니다. `INFO-200`은 해당 조사일에 데이터가 없다는 의미이므로 최근 다른 날짜로 재시도합니다.
+
+**기존 채팅에 입력했던 키는 노출된 것으로 간주하고 가급적 재발급하세요. 이곳에 다시 키를 올리지 마세요.** 원본 공식 API 요청주소는 `http://211.237.50.150:7080`로 **HTTPS가 아닌 HTTP**입니다. 공식 서버의 제약이라 키 전송 경로 보안이 완벽하지 않습니다. 신청 시 설정한 IP 접근제한이 적용되면 사용자 PC에서는 성공하지만 GitHub Actions 서버에서는 실패할 수 있습니다. 오류 코드와 서버 접근정책을 확인해야 합니다.
+
+## 2. 우선 내 컴퓨터에 실제 데이터 연결하기
+
+```powershell
+# PowerShell에서 현재 실행할 프로세스에만 키 설정(화면에 입력키가 표시되지 않음)
+$secure = Read-Host '공식 API 재발급 키' -AsSecureString
+$env:MAFRA_API_KEY = [System.Net.NetworkCredential]::new('', $secure).Password
+python update_prices.py --days 2
+python update_wholesale.py --days 2
+Remove-Item Env:MAFRA_API_KEY
+```
+
+이후 `index.html`을 열면 같은 폴더의 `data/prices.js`와 `data/wholesale.js`에 저장된 가격을 표시합니다. 출처와 수집 시각도 함께 표시합니다. 실제 수집이 불가능한 환경에서는 빈 화면이 유지됩니다.
+
+기존 작업에는 소스별 하루 2회 수집을 준비했습니다. 과거 이력은 처음에 `--days 7` 등으로 수집하고 계속 실행되면 90일치까지 축적됩니다. API 요청량·응답 시간 때문에 실제 데이터 수집량에 따라 필터/페이지 상한 조정이 필요할 수 있습니다.
+
+## 3. 공유 URL 만들기 (Q2)
+
+권장 무료 배포: GitHub **공개 저장소 + GitHub Pages**. GitHub Pages는 별도 회원가입 없이 직원 누구나 URL로 볼 수 있지만 **URL을 아는 외부인도 볼 수 있습니다**. 비공개 내부 구매단가를 공개 사이트에 업로드하지 마세요. 현 화면의 납품단가 입력은 사용자 브라우저에만 보관되며 서버/공개 파일에는 저장하지 않습니다.
+
+1. GitHub 계정으로 [새 저장소](https://github.com/new)를 만들고 저장소 이름을 예를 들어 `wooyirak-vegetable-prices`로 설정합니다. **Public**으로 생성합니다.
+2. GitHub Desktop을 사용해 이 압축 해제 폴더를 로컬 저장소로 만들고, 위에서 만든 원격 저장소에 **전체 내용(숨김 `.github/workflows` 폴더 포함)**을 올립니다. Git 명령어를 안다면 `git init`, `git add .`, `git commit`, `git remote add origin`, `git push -u origin main` 방식도 가능합니다.
+3. 저장소의 `Settings → Pages`에서 **Deploy from a branch**, `main` / `/ (root)`를 선택하고 Save를 누릅니다.
+4. 배포가 성공하면 `https://<깃허브계정>.github.io/<저장소이름>/` 주소로 모든 직원이 접속할 수 있습니다. 주소는 실제 배포 후 GitHub에서 확인하세요.
+
+**현재 연결된 GitHub 계정으로 조회되는 저장소가 0개여서 제가 실제로 저장소 생성, Actions Secrets 등록, Pages 배포까지 완료하지는 못했습니다. 이 문서는 배포 방법이고 이미 배포되었다는 뜻이 아닙니다.**
+
+## 4. 무료 자동 갱신 (Q3)
+
+1. GitHub 저장소 `Settings → Secrets and variables → Actions → New repository secret`을 엽니다.
+2. 이름에 `MAFRA_API_KEY`, 값에 **재발급받은 공식 인증키**를 넣고 Save를 누릅니다. 저장소 코드나 HTML에 입력하지 마세요.
+3. `Actions → 우이락 농산물 시세 자동갱신 → Run workflow`를 눌러 첫 연결을 확인합니다.
+4. 매일 11:15 / 17:15 **한국시간**에 자동 실행되도록 `.github/workflows/update-auction.yml`에 설정했습니다. GitHub의 예약 실행은 지연될 수 있습니다.
+5. 첫 실행이 `Success`이고 새 `data/*.js` 파일이 커밋되면 Pages에 실제 시세가 표시됩니다. 실패하면 Actions의 마지막 작업 로그에서 `인증·연결`, `경락가격 수집`, `조사 도매가격 수집` 순서로 확인하세요.
+
+**중요한 제한:** 정부 API의 허용 IP가 고정이라면 IP가 유동적인 GitHub Actions에서는 데이터 수집이 막힐 수 있습니다. 이 경우 비용 없는 확정적인 완전자동화는 보장할 수 없습니다. 허용 IP 정책을 확인한 뒤 고정 공인 IP를 가진 서버 또는 승인받은 실행 환경으로 수집기를 옮겨야 합니다. GitHub Pages 호스팅 자체는 무료 공개 저장소에서 이용할 수 있습니다.
+
+## 파일 설명
+
+| 파일 | 내용 |
+| --- | --- |
+| `index.html` | 반응형 HTML 대시보드 · 경락가 + 조사 도매가격 분리 표시 |
+| `test_api_connection.py` | 실시간 경락정보/도매조사가격 2종 인증/연결 확인 (인증키 미출력) |
+| `update_prices.py` | 실거래 경락가격 수집·규격 kg 환산·중앙값 계산 |
+| `update_wholesale.py` | 조사 도매가격 수집·지역/등급/시장별 kg 환산 |
+| `data/*.json`, `data/*.js` | 현재 비어 있는 정적 데이터 저장소 · 성공적 수집 뒤 자동 생성 |
+| `.github/workflows/update-auction.yml` | 하루 2회 자동 실행 · 부분 오류 발생 시 마지막 정상 데이터 유지 |
+| `tests/` | kg 변환, 품목 분류, 경락가 집계, 조사 가격 테스트 |
+
+## 현 단계에서 확인된 사항
+
+- 공식 API 2종의 서비스 식별자·요청변수·응답필드는 문서로 확인함.
+- Python 코드 문법, JavaScript 문법, 6개 단위 테스트 성공.
+- 이 실행환경에서 공식 API 샘플 서버 포트 7080 HTTP 연결은 `Connection refused`여서 실제 인증 성공과 실시간 데이터 정확성은 검증하지 못함.
+- 일·주·월 변화율은 같은 원규격 데이터가 축적된 뒤 표시합니다. 데이터가 없는 날은 별도로 비워둡니다.
