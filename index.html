@@ -25,7 +25,7 @@
 <section class="section"><div class="section-head"><div><h2>경락가격 추이</h2><p id="chartTitle">아래 표에서 품목을 선택하세요</p></div><div class="controls"><select class="field" id="periodSelect"><option value="7">최근 7일</option><option value="30" selected>최근 30일</option><option value="90">최근 90일</option></select></div></div><div class="chart-wrap"><div class="chart-stats" id="chartStats" aria-live="polite"></div><svg id="trendChart" class="chart" role="img" aria-label="경락가격 추이"></svg><div id="chartEmpty" class="empty"><div class="empty-icon">⌁</div>실제 경락 데이터가 연동되면 가격 그래프가 표시됩니다.</div><div class="chart-note">점은 실제 관측일입니다. 2일 넘게 비는 구간은 선을 끊어 표시하며 가격을 임의 보간하지 않습니다.</div></div></section>
 <section class="section"><div class="section-head"><div><h2>상세 거래별 경락가격</h2><p>원/kg · 같은 시장, 세부 품종, 원래 포장규격끼리만 전일·전주·전월 비교</p></div><div class="controls"><input class="field search" type="search" id="searchInput" placeholder="품목 / 품종 검색"><select class="field" id="marketSelect"><option value="all">전체 시장</option><option value="110001" selected>서울가락 (기본)</option><option value="210001">부산엄궁</option><option value="210009">부산반여</option><option value="220001">대구북부</option></select><select class="field" id="sortSelect"><option value="name">품목순</option><option value="up">상승률 높은순</option><option value="down">하락률 높은순</option><option value="price">kg당 가격 높은순</option></select></div></div><div class="strip" id="productChips"></div><div class="table-scroll"><table><thead><tr><th>품목 / 품종</th><th>도매시장</th><th>경매 원규격</th><th class="r">kg당 경락가</th><th class="r">전일</th><th class="r">7일 전</th><th class="r">30일 전</th><th class="r">표본 건수</th><th class="r">상세</th></tr></thead><tbody id="priceRows"><tr><td colspan="9" class="empty">경락 데이터가 연결되면 자동으로 표시됩니다.</td></tr></tbody></table></div><div class="toolbar-note">경락가는 실제 낙찰 거래의 원규격 가격을 kg당으로 환산한 뒤, 동일 품종·동일 규격 그룹의 중앙값으로 계산합니다. 공식 전체 평균가가 아닙니다. 품질등급은 제공 API에 없어 비교 기준에서 제외되며, 규격이 불명확한 거래도 제외됩니다.</div></section>
 <section class="section" id="wholesaleSection"><div class="section-head"><div><h2>조사 도매가격 현황 <span class="tag">경락가와 별도</span></h2><p>한국농수산식품유통공사 조사 도매가격 · 지역/시장/품종/등급별 원/kg 환산 · 최신 조사일 기준</p></div><div class="controls"><input type="search" id="wholesaleSearch" class="field search" placeholder="도매 조사 가격 검색"><select id="wholesaleRegion" class="field"><option value="all">전체 지역</option></select></div></div><div class="toolbar-note" id="wholesaleStatus">조사 도매가격 API는 아직 실데이터 수집 전입니다.</div><div class="table-scroll"><table><thead><tr><th>품목 / 품종</th><th>지역 / 시장</th><th>등급 · 조사단위</th><th class="r">조사 도매가/kg</th><th class="r">전일 대비</th><th class="r">조사일자</th></tr></thead><tbody id="wholesaleRows"><tr><td colspan="6"><div class="empty">실제 데이터를 연결하면 표시됩니다.</div></td></tr></tbody></table></div><div class="toolbar-note">참고: 조사 도매가격은 각 시장의 조사 가격이며 실시간 경매 낙찰가격이 아닙니다. 품종, 등급, 조사시장과 원래 규격이 다른 값은 가격 증감률 산출 시 합산하지 않습니다.</div></section>
-<section class="section" id="retailSection"><div class="section-head"><div><h2>공식 조사 소매가격 <span class="tag">판매 조사값</span></h2><p>한국농수산식품유통공사 조사값 · 지역·시장·품종·등급별 최신 판매가격</p></div><div class="controls"><input type="search" id="retailSearch" class="field search" placeholder="소매가격 검색"><select id="retailRegion" class="field"><option value="all">전체 지역</option></select></div></div><div class="toolbar-note" id="retailStatus">소매가격 API 승인 후 첫 자동수집을 기다리고 있습니다.</div><div class="table-scroll"><table><thead><tr><th>품목 / 품종</th><th>지역 / 조사시장</th><th>등급 · 판매단위</th><th class="r">판매가</th><th class="r">kg 환산</th><th class="r">전일 대비</th><th class="r">조사일자</th></tr></thead><tbody id="retailRows"><tr><td colspan="7"><div class="empty">승인된 공식 API에서 수집되면 표시됩니다.</div></td></tr></tbody></table></div><div class="toolbar-note">특정 농협 지점의 실시간 판매가가 아니라 공식 조사시장 가격입니다. 규격을 kg로 환산할 수 없는 단위는 왜곡 방지를 위해 제외합니다.</div></section>
+<section class="section" id="retailSection"><div class="section-head"><div><h2>품목별 평균 소매가격 <span class="tag">전국 평균</span></h2><p>한국농수산식품유통공사 최신 조사값을 품목별 kg 가격으로 평균</p></div><div class="controls"><input type="search" id="retailSearch" class="field search" placeholder="품목 검색"></div></div><div class="toolbar-note" id="retailStatus">소매가격 API 승인 후 첫 자동수집을 기다리고 있습니다.</div><div class="table-scroll"><table><thead><tr><th>품목</th><th class="r">전국 평균/kg</th><th class="r">최저/kg</th><th class="r">최고/kg</th><th class="r">조사 건수</th><th class="r">최신 조사일</th></tr></thead><tbody id="retailRows"><tr><td colspan="6"><div class="empty">승인된 공식 API에서 수집되면 표시됩니다.</div></td></tr></tbody></table></div><div class="toolbar-note">각 품목의 가장 최근 조사일에 수집된 지역·시장·품종·등급별 kg 환산가격을 단순 평균합니다. 특정 농협 지점의 실시간 판매가가 아니며, kg로 환산할 수 없는 단위는 제외합니다.</div></section>
 <section class="section"><div class="section-head"><div><h2>모니터링 대상 품목</h2><p>우이락 메뉴 원부자재를 고려한 초기 제안 20종 · 실제 구매품목으로 조정 가능</p></div><span class="tag">초기 추천 목록</span></div><div class="catalog" id="catalog"></div></section>
 <section class="section"><div class="section-head"><div><h2>데이터 출처 및 해석 기준</h2><p>경락가격·조사 도매가격·조사 소매가격은 서로 다른 지표입니다.</p></div></div><div class="source-cards"><a class="source-card" target="_blank" rel="noopener" href="https://data.mafra.go.kr/opendata/data/indexOpenDataDetail.do?data_id=20240625000000002460"><b>↗ 실시간 경락정보</b><p>전국 공영도매시장 실제 낙찰 거래<br><strong>경락가 표와 차트 원천</strong></p></a><a class="source-card" target="_blank" rel="noopener" href="https://data.mafra.go.kr/opendata/data/indexOpenDataDetail.do?data_id=20141016000000000288"><b>↗ 조사 도매가격</b><p>지역·시장·품종·등급별 조사 도매가<br><strong>경락가와 별도 표시</strong></p></a><a class="source-card" target="_blank" rel="noopener" href="https://data.mafra.go.kr/opendata/data/indexOpenDataDetail.do?data_id=20141225000000000406"><b>↗ 조사 소매가격</b><p>전통시장·대형마트 등 조사 판매가<br><strong>공식 조사 소매가격 표 원천</strong></p></a></div><div class="toolbar-note" id="sourceMetadata">수집·갱신: 미연동 · GitHub Actions에 공식 인증키 설정 후 11:15 / 17:15(KST) 자동 갱신 가능</div></section>
 <div class="footer"><span>© WO OYIRAK · STORE OPERATIONS / PROCUREMENT INTELLIGENCE</span><span>출처: 농림축산식품 공공데이터포털 · 가격 조회는 구매계약 및 납품 단가를 보증하지 않습니다.</span></div>
@@ -120,27 +120,33 @@ $('wholesaleRegion').addEventListener('change',filterWholesale);
 // 공식 조사 소매가격은 경락가·조사 도매가와 혼합하지 않습니다.
 const RETAIL=window.__RETAIL_DATA__||{status:'not_connected',records:[]};
 const RREC=(Array.isArray(RETAIL.records)?RETAIL.records:[]).filter(r=>/^\d{4}-\d{2}-\d{2}$/.test(r.date)&&Number.isFinite(+r.price_kg)&&+r.price_kg>0);
-const rKey=r=>[r.product,r.variety,r.grade,r.region,r.market,r.standard].join('┃');
-const rLatestMap=new Map();for(const r of RREC){const key=rKey(r),old=rLatestMap.get(key);if(!old||r.date>old.date)rLatestMap.set(key,r)}
-const RLATEST=[...rLatestMap.values()];
-function rChange(r){const candidates=RREC.filter(x=>rKey(x)===rKey(r)&&x.date<r.date&&daysBetween(r.date,x.date)<=5).sort((a,b)=>b.date.localeCompare(a.date));return candidates.length?100*(r.price_kg-candidates[0].price_kg)/candidates[0].price_kg:null}
+function retailAverages(){
+  const latestDates=new Map();
+  for(const r of RREC){if(!latestDates.has(r.product)||r.date>latestDates.get(r.product))latestDates.set(r.product,r.date)}
+  const groups=new Map();
+  for(const r of RREC){
+    if(r.date!==latestDates.get(r.product))continue;
+    if(!groups.has(r.product))groups.set(r.product,[]);
+    groups.get(r.product).push(+r.price_kg);
+  }
+  return [...groups].map(([product,prices])=>({
+    product,date:latestDates.get(product),count:prices.length,
+    average:Math.round(prices.reduce((sum,price)=>sum+price,0)/prices.length),
+    minimum:Math.round(Math.min(...prices)),maximum:Math.round(Math.max(...prices))
+  })).sort((a,b)=>a.product.localeCompare(b.product,'ko'));
+}
+const RAVG=retailAverages();
 function renderRetail(){
-  const regions=[...new Set(RLATEST.map(r=>r.region))].sort((a,b)=>a.localeCompare(b,'ko'));
-  const existing=$('retailRegion').value;
-  $('retailRegion').innerHTML='<option value="all">전체 지역</option>'+regions.map(r=>`<option value="${esc(r)}">${esc(r)}</option>`).join('');
-  $('retailRegion').value=regions.includes(existing)?existing:'all';
   const connected=RETAIL.status==='connected';
-  $('retailStatus').textContent=connected?`최종 수집 ${new Date(RETAIL.updated_at).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'})} · 공식 조사 소매가격 ${nf.format(RREC.length)}건`:'소매가격 API 승인 후 첫 자동수집을 기다리고 있습니다. 임의 가격은 표시하지 않습니다.';
+  $('retailStatus').textContent=connected?`최종 수집 ${new Date(RETAIL.updated_at).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'})} · 원천 ${nf.format(RREC.length)}건을 ${nf.format(RAVG.length)}개 품목 평균으로 요약`:'소매가격 API 승인 후 첫 자동수집을 기다리고 있습니다. 임의 가격은 표시하지 않습니다.';
   filterRetail();
 }
 function filterRetail(){
-  const q=$('retailSearch').value.trim().toLowerCase(),region=$('retailRegion').value;
-  const filtered=RLATEST.filter(r=>(region==='all'||r.region===region)&&(!q||[r.product,r.variety,r.grade,r.region,r.market].join(' ').toLowerCase().includes(q)));
-  filtered.sort((a,b)=>a.product.localeCompare(b.product,'ko')||a.region.localeCompare(b.region,'ko')||b.date.localeCompare(a.date));
-  $('retailRows').innerHTML=filtered.length?filtered.slice(0,300).map(r=>`<tr><td><strong>${esc(r.product)}</strong><div class="subtle-label">${esc(r.variety)}</div></td><td>${esc(r.region)} · ${esc(r.market)}</td><td>${esc(r.grade)} · ${esc(r.standard)}</td><td class="r mono"><strong>${nf.format(r.price_unit)}원</strong></td><td class="r mono">${nf.format(r.price_kg)}원/kg</td><td class="r mono">${pct(rChange(r))}</td><td class="r mono">${esc(r.date)}</td></tr>`).join(''):`<tr><td colspan="7"><div class="empty">${RREC.length?'해당 조건의 조사 소매가격이 없습니다.':'공식 조사 소매가격 데이터 미연동'}</div></td></tr>`;
+  const q=$('retailSearch').value.trim().toLowerCase();
+  const filtered=RAVG.filter(r=>!q||r.product.toLowerCase().includes(q));
+  $('retailRows').innerHTML=filtered.length?filtered.map(r=>`<tr><td><strong>${esc(r.product)}</strong></td><td class="r mono"><strong>${nf.format(r.average)}원</strong></td><td class="r mono">${nf.format(r.minimum)}원</td><td class="r mono">${nf.format(r.maximum)}원</td><td class="r mono">${nf.format(r.count)}건</td><td class="r mono">${esc(r.date)}</td></tr>`).join(''):`<tr><td colspan="6"><div class="empty">${RREC.length?'해당 품목의 평균 소매가격이 없습니다.':'공식 조사 소매가격 데이터 미연동'}</div></td></tr>`;
 }
 $('retailSearch').addEventListener('input',filterRetail);
-$('retailRegion').addEventListener('change',filterRetail);
 render();renderWholesale();renderRetail();
 })();
 </script>
