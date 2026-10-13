@@ -17,5 +17,10 @@ class WholesaleTests(unittest.TestCase):
     def test_category_ignored(self):
         rows=[{'EXAMIN_DE':'20261008','FRMPRD_CATGORY_CD':'100','PRDLST_NM':'감자','SPCIES_NM':'일반','GRAD_NM':'상품','EXAMIN_UNIT':'20kg','AREA_NM':'서울','MRKT_NM':'가락','AMT':'40000'}]
         self.assertEqual(transform(rows),[])
+    def test_fruit_category_is_collected(self):
+        rows=[{'EXAMIN_DE':'20261008','FRMPRD_CATGORY_CD':'400','PRDLST_NM':'배','SPCIES_NM':'신고','GRAD_NM':'상품','EXAMIN_UNIT':'15kg','AREA_NM':'서울','MRKT_NM':'가락','AMT':'45000'}]
+        result=transform(rows)
+        self.assertEqual(result[0]['product'],'배')
+        self.assertEqual(result[0]['price_kg'],3000)
 
 if __name__=='__main__':unittest.main()

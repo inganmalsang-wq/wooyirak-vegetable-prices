@@ -25,23 +25,26 @@ DATA_PATH = ROOT / 'data/prices.json'
 JS_PATH = ROOT / 'data/prices.js'
 TZ = ZoneInfo('Asia/Seoul')
 MARKETS = {'110001': '서울가락', '210001':'부산엄궁', '210009':'부산반여', '220001':'대구북부'}
-CATEGORIES = ['05','09','10','11','12','13']  # 서류, 과채, 엽경채, 근채, 조미채소, 양채
-# 실제 낙찰 건의 품목명과 세부 품종명이 품목별로 상이하므로 아래는 초기 분류규칙임.
+CATEGORIES = ['06','09','10','11','12','13','16']  # 과실, 과채, 엽경채, 근채, 조미채소, 양채, 버섯
+COLLECTION_VERSION = 2
+# 우이락에서 실제로 사용할 22개 품목. 순서는 홈페이지 표시 순서와 동일하다.
 WATCH = [
- ('청양고추', ['청양']), ('오이고추', ['오이고추','아삭이고추']),
- ('풋고추', ['풋고추','녹광고추','녹광']), ('대파',['대파']),
- ('쪽파',['쪽파']), ('양파',['양파']), ('양배추',['양배추']),
- ('깐마늘',['깐마늘','깐 마늘']), ('마늘',['마늘']), ('감자',['감자']),
- ('무',['무','무우']), ('배추',['배추']), ('오이',['오이']),
- ('당근',['당근']), ('깻잎',['깻잎']), ('상추',['상추']),
- ('부추',['부추']), ('애호박',['애호박']), ('생강',['생강']),
- ('고구마',['고구마']),
+ ('청경채',['청경채']), ('팽이버섯',['팽이버섯','팽이']),
+ ('깻잎',['깻잎']), ('당근',['당근']), ('대파',['대파']),
+ ('양파',['양파']), ('부추',['부추']),
+ ('알배기배추',['알배기배추','알배기']), ('적양배추',['적양배추','적채']),
+ ('양배추',['양배추']), ('오이고추',['오이고추','오이맛고추','아삭이고추']),
+ ('오이',['오이']), ('청양고추',['청양']), ('홍고추',['홍고추','붉은고추']),
+ ('쪽파',['쪽파']), ('두부',['두부']), ('다진마늘',['다진마늘','다진 마늘']),
+ ('마늘',['마늘']), ('미나리',['미나리']), ('꽈리고추',['꽈리고추']),
+ ('방울토마토',['방울토마토','대추방울']),
+ ('배',['신고배','원황배','풍수배','화산배','추황배','만풍배','배(일반)']),
 ]
 
 
 def select_target_dates(existing_records, checked_dates, today, refresh_days=2,
-                        history_days=90, backfill_batch=4):
-    """최근 자료를 갱신하면서 90일 창의 미수집 일자를 작은 배치로 채운다."""
+                        history_days=30, backfill_batch=4):
+    """최근 자료를 갱신하면서 30일 창의 미수집 일자를 작은 배치로 채운다."""
     window = [today - dt.timedelta(days=i) for i in range(history_days)]
     refresh = window[:refresh_days]
     known = {
@@ -49,20 +52,24 @@ def select_target_dates(existing_records, checked_dates, today, refresh_days=2,
         if isinstance(row, dict) and row.get('date')
     } | {str(value) for value in checked_dates}
     refresh_keys = {day.isoformat() for day in refresh}
-    # 오래된 누락일부터 채워 전체 90일 범위를 가능한 빨리 확보한다.
+    # 오래된 누락일부터 채워 전체 30일 범위를 가능한 빨리 확보한다.
     missing = [day for day in reversed(window)
                if day.isoformat() not in known and day.isoformat() not in refresh_keys]
     return refresh + missing[:backfill_batch]
 
 
 def classify(mid, small):
-    text = f'{mid} {small}'.replace(' ','')
+    mid_text = str(mid or '').replace(' ', '')
+    small_text = str(small or '').replace(' ', '')
+    if mid_text == '배' or small_text == '배':
+        return '배'
+    text = f'{mid_text}{small_text}'
     for name, aliases in WATCH:
         if any(alias.replace(' ','') in text for alias in aliases):
             # 혼동하기 쉬운 유사명 제외
             if name == '오이' and ('오이고추' in text or '아삭이고추' in text):
                 continue
-            if name == '마늘' and '깐마늘' in text:
+            if name == '마늘' and any(value in text for value in ('깐마늘','다진마늘')):
                 continue
             if name == '무' and any(z in text for z in ('무청','무순','무화과')):
                 continue
@@ -186,6 +193,8 @@ def run(args):
     checked_dates = existing.get('checked_dates', [])
     if not isinstance(checked_dates, list):
         checked_dates = []
+    if existing.get('collection_version') != COLLECTION_VERSION:
+        checked_dates = []
     targets = select_target_dates(
         existing.get('records', []), checked_dates, today,
         refresh_days=args.days, history_days=args.history_days,
@@ -213,7 +222,7 @@ def run(args):
     old = [x for x in existing.get('records',[]) if x.get('date') not in target_dates]
     cutoff = (today-dt.timedelta(days=args.history_days-1)).isoformat()
     result = [x for x in (old+changed) if x.get('date','') >= cutoff]
-    # 최대 90일 스냅샷 유지
+    # 최대 30일 스냅샷 유지
     result.sort(key=lambda x:(x['date'],x['market'],x['product'],x['variety'],x['standard']))
     payload = {
         'status': 'connected',
@@ -223,6 +232,7 @@ def run(args):
         'updated_at': dt.datetime.now(TZ).isoformat(timespec='seconds'),
         'markets': MARKETS,
         'products': [name for name,_ in WATCH],
+        'collection_version': COLLECTION_VERSION,
         'history_days': args.history_days,
         'checked_dates': sorted({d for d in checked_dates if d >= cutoff} |
                                 {d.isoformat() for d in targets}),
@@ -236,7 +246,7 @@ def run(args):
 if __name__ == '__main__':
     p = argparse.ArgumentParser()
     p.add_argument('--days', type=int, default=2, help='과거 N일(오늘 포함)을 갱신. 첫 실행 시 --days 7 권장')
-    p.add_argument('--history-days', type=int, default=90, help='보관·자동 백필할 전체 기간')
+    p.add_argument('--history-days', type=int, default=30, help='보관·자동 백필할 전체 기간')
     p.add_argument('--backfill-batch', type=int, default=4, help='실행마다 추가로 채울 과거 누락 일수')
     p.add_argument('--max-pages', type=int, default=100, help='시장/부류/일자 최대 1000건 페이지 개수')
     a = p.parse_args()

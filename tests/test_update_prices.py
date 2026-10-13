@@ -14,7 +14,13 @@ class CollectorTests(unittest.TestCase):
         self.assertIsNone(unit_kg('1단'))
     def test_classification(self):
         self.assertEqual(classify('고추','청양'), '청양고추')
-        self.assertEqual(classify('마늘','깐마늘'),'깐마늘')
+        self.assertEqual(classify('고추','오이맛고추'), '오이고추')
+        self.assertEqual(classify('고추','꽈리고추'), '꽈리고추')
+        self.assertEqual(classify('배추','알배기'), '알배기배추')
+        self.assertEqual(classify('양배추','적채'), '적양배추')
+        self.assertEqual(classify('버섯','팽이'), '팽이버섯')
+        self.assertEqual(classify('마늘','다진마늘'),'다진마늘')
+        self.assertEqual(classify('과실','배'),'배')
         self.assertEqual(classify('오이','오이'),'오이')
     def test_group_median(self):
         raw=[]

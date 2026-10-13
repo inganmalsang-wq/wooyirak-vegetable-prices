@@ -11,20 +11,21 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-from update_prices import ROOT, TZ, classify, select_target_dates, unit_kg
+from update_prices import ROOT, TZ, classify, select_target_dates, unit_kg, COLLECTION_VERSION
 
 GRID = 'Grid_20141225000000000163_1'
 BASE = 'http://211.237.50.150:7080/openapi/{key}/json/' + GRID + '/{start}/{end}'
 TARGET = ROOT / 'data/retail.json'
 JS = ROOT / 'data/retail.js'
 SOURCE_URL = 'https://data.mafra.go.kr/opendata/data/indexOpenDataDetail.do?data_id=20141225000000000406'
+CATEGORY_CODES = ('200', '300', '400')
 
 
-def get_rows(key, date, max_pages=80):
+def get_rows(key, date, category, max_pages=80):
     collected = []
     start = 1
     for _ in range(max_pages):
-        params = urllib.parse.urlencode({'EXAMIN_DE': date, 'FRMPRD_CATGORY_CD': '200'})
+        params = urllib.parse.urlencode({'EXAMIN_DE': date, 'FRMPRD_CATGORY_CD': category})
         url = BASE.format(key=urllib.parse.quote(key, safe=''), start=start, end=start + 999) + '?' + params
         try:
             request = urllib.request.Request(url, headers={'User-Agent': 'Wooyirak-MarketMonitor/1.2'})
@@ -60,7 +61,7 @@ def get_rows(key, date, max_pages=80):
 def transform(rows):
     items = {}
     for row in rows:
-        if str(row.get('FRMPRD_CATGORY_CD', '')) != '200':
+        if str(row.get('FRMPRD_CATGORY_CD', '')) not in CATEGORY_CODES:
             continue
         product = classify(row.get('PRDLST_NM', ''), row.get('SPCIES_NM', ''))
         if not product:
@@ -106,19 +107,22 @@ def run(args):
         checked_dates = previous.get('checked_dates', []) if isinstance(previous.get('checked_dates'), list) else []
     except (FileNotFoundError, ValueError):
         old, checked_dates = [], []
+    if 'previous' in locals() and previous.get('collection_version') != COLLECTION_VERSION:
+        checked_dates = []
     today = dt.datetime.now(TZ).date()
     dates = select_target_dates(old, checked_dates, today, args.days, args.history_days, args.backfill_batch)
     changed, errors = [], []
     for day in dates:
         date = day.strftime('%Y%m%d')
-        try:
-            fetched = get_rows(key, date, args.max_pages)
-            found = transform(fetched)
-            changed.extend(found)
-            print(f'{date} 소매가격 {len(fetched)}건 중 표시 가능 {len(found)}건')
-        except RuntimeError as ex:
-            errors.append(f'{date}: {ex}')
-            print(errors[-1], file=sys.stderr)
+        for category in CATEGORY_CODES:
+            try:
+                fetched = get_rows(key, date, category, args.max_pages)
+                found = transform(fetched)
+                changed.extend(found)
+                print(f'{date} 부류 {category} 소매가격 {len(fetched)}건 중 표시 가능 {len(found)}건')
+            except RuntimeError as ex:
+                errors.append(f'{date}/{category}: {ex}')
+                print(errors[-1], file=sys.stderr)
     if errors:
         print('소매가격 소스의 부분 오류: 이전 데이터를 유지합니다.', file=sys.stderr)
         return 1
@@ -133,6 +137,7 @@ def run(args):
         'source_url': SOURCE_URL,
         'method': '지역·시장·품목·품종·등급별 조사 소매가격을 조사단위 kg로 환산',
         'history_days': args.history_days,
+        'collection_version': COLLECTION_VERSION,
         'checked_dates': sorted({d for d in checked_dates if d >= cutoff} | searched),
         'records': records,
     }
@@ -148,7 +153,7 @@ def run(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--days', type=int, default=2)
-    parser.add_argument('--history-days', type=int, default=90)
+    parser.add_argument('--history-days', type=int, default=30)
     parser.add_argument('--backfill-batch', type=int, default=4)
     parser.add_argument('--max-pages', type=int, default=80)
     options = parser.parse_args()

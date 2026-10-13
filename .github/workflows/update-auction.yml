@@ -9,7 +9,7 @@ on:
       backfill_batch:
         description: '이번 실행에서 추가 수집할 과거 일수 (0~31)'
         required: false
-        default: '8'
+        default: '28'
 
 concurrency:
   group: wooyirak-price-update
@@ -36,19 +36,19 @@ jobs:
         env:
           MAFRA_API_KEY: ${{ secrets.MAFRA_API_KEY }}
           BACKFILL_BATCH: ${{ github.event_name == 'workflow_dispatch' && inputs.backfill_batch || '4' }}
-        run: python update_prices.py --days 2 --history-days 90 --backfill-batch "$BACKFILL_BATCH"
+        run: python update_prices.py --days 2 --history-days 30 --backfill-batch "$BACKFILL_BATCH"
 
       - name: Update wholesale
         env:
           MAFRA_API_KEY: ${{ secrets.MAFRA_API_KEY }}
           BACKFILL_BATCH: ${{ github.event_name == 'workflow_dispatch' && inputs.backfill_batch || '4' }}
-        run: python update_wholesale.py --days 2 --history-days 90 --backfill-batch "$BACKFILL_BATCH"
+        run: python update_wholesale.py --days 2 --history-days 30 --backfill-batch "$BACKFILL_BATCH"
 
       - name: Update retail
         env:
           MAFRA_API_KEY: ${{ secrets.MAFRA_API_KEY }}
           BACKFILL_BATCH: ${{ github.event_name == 'workflow_dispatch' && inputs.backfill_batch || '4' }}
-        run: python update_retail.py --days 2 --history-days 90 --backfill-batch "$BACKFILL_BATCH"
+        run: python update_retail.py --days 2 --history-days 30 --backfill-batch "$BACKFILL_BATCH"
 
       - name: Save data
         run: |
