@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""두 승인 API의 인증/네트워크/필수 파라미터 연결을 확인합니다. 키 또는 인증 URL을 출력하지 않습니다."""
+"""세 승인 API의 인증/네트워크/필수 파라미터 연결을 확인합니다. 키 또는 인증 URL을 출력하지 않습니다."""
 import datetime as dt
 import json
 import getpass
@@ -12,6 +12,7 @@ from zoneinfo import ZoneInfo
 ENDPOINTS=[
   ('실시간 경락정보','Grid_20240625000000000654_1',lambda d:{'SALEDATE':d,'WHSALCD':'110001'}),
   ('농수축산물 도매가격','Grid_20150406000000000217_1',lambda d:{'EXAMIN_DE':d,'FRMPRD_CATGORY_CD':'200'}),
+  ('농수축산물 소매가격','Grid_20141225000000000163_1',lambda d:{'EXAMIN_DE':d,'FRMPRD_CATGORY_CD':'200'}),
 ]
 
 
@@ -57,8 +58,8 @@ def main():
             if check is False:  # 인증/접속 실패를 날짜를 바꿔 반복하지 않음
                 break
         if success:ok+=1
-    print(f'공식 API 2종 중 인증·연결 확인: {ok}/2')
-    return 0 if ok==2 else 1
+    print(f'공식 API 3종 중 인증·연결 확인: {ok}/3')
+    return 0 if ok==3 else 1
 
 if __name__=='__main__':
     raise SystemExit(main())
