@@ -39,6 +39,22 @@ WATCH = [
 ]
 
 
+def select_target_dates(existing_records, checked_dates, today, refresh_days=2,
+                        history_days=90, backfill_batch=4):
+    """최근 자료를 갱신하면서 90일 창의 미수집 일자를 작은 배치로 채운다."""
+    window = [today - dt.timedelta(days=i) for i in range(history_days)]
+    refresh = window[:refresh_days]
+    known = {
+        str(row.get('date')) for row in existing_records
+        if isinstance(row, dict) and row.get('date')
+    } | {str(value) for value in checked_dates}
+    refresh_keys = {day.isoformat() for day in refresh}
+    # 오래된 누락일부터 채워 전체 90일 범위를 가능한 빨리 확보한다.
+    missing = [day for day in reversed(window)
+               if day.isoformat() not in known and day.isoformat() not in refresh_keys]
+    return refresh + missing[:backfill_batch]
+
+
 def classify(mid, small):
     text = f'{mid} {small}'.replace(' ','')
     for name, aliases in WATCH:
@@ -167,7 +183,14 @@ def run(args):
         existing = {'records': []}
     changed = []
     errors = []
-    targets = [today-dt.timedelta(days=i) for i in range(args.days)]
+    checked_dates = existing.get('checked_dates', [])
+    if not isinstance(checked_dates, list):
+        checked_dates = []
+    targets = select_target_dates(
+        existing.get('records', []), checked_dates, today,
+        refresh_days=args.days, history_days=args.history_days,
+        backfill_batch=args.backfill_batch,
+    )
     for day in targets:
         d = day.strftime('%Y%m%d')
         for market, market_label in MARKETS.items():
@@ -188,7 +211,7 @@ def run(args):
     # 최신 수집 대상 일자의 기존 기록만 교체. 오래된 데이터는 유지.
     target_dates = {d.isoformat() for d in targets}
     old = [x for x in existing.get('records',[]) if x.get('date') not in target_dates]
-    cutoff = (today-dt.timedelta(days=90)).isoformat()
+    cutoff = (today-dt.timedelta(days=args.history_days-1)).isoformat()
     result = [x for x in (old+changed) if x.get('date','') >= cutoff]
     # 최대 90일 스냅샷 유지
     result.sort(key=lambda x:(x['date'],x['market'],x['product'],x['variety'],x['standard']))
@@ -200,6 +223,9 @@ def run(args):
         'updated_at': dt.datetime.now(TZ).isoformat(timespec='seconds'),
         'markets': MARKETS,
         'products': [name for name,_ in WATCH],
+        'history_days': args.history_days,
+        'checked_dates': sorted({d for d in checked_dates if d >= cutoff} |
+                                {d.isoformat() for d in targets}),
         'records': result,
     }
     save(payload)
@@ -210,8 +236,14 @@ def run(args):
 if __name__ == '__main__':
     p = argparse.ArgumentParser()
     p.add_argument('--days', type=int, default=2, help='과거 N일(오늘 포함)을 갱신. 첫 실행 시 --days 7 권장')
+    p.add_argument('--history-days', type=int, default=90, help='보관·자동 백필할 전체 기간')
+    p.add_argument('--backfill-batch', type=int, default=4, help='실행마다 추가로 채울 과거 누락 일수')
     p.add_argument('--max-pages', type=int, default=100, help='시장/부류/일자 최대 1000건 페이지 개수')
     a = p.parse_args()
     if not 1 <= a.days <= 60:
         p.error('--days 범위는 1~60')
+    if not a.days <= a.history_days <= 365:
+        p.error('--history-days는 --days 이상 365 이하')
+    if not 0 <= a.backfill_batch <= 31:
+        p.error('--backfill-batch 범위는 0~31')
     sys.exit(run(a))

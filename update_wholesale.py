@@ -12,7 +12,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 from zoneinfo import ZoneInfo
-from update_prices import ROOT, WATCH, classify, unit_kg, TZ
+from update_prices import ROOT, WATCH, classify, unit_kg, TZ, select_target_dates
 
 GRID = 'Grid_20150406000000000217_1'
 BASE = 'http://211.237.50.150:7080/openapi/{key}/json/' + GRID + '/{start}/{end}'
@@ -94,9 +94,12 @@ def run(args):
     try:
         previous=json.loads(TARGET.read_text(encoding='utf-8'))
         old=previous.get('records',[]) if isinstance(previous.get('records'),list) else []
-    except (FileNotFoundError,ValueError):old=[]
+        checked_dates=previous.get('checked_dates',[]) if isinstance(previous.get('checked_dates'),list) else []
+    except (FileNotFoundError,ValueError):
+        old=[]
+        checked_dates=[]
     today=dt.datetime.now(TZ).date()
-    dates=[today-dt.timedelta(days=i) for i in range(args.days)]
+    dates=select_target_dates(old,checked_dates,today,args.days,args.history_days,args.backfill_batch)
     changed=[]
     errs=[]
     for day in dates:
@@ -113,7 +116,7 @@ def run(args):
         print('도매 조사 가격 소스의 부분 오류: 이전 데이터를 유지합니다.',file=sys.stderr)
         return 1
     searched_dates={d.isoformat() for d in dates}
-    cutoff=(today-dt.timedelta(days=90)).isoformat()
+    cutoff=(today-dt.timedelta(days=args.history_days-1)).isoformat()
     result=[r for r in old if r.get('date') not in searched_dates and r.get('date','')>=cutoff] + changed
     result.sort(key=lambda r:(r['date'],r['product'],r['region'],r['market'],r['variety'],r['grade']))
     payload={
@@ -122,6 +125,8 @@ def run(args):
         'source':'한국농수산식품유통공사 / 농수축산물 도매가격 (조사 가격)',
         'source_url':SOURCE_URL,
         'method':'품목·지역·시장·품종·등급별 조사 도매가격을 조사단위 kg 환산. 실시간 경매 낙찰가 아님',
+        'history_days':args.history_days,
+        'checked_dates':sorted({d for d in checked_dates if d>=cutoff}|{d.isoformat() for d in dates}),
         'records':result,
     }
     TARGET.parent.mkdir(parents=True,exist_ok=True)
@@ -135,7 +140,11 @@ def run(args):
 if __name__=='__main__':
     p=argparse.ArgumentParser()
     p.add_argument('--days',type=int,default=2)
+    p.add_argument('--history-days',type=int,default=90)
+    p.add_argument('--backfill-batch',type=int,default=4)
     p.add_argument('--max-pages',type=int,default=80)
     a=p.parse_args()
     if not 1<=a.days<=60:p.error('--days 1~60')
+    if not a.days<=a.history_days<=365:p.error('--history-days는 --days 이상 365 이하')
+    if not 0<=a.backfill_batch<=31:p.error('--backfill-batch 0~31')
     sys.exit(run(a))
