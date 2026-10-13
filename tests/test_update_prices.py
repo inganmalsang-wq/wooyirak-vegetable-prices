@@ -4,6 +4,7 @@ from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 import datetime as dt
 from update_prices import classify, unit_kg, transform_rows, select_target_dates
+from update_retail import transform as transform_retail
 
 class CollectorTests(unittest.TestCase):
     def test_units(self):
@@ -32,5 +33,15 @@ class CollectorTests(unittest.TestCase):
         today=dt.date(2026,10,12)
         targets=select_target_dates([],['2026-07-15'],today,2,90,1)
         self.assertEqual(targets[-1],dt.date(2026,7,16))
+    def test_retail_price_is_kept_per_unit_and_converted_to_kg(self):
+        rows=[{
+            'EXAMIN_DE':'20261012','FRMPRD_CATGORY_CD':'200','PRDLST_NM':'고추',
+            'SPCIES_NM':'청양','GRAD_NM':'상품','EXAMIN_UNIT':'500g',
+            'AREA_NM':'서울','MRKT_NM':'대형마트','AMT':'3000'
+        }]
+        result=transform_retail(rows)
+        self.assertEqual(len(result),1)
+        self.assertEqual(result[0]['price_unit'],3000)
+        self.assertEqual(result[0]['price_kg'],6000)
 
 if __name__=='__main__': unittest.main()

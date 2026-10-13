@@ -44,6 +44,12 @@ jobs:
           BACKFILL_BATCH: ${{ github.event_name == 'workflow_dispatch' && inputs.backfill_batch || '4' }}
         run: python update_wholesale.py --days 2 --history-days 90 --backfill-batch "$BACKFILL_BATCH"
 
+      - name: Update retail
+        env:
+          MAFRA_API_KEY: ${{ secrets.MAFRA_API_KEY }}
+          BACKFILL_BATCH: ${{ github.event_name == 'workflow_dispatch' && inputs.backfill_batch || '4' }}
+        run: python update_retail.py --days 2 --history-days 90 --backfill-batch "$BACKFILL_BATCH"
+
       - name: Save data
         run: |
           git config user.name "github-actions[bot]"
