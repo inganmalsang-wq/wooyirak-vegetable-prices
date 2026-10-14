@@ -12,7 +12,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 from zoneinfo import ZoneInfo
-from update_prices import ROOT, WATCH, classify, unit_kg, TZ, select_target_dates, COLLECTION_VERSION
+from update_prices import ROOT, WATCH, classify, unit_kg, TZ, select_target_dates, COLLECTION_VERSION, load_json_with_retries
 
 GRID = 'Grid_20150406000000000217_1'
 BASE = 'http://211.237.50.150:7080/openapi/{key}/json/' + GRID + '/{start}/{end}'
@@ -29,9 +29,8 @@ def get_rows(key, date, category, max_pages=80):
         params=urllib.parse.urlencode({'EXAMIN_DE':date, 'FRMPRD_CATGORY_CD':category})
         url=BASE.format(key=urllib.parse.quote(key,safe=''),start=start,end=start+999)+'?'+params
         try:
-            with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'Wooyirak-MarketMonitor/1.1'}),timeout=35) as r:
-                body=json.load(r)
-        except (ValueError,urllib.error.URLError,TimeoutError) as ex:
+            body=load_json_with_retries(urllib.request.Request(url,headers={'User-Agent':'Wooyirak-MarketMonitor/1.1'}))
+        except RuntimeError as ex:
             raise RuntimeError('공식 API 요청 실패 (통신/인증/서버 접근권한 확인)') from ex
         w=body.get(GRID)
         if not isinstance(w,dict):

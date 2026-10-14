@@ -27,6 +27,7 @@ TZ = ZoneInfo('Asia/Seoul')
 MARKETS = {'110001': '서울가락', '210001':'부산엄궁', '210009':'부산반여', '220001':'대구북부'}
 CATEGORIES = ['06','09','10','11','12','13','16']  # 과실, 과채, 엽경채, 근채, 조미채소, 양채, 버섯
 COLLECTION_VERSION = 2
+HTTP_RETRY_DELAYS = (0, 2, 5)
 # 우이락에서 실제로 사용할 22개 품목. 순서는 홈페이지 표시 순서와 동일하다.
 WATCH = [
  ('청경채',['청경채']), ('팽이버섯',['팽이버섯','팽이']),
@@ -92,6 +93,22 @@ def unit_kg(std):
     return round(kg, 5) if 0.025 <= kg <= 100 else None
 
 
+def load_json_with_retries(request, timeout=35, retry_delays=HTTP_RETRY_DELAYS):
+    """정부 API의 일시적인 타임아웃·연결 오류를 재시도한다."""
+    last_error = None
+    for attempt, delay in enumerate(retry_delays, start=1):
+        if delay:
+            time.sleep(delay)
+        try:
+            with urllib.request.urlopen(request, timeout=timeout) as response:
+                return json.load(response)
+        except (urllib.error.URLError, TimeoutError, ValueError) as exc:
+            last_error = exc
+            if attempt < len(retry_delays):
+                print(f'API 요청 일시 오류 ({attempt}/{len(retry_delays)}), 재시도합니다: {exc}', file=sys.stderr)
+    raise RuntimeError(f'{len(retry_delays)}회 재시도 후 통신 실패: {last_error}') from last_error
+
+
 def get_rows(key, when, market, category, limit_pages=100):
     """모든 페이지를 조회. 중간에 실패하거나 페이지 상한 도달 시 해당 조합을 통째로 제외."""
     gathered = []
@@ -102,10 +119,9 @@ def get_rows(key, when, market, category, limit_pages=100):
         query = urllib.parse.urlencode({'SALEDATE': when, 'WHSALCD': market, 'LARGE': category})
         req = urllib.request.Request(url + '?' + query, headers={'User-Agent':'Wooyirak-MarketMonitor/1.0'})
         try:
-            with urllib.request.urlopen(req, timeout=35) as res:
-                body = json.load(res)
-        except (urllib.error.URLError, TimeoutError, ValueError) as exc:
-            raise RuntimeError(f'{market}/{category}/{when}: 통신 실패: {exc}') from exc
+            body = load_json_with_retries(req)
+        except RuntimeError as exc:
+            raise RuntimeError(f'{market}/{category}/{when}: {exc}') from exc
         wrapper = body.get('Grid_20240625000000000654_1')
         if not isinstance(wrapper, dict):
             raise RuntimeError(f'{market}/{category}/{when}: API 구조 오류: {str(body)[:250]}')

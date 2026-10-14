@@ -11,7 +11,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-from update_prices import ROOT, TZ, classify, select_target_dates, unit_kg, COLLECTION_VERSION
+from update_prices import ROOT, TZ, classify, select_target_dates, unit_kg, COLLECTION_VERSION, load_json_with_retries
 
 GRID = 'Grid_20141225000000000163_1'
 BASE = 'http://211.237.50.150:7080/openapi/{key}/json/' + GRID + '/{start}/{end}'
@@ -29,9 +29,8 @@ def get_rows(key, date, category, max_pages=80):
         url = BASE.format(key=urllib.parse.quote(key, safe=''), start=start, end=start + 999) + '?' + params
         try:
             request = urllib.request.Request(url, headers={'User-Agent': 'Wooyirak-MarketMonitor/1.2'})
-            with urllib.request.urlopen(request, timeout=35) as response:
-                body = json.load(response)
-        except (ValueError, urllib.error.URLError, TimeoutError) as ex:
+            body = load_json_with_retries(request)
+        except RuntimeError as ex:
             raise RuntimeError('공식 소매가격 API 요청 실패 (통신/인증/서비스 승인 확인)') from ex
         wrapper = body.get(GRID)
         if not isinstance(wrapper, dict):
