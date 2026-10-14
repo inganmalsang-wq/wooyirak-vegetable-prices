@@ -1,9 +1,11 @@
 import unittest
 import sys
+import io
+from unittest.mock import patch
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 import datetime as dt
-from update_prices import classify, unit_kg, transform_rows, select_target_dates
+from update_prices import classify, unit_kg, transform_rows, select_target_dates, load_json_with_retries
 from update_retail import transform as transform_retail
 
 class CollectorTests(unittest.TestCase):
@@ -39,6 +41,12 @@ class CollectorTests(unittest.TestCase):
         today=dt.date(2026,10,12)
         targets=select_target_dates([],['2026-07-15'],today,2,90,1)
         self.assertEqual(targets[-1],dt.date(2026,7,16))
+    def test_transient_api_timeout_is_retried(self):
+        response=io.BytesIO(b'{"ok": true}')
+        with patch('update_prices.urllib.request.urlopen',side_effect=[TimeoutError('temporary'),response]) as mocked:
+            result=load_json_with_retries(object(),retry_delays=(0,0))
+        self.assertEqual(result,{'ok':True})
+        self.assertEqual(mocked.call_count,2)
     def test_retail_price_is_kept_per_unit_and_converted_to_kg(self):
         rows=[{
             'EXAMIN_DE':'20261012','FRMPRD_CATGORY_CD':'200','PRDLST_NM':'고추',
