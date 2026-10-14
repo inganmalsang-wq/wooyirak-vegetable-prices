@@ -207,6 +207,7 @@ def run(args):
         existing = {'records': []}
     changed = []
     errors = []
+    failed_dates = set()
     checked_dates = existing.get('checked_dates', [])
     if not isinstance(checked_dates, list):
         checked_dates = []
@@ -233,13 +234,13 @@ def run(args):
                 print(f'{date} {label} 대분류 {cat}: 원거래 {len(fetched)}, 분석 {len(transformed)}')
             except RuntimeError as exc:
                 errors.append(str(exc))
+                failed_dates.add(f'{date[:4]}-{date[4:6]}-{date[6:]}')
                 print(f'오류: {exc}', file=sys.stderr)
     if errors:
-        # 한 조합이라도 실패하면 배포 데이터 전체 갱신 중단: 불완전 가격을 시장 대표값으로 보여주지 않음
-        print(f'{len(errors)}개 구간 실패. 이전 공개 데이터를 유지합니다.',file=sys.stderr)
-        return 1
-    # 최신 수집 대상 일자의 기존 기록만 교체. 오래된 데이터는 유지.
-    target_dates = {d.isoformat() for d in targets}
+        print(f'{len(errors)}개 구간 실패. 해당 날짜만 보류하고 성공한 날짜를 저장합니다.', file=sys.stderr)
+    # 실패 조합이 하나라도 있는 날짜는 통째로 제외해 부분 시장 가격이 대표값이 되지 않게 한다.
+    changed = [row for row in changed if row.get('date') not in failed_dates]
+    target_dates = {d.isoformat() for d in targets} - failed_dates
     old = [x for x in existing.get('records',[]) if x.get('date') not in target_dates]
     cutoff = (today-dt.timedelta(days=args.history_days-1)).isoformat()
     result = [x for x in (old+changed) if x.get('date','') >= cutoff]
@@ -269,7 +270,7 @@ if __name__ == '__main__':
     p.add_argument('--days', type=int, default=2, help='과거 N일(오늘 포함)을 갱신. 첫 실행 시 --days 7 권장')
     p.add_argument('--history-days', type=int, default=30, help='보관·자동 백필할 전체 기간')
     p.add_argument('--backfill-batch', type=int, default=4, help='실행마다 추가로 채울 과거 누락 일수')
-    p.add_argument('--max-pages', type=int, default=100, help='시장/부류/일자 최대 1000건 페이지 개수')
+    p.add_argument('--max-pages', type=int, default=300, help='시장/부류/일자 최대 1000건 페이지 개수')
     p.add_argument('--workers', type=int, default=6, help='동시 API 요청 수')
     a = p.parse_args()
     if not 1 <= a.days <= 60:

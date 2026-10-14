@@ -104,6 +104,7 @@ def run(args):
     dates=select_target_dates(old,checked_dates,today,args.days,args.history_days,args.backfill_batch)
     changed=[]
     errs=[]
+    failed_dates=set()
     jobs=[(day.strftime('%Y%m%d'),category) for day in dates for category in CATEGORY_CODES]
     with ThreadPoolExecutor(max_workers=args.workers) as executor:
         futures={executor.submit(get_rows,key,date,category,args.max_pages):(date,category) for date,category in jobs}
@@ -116,11 +117,12 @@ def run(args):
                 print(f'{date} 부류 {category} 조사 도매가격 {len(fetched)}건 중 비교 가능 {len(found)}건')
             except RuntimeError as e:
                 errs.append(f'{date}/{category}: {e}')
+                failed_dates.add(f'{date[:4]}-{date[4:6]}-{date[6:]}')
                 print(errs[-1],file=sys.stderr)
     if errs:
-        print('도매 조사 가격 소스의 부분 오류: 이전 데이터를 유지합니다.',file=sys.stderr)
-        return 1
-    searched_dates={d.isoformat() for d in dates}
+        print('도매 조사 가격 일부 날짜 오류: 해당 날짜만 보류합니다.',file=sys.stderr)
+    changed=[row for row in changed if row.get('date') not in failed_dates]
+    searched_dates={d.isoformat() for d in dates}-failed_dates
     cutoff=(today-dt.timedelta(days=args.history_days-1)).isoformat()
     result=[r for r in old if r.get('date') not in searched_dates and r.get('date','')>=cutoff] + changed
     result.sort(key=lambda r:(r['date'],r['product'],r['region'],r['market'],r['variety'],r['grade']))
@@ -132,7 +134,7 @@ def run(args):
         'method':'품목·지역·시장·품종·등급별 조사 도매가격을 조사단위 kg 환산. 실시간 경매 낙찰가 아님',
         'history_days':args.history_days,
         'collection_version':COLLECTION_VERSION,
-        'checked_dates':sorted({d for d in checked_dates if d>=cutoff}|{d.isoformat() for d in dates}),
+        'checked_dates':sorted({d for d in checked_dates if d>=cutoff}|searched_dates),
         'records':result,
     }
     TARGET.parent.mkdir(parents=True,exist_ok=True)
