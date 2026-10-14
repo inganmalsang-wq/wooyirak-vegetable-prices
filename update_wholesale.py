@@ -10,6 +10,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from zoneinfo import ZoneInfo
 from update_prices import ROOT, WATCH, classify, unit_kg, TZ, select_target_dates, COLLECTION_VERSION, load_json_with_retries
@@ -103,16 +104,18 @@ def run(args):
     dates=select_target_dates(old,checked_dates,today,args.days,args.history_days,args.backfill_batch)
     changed=[]
     errs=[]
-    for day in dates:
-        d=day.strftime('%Y%m%d')
-        for category in CATEGORY_CODES:
+    jobs=[(day.strftime('%Y%m%d'),category) for day in dates for category in CATEGORY_CODES]
+    with ThreadPoolExecutor(max_workers=args.workers) as executor:
+        futures={executor.submit(get_rows,key,date,category,args.max_pages):(date,category) for date,category in jobs}
+        for future in as_completed(futures):
+            date,category=futures[future]
             try:
-                fetched=get_rows(key,d,category,args.max_pages)
+                fetched=future.result()
                 found=transform(fetched)
                 changed.extend(found)
-                print(f'{d} 부류 {category} 조사 도매가격 {len(fetched)}건 중 비교 가능 {len(found)}건')
+                print(f'{date} 부류 {category} 조사 도매가격 {len(fetched)}건 중 비교 가능 {len(found)}건')
             except RuntimeError as e:
-                errs.append(f'{d}/{category}: {e}')
+                errs.append(f'{date}/{category}: {e}')
                 print(errs[-1],file=sys.stderr)
     if errs:
         print('도매 조사 가격 소스의 부분 오류: 이전 데이터를 유지합니다.',file=sys.stderr)
@@ -146,8 +149,10 @@ if __name__=='__main__':
     p.add_argument('--history-days',type=int,default=30)
     p.add_argument('--backfill-batch',type=int,default=4)
     p.add_argument('--max-pages',type=int,default=80)
+    p.add_argument('--workers',type=int,default=4)
     a=p.parse_args()
     if not 1<=a.days<=60:p.error('--days 1~60')
     if not a.days<=a.history_days<=365:p.error('--history-days는 --days 이상 365 이하')
     if not 0<=a.backfill_batch<=31:p.error('--backfill-batch 0~31')
+    if not 1<=a.workers<=12:p.error('--workers 1~12')
     sys.exit(run(a))

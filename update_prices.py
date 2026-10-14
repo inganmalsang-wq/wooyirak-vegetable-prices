@@ -16,6 +16,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -216,19 +217,23 @@ def run(args):
         refresh_days=args.days, history_days=args.history_days,
         backfill_batch=args.backfill_batch,
     )
-    for day in targets:
-        d = day.strftime('%Y%m%d')
-        for market, market_label in MARKETS.items():
-            for cat in CATEGORIES:
-                try:
-                    fetched = get_rows(key, d, market, cat, args.max_pages)
-                    transformed = transform_rows(fetched)
-                    changed.extend(transformed)
-                    print(f'{d} {market_label} 대분류 {cat}: 원거래 {len(fetched)}, 분석 {len(transformed)}')
-                except RuntimeError as exc:
-                    errors.append(str(exc))
-                    print(f'오류: {exc}',file=sys.stderr)
-                time.sleep(0.15)
+    jobs = [(day.strftime('%Y%m%d'), market, label, cat)
+            for day in targets for market, label in MARKETS.items() for cat in CATEGORIES]
+    with ThreadPoolExecutor(max_workers=args.workers) as executor:
+        futures = {
+            executor.submit(get_rows, key, date, market, cat, args.max_pages): (date, market, label, cat)
+            for date, market, label, cat in jobs
+        }
+        for future in as_completed(futures):
+            date, market, label, cat = futures[future]
+            try:
+                fetched = future.result()
+                transformed = transform_rows(fetched)
+                changed.extend(transformed)
+                print(f'{date} {label} 대분류 {cat}: 원거래 {len(fetched)}, 분석 {len(transformed)}')
+            except RuntimeError as exc:
+                errors.append(str(exc))
+                print(f'오류: {exc}', file=sys.stderr)
     if errors:
         # 한 조합이라도 실패하면 배포 데이터 전체 갱신 중단: 불완전 가격을 시장 대표값으로 보여주지 않음
         print(f'{len(errors)}개 구간 실패. 이전 공개 데이터를 유지합니다.',file=sys.stderr)
@@ -265,6 +270,7 @@ if __name__ == '__main__':
     p.add_argument('--history-days', type=int, default=30, help='보관·자동 백필할 전체 기간')
     p.add_argument('--backfill-batch', type=int, default=4, help='실행마다 추가로 채울 과거 누락 일수')
     p.add_argument('--max-pages', type=int, default=100, help='시장/부류/일자 최대 1000건 페이지 개수')
+    p.add_argument('--workers', type=int, default=6, help='동시 API 요청 수')
     a = p.parse_args()
     if not 1 <= a.days <= 60:
         p.error('--days 범위는 1~60')
@@ -272,4 +278,6 @@ if __name__ == '__main__':
         p.error('--history-days는 --days 이상 365 이하')
     if not 0 <= a.backfill_batch <= 31:
         p.error('--backfill-batch 범위는 0~31')
+    if not 1 <= a.workers <= 12:
+        p.error('--workers 범위는 1~12')
     sys.exit(run(a))

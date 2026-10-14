@@ -10,6 +10,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from update_prices import ROOT, TZ, classify, select_target_dates, unit_kg, COLLECTION_VERSION, load_json_with_retries
 
@@ -111,11 +112,14 @@ def run(args):
     today = dt.datetime.now(TZ).date()
     dates = select_target_dates(old, checked_dates, today, args.days, args.history_days, args.backfill_batch)
     changed, errors = [], []
-    for day in dates:
-        date = day.strftime('%Y%m%d')
-        for category in CATEGORY_CODES:
+    jobs = [(day.strftime('%Y%m%d'), category) for day in dates for category in CATEGORY_CODES]
+    with ThreadPoolExecutor(max_workers=args.workers) as executor:
+        futures = {executor.submit(get_rows, key, date, category, args.max_pages): (date, category)
+                   for date, category in jobs}
+        for future in as_completed(futures):
+            date, category = futures[future]
             try:
-                fetched = get_rows(key, date, category, args.max_pages)
+                fetched = future.result()
                 found = transform(fetched)
                 changed.extend(found)
                 print(f'{date} 부류 {category} 소매가격 {len(fetched)}건 중 표시 가능 {len(found)}건')
@@ -155,6 +159,7 @@ if __name__ == '__main__':
     parser.add_argument('--history-days', type=int, default=30)
     parser.add_argument('--backfill-batch', type=int, default=4)
     parser.add_argument('--max-pages', type=int, default=80)
+    parser.add_argument('--workers', type=int, default=4)
     options = parser.parse_args()
     if not 1 <= options.days <= 60:
         parser.error('--days 1~60')
@@ -162,4 +167,6 @@ if __name__ == '__main__':
         parser.error('--history-days는 --days 이상 365 이하')
     if not 0 <= options.backfill_batch <= 31:
         parser.error('--backfill-batch 0~31')
+    if not 1 <= options.workers <= 12:
+        parser.error('--workers 1~12')
     raise SystemExit(run(options))
