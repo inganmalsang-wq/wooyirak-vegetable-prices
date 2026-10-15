@@ -217,7 +217,7 @@ function renderSummary(){
   $('summaryRows').innerHTML=filtered.length?filtered.map(r=>`<tr class="summary-row ${selectedSummaryProduct===r.product?'selected':''}" data-product="${esc(r.product)}" tabindex="0" aria-label="${esc(r.product)} 가격 그래프 열기"><td><strong>${esc(r.product)}</strong>${r.product==='오이고추'?'<span class="tag" style="margin-left:7px">특·상품만</span>':''}</td><td class="r mono"><strong>${r.auction===null?'—':nf.format(r.auction)+'원'}</strong></td><td class="r mono"><strong>${r.middle===null?'—':nf.format(r.middle)+'원'}</strong></td><td class="r mono"><strong>${r.high===null?'—':nf.format(r.high)+'원'}</strong></td><td class="r mono"><strong>${r.retail===null?'—':nf.format(r.retail)+'원'}</strong></td><td class="r mono"><span class="subtle-label">경락 ${shortDate(r.auctionDate)} · 도매 ${shortDate(r.wholesaleDate)} · 소매 ${shortDate(r.retailDate)}</span></td></tr>`).join(''):`<tr><td colspan="6"><div class="empty">검색한 품목이 없습니다.</div></td></tr>`;
   $('summaryRows').querySelectorAll('.summary-row').forEach(row=>{const open=()=>openProductChart(row.dataset.product);row.addEventListener('click',open);row.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();open()}})});
   const updates=[DATA.updated_at,WHOLESALE.updated_at,RETAIL.updated_at].filter(Boolean).sort();
-  $('sourceMetadata').textContent=updates.length?`자동수집 최종 실행: ${new Date(updates.at(-1)).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'})} · 자동 갱신: 매일 11:15 / 17:15 KST`:'수집·갱신: 아직 미연동';
+  $('sourceMetadata').textContent=updates.length?`자동수집 최종 실행: ${new Date(updates.at(-1)).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'})} · 자동 갱신: 매일 11:15 / 17:15 KST · 새 데이터 감지 시 화면 자동 새로고침`:'수집·갱신: 아직 미연동';
 }
 function productSeries(product){return {auction:auctionDaily(product),middle:wholesaleDaily(product,'중품'),high:wholesaleDaily(product,'상품'),retail:retailDaily(product)}}
 function openProductChart(product){selectedSummaryProduct=product;$('productChartSection').classList.remove('hidden');renderSummary();renderProductChart();$('productChartSection').scrollIntoView({behavior:'smooth',block:'start'})}
@@ -251,6 +251,32 @@ $('summaryDate').addEventListener('change',event=>{selectedSummaryDate=event.tar
 $('latestDateButton').addEventListener('click',()=>{selectedSummaryDate=latestSourceDate;$('summaryDate').value=latestSourceDate;renderSummary();if(selectedSummaryProduct)renderProductChart()});
 $('summarySearch').addEventListener('input',renderSummary);
 renderSummary();
+
+const publishedDataPaths=['data/prices.json','data/wholesale.json','data/retail.json'];
+let pageDataVersion=[DATA.updated_at,WHOLESALE.updated_at,RETAIL.updated_at].filter(Boolean).sort().at(-1)||'';
+let checkingPublishedUpdate=false;
+async function checkForPublishedUpdate(){
+  if(checkingPublishedUpdate||document.hidden)return;
+  checkingPublishedUpdate=true;
+  try{
+    const cacheBuster=Date.now();
+    const sources=await Promise.all(publishedDataPaths.map(path=>fetch(`${path}?check=${cacheBuster}`,{cache:'no-store'}).then(response=>response.ok?response.json():null)));
+    const newestVersion=sources.map(source=>source&&source.updated_at).filter(Boolean).sort().at(-1)||'';
+    if(newestVersion&&pageDataVersion&&new Date(newestVersion)>new Date(pageDataVersion)){
+      const url=new URL(location.href);
+      url.searchParams.set('v',String(cacheBuster));
+      location.replace(url.toString());
+      return;
+    }
+    if(newestVersion)pageDataVersion=newestVersion;
+  }catch(error){
+    // Temporary network failures should not interrupt the dashboard.
+  }finally{
+    checkingPublishedUpdate=false;
+  }
+}
+setInterval(checkForPublishedUpdate,5*60*1000);
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)checkForPublishedUpdate()});
 })();
 </script>
 </body>
