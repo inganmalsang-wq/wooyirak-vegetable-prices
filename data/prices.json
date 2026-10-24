@@ -3,7 +3,7 @@
   "source": "농림축산식품 공공데이터포털 / 전국 공영도매시장 실시간 경락정보",
   "source_url": "https://data.mafra.go.kr/opendata/data/indexOpenDataDetail.do?data_id=20240625000000002460",
   "method": "시장·품목·세부품종·동일 포장규격별 실거래 경락가격(원/kg)의 중앙값; 단위 식별 불가능한 거래 제외",
-  "updated_at": "2026-10-24T16:19:03+09:00",
+  "updated_at": "2026-10-24T21:42:30+09:00",
   "markets": {
     "110001": "서울가락",
     "210001": "부산엄궁",
@@ -122287,7 +122287,7 @@
       "standard": "3.000kg-",
       "kg_per_package": 3.0,
       "price_kg": 4167,
-      "trade_count": 623
+      "trade_count": 801
     },
     {
       "date": "2026-10-23",
@@ -122309,7 +122309,7 @@
       "standard": "8.000kg-",
       "kg_per_package": 8.0,
       "price_kg": 5000,
-      "trade_count": 14
+      "trade_count": 18
     },
     {
       "date": "2026-10-23",
@@ -122331,7 +122331,7 @@
       "standard": "1.000kg-",
       "kg_per_package": 1.0,
       "price_kg": 4500,
-      "trade_count": 175
+      "trade_count": 225
     },
     {
       "date": "2026-10-23",
@@ -122353,7 +122353,7 @@
       "standard": "2.000kg-",
       "kg_per_package": 2.0,
       "price_kg": 5500,
-      "trade_count": 2807
+      "trade_count": 3609
     },
     {
       "date": "2026-10-23",
@@ -122375,7 +122375,7 @@
       "standard": "3.000kg-",
       "kg_per_package": 3.0,
       "price_kg": 4333,
-      "trade_count": 1870
+      "trade_count": 2404
     },
     {
       "date": "2026-10-23",
@@ -122397,7 +122397,7 @@
       "standard": "4.000kg-",
       "kg_per_package": 4.0,
       "price_kg": 1750,
-      "trade_count": 1813
+      "trade_count": 2331
     },
     {
       "date": "2026-10-23",
@@ -122419,7 +122419,7 @@
       "standard": "8.000kg-",
       "kg_per_package": 8.0,
       "price_kg": 1000,
-      "trade_count": 21
+      "trade_count": 27
     },
     {
       "date": "2026-10-23",
@@ -122441,7 +122441,7 @@
       "standard": "9.000kg-",
       "kg_per_package": 9.0,
       "price_kg": 722,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -122463,7 +122463,7 @@
       "standard": "2.900kg-",
       "kg_per_package": 2.9,
       "price_kg": 1252,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -122485,7 +122485,7 @@
       "standard": "3.000kg-",
       "kg_per_package": 3.0,
       "price_kg": 500,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -122507,7 +122507,7 @@
       "standard": "3.100kg-",
       "kg_per_package": 3.1,
       "price_kg": 626,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -122529,7 +122529,7 @@
       "standard": "3.400kg-",
       "kg_per_package": 3.4,
       "price_kg": 626,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -122551,7 +122551,7 @@
       "standard": "3.500kg-",
       "kg_per_package": 3.5,
       "price_kg": 714,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -122573,7 +122573,7 @@
       "standard": "4.000kg-",
       "kg_per_package": 4.0,
       "price_kg": 1375,
-      "trade_count": 1757
+      "trade_count": 2259
     },
     {
       "date": "2026-10-23",
@@ -122595,7 +122595,7 @@
       "standard": "5.000kg-",
       "kg_per_package": 5.0,
       "price_kg": 2200,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -122617,7 +122617,7 @@
       "standard": "8.000kg-",
       "kg_per_package": 8.0,
       "price_kg": 1094,
-      "trade_count": 70
+      "trade_count": 90
     },
     {
       "date": "2026-10-23",
@@ -122639,7 +122639,7 @@
       "standard": "1.000kg-",
       "kg_per_package": 1.0,
       "price_kg": 500,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -122661,7 +122661,7 @@
       "standard": "2.000kg-",
       "kg_per_package": 2.0,
       "price_kg": 2938,
-      "trade_count": 14
+      "trade_count": 18
     },
     {
       "date": "2026-10-23",
@@ -122683,7 +122683,7 @@
       "standard": "2.500kg-",
       "kg_per_package": 2.5,
       "price_kg": 3500,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -122705,7 +122705,7 @@
       "standard": "3.000kg-",
       "kg_per_package": 3.0,
       "price_kg": 3333,
-      "trade_count": 35
+      "trade_count": 45
     },
     {
       "date": "2026-10-23",
@@ -122727,7 +122727,7 @@
       "standard": "4.000kg-",
       "kg_per_package": 4.0,
       "price_kg": 3375,
-      "trade_count": 2278
+      "trade_count": 2928
     },
     {
       "date": "2026-10-23",
@@ -122749,7 +122749,7 @@
       "standard": "4.200kg-",
       "kg_per_package": 4.2,
       "price_kg": 1750,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -122771,7 +122771,7 @@
       "standard": "4.500kg-",
       "kg_per_package": 4.5,
       "price_kg": 3000,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -122793,7 +122793,7 @@
       "standard": "5.000kg-",
       "kg_per_package": 5.0,
       "price_kg": 3250,
-      "trade_count": 56
+      "trade_count": 72
     },
     {
       "date": "2026-10-23",
@@ -122815,7 +122815,7 @@
       "standard": "5.200kg-",
       "kg_per_package": 5.2,
       "price_kg": 2000,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -122837,7 +122837,7 @@
       "standard": "5.500kg-",
       "kg_per_package": 5.5,
       "price_kg": 3751,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -122859,7 +122859,7 @@
       "standard": "6.000kg-",
       "kg_per_package": 6.0,
       "price_kg": 3500,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -122881,7 +122881,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 620,
-      "trade_count": 175
+      "trade_count": 225
     },
     {
       "date": "2026-10-23",
@@ -122903,7 +122903,7 @@
       "standard": "20.000kg-",
       "kg_per_package": 20.0,
       "price_kg": 1975,
-      "trade_count": 98
+      "trade_count": 126
     },
     {
       "date": "2026-10-23",
@@ -122936,7 +122936,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 930,
-      "trade_count": 1253
+      "trade_count": 1611
     },
     {
       "date": "2026-10-23",
@@ -122991,7 +122991,7 @@
       "standard": "11.000kg-",
       "kg_per_package": 11.0,
       "price_kg": 818,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -123013,7 +123013,7 @@
       "standard": "3.000kg-",
       "kg_per_package": 3.0,
       "price_kg": 2800,
-      "trade_count": 14
+      "trade_count": 18
     },
     {
       "date": "2026-10-23",
@@ -123035,7 +123035,7 @@
       "standard": "5.000kg-",
       "kg_per_package": 5.0,
       "price_kg": 2120,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -123057,7 +123057,7 @@
       "standard": "4.000kg-",
       "kg_per_package": 4.0,
       "price_kg": 4875,
-      "trade_count": 658
+      "trade_count": 846
     },
     {
       "date": "2026-10-23",
@@ -123090,7 +123090,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 4200,
-      "trade_count": 42
+      "trade_count": 54
     },
     {
       "date": "2026-10-23",
@@ -123123,7 +123123,7 @@
       "standard": "4.000kg-",
       "kg_per_package": 4.0,
       "price_kg": 4000,
-      "trade_count": 189
+      "trade_count": 243
     },
     {
       "date": "2026-10-23",
@@ -123145,7 +123145,7 @@
       "standard": "8.000kg-",
       "kg_per_package": 8.0,
       "price_kg": 3938,
-      "trade_count": 476
+      "trade_count": 612
     },
     {
       "date": "2026-10-23",
@@ -123189,7 +123189,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 1300,
-      "trade_count": 301
+      "trade_count": 387
     },
     {
       "date": "2026-10-23",
@@ -123222,7 +123222,7 @@
       "standard": "2.000kg-",
       "kg_per_package": 2.0,
       "price_kg": 1950,
-      "trade_count": 14
+      "trade_count": 18
     },
     {
       "date": "2026-10-23",
@@ -123244,7 +123244,7 @@
       "standard": "2.000kg-",
       "kg_per_package": 2.0,
       "price_kg": 6450,
-      "trade_count": 231
+      "trade_count": 297
     },
     {
       "date": "2026-10-23",
@@ -123266,7 +123266,7 @@
       "standard": "4.000kg-",
       "kg_per_package": 4.0,
       "price_kg": 2250,
-      "trade_count": 77
+      "trade_count": 99
     },
     {
       "date": "2026-10-23",
@@ -123376,7 +123376,7 @@
       "standard": "0.500kg-",
       "kg_per_package": 0.5,
       "price_kg": 1900,
-      "trade_count": 2597
+      "trade_count": 3339
     },
     {
       "date": "2026-10-23",
@@ -123409,7 +123409,7 @@
       "standard": "0.200kg-",
       "kg_per_package": 0.2,
       "price_kg": 12000,
-      "trade_count": 112
+      "trade_count": 144
     },
     {
       "date": "2026-10-23",
@@ -123431,7 +123431,7 @@
       "standard": "2.000kg-",
       "kg_per_package": 2.0,
       "price_kg": 4375,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -123453,7 +123453,7 @@
       "standard": "4.000kg-",
       "kg_per_package": 4.0,
       "price_kg": 3250,
-      "trade_count": 161
+      "trade_count": 207
     },
     {
       "date": "2026-10-23",
@@ -123486,7 +123486,7 @@
       "standard": "8.000kg-",
       "kg_per_package": 8.0,
       "price_kg": 1150,
-      "trade_count": 2198
+      "trade_count": 2826
     },
     {
       "date": "2026-10-23",
@@ -123519,7 +123519,7 @@
       "standard": "8.010kg-",
       "kg_per_package": 8.01,
       "price_kg": 836,
-      "trade_count": 21
+      "trade_count": 27
     },
     {
       "date": "2026-10-23",
@@ -123541,7 +123541,7 @@
       "standard": "2.000kg-",
       "kg_per_package": 2.0,
       "price_kg": 5725,
-      "trade_count": 42
+      "trade_count": 54
     },
     {
       "date": "2026-10-23",
@@ -123563,7 +123563,7 @@
       "standard": "8.000kg-",
       "kg_per_package": 8.0,
       "price_kg": 1812,
-      "trade_count": 518
+      "trade_count": 666
     },
     {
       "date": "2026-10-23",
@@ -123585,7 +123585,7 @@
       "standard": "6.000kg-",
       "kg_per_package": 6.0,
       "price_kg": 2750,
-      "trade_count": 364
+      "trade_count": 468
     },
     {
       "date": "2026-10-23",
@@ -123607,7 +123607,7 @@
       "standard": "8.000kg-",
       "kg_per_package": 8.0,
       "price_kg": 2625,
-      "trade_count": 770
+      "trade_count": 990
     },
     {
       "date": "2026-10-23",
@@ -123629,7 +123629,7 @@
       "standard": "15.000kg-",
       "kg_per_package": 15.0,
       "price_kg": 800,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -123651,7 +123651,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 615,
-      "trade_count": 56
+      "trade_count": 72
     },
     {
       "date": "2026-10-23",
@@ -123673,7 +123673,7 @@
       "standard": "8.000kg-",
       "kg_per_package": 8.0,
       "price_kg": 975,
-      "trade_count": 1064
+      "trade_count": 1368
     },
     {
       "date": "2026-10-23",
@@ -123695,7 +123695,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 1175,
-      "trade_count": 322
+      "trade_count": 414
     },
     {
       "date": "2026-10-23",
@@ -123728,7 +123728,7 @@
       "standard": "15.000kg-",
       "kg_per_package": 15.0,
       "price_kg": 1017,
-      "trade_count": 28
+      "trade_count": 36
     },
     {
       "date": "2026-10-23",
@@ -123750,7 +123750,7 @@
       "standard": "8.000kg-",
       "kg_per_package": 8.0,
       "price_kg": 1188,
-      "trade_count": 441
+      "trade_count": 567
     },
     {
       "date": "2026-10-23",
@@ -123783,7 +123783,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 1150,
-      "trade_count": 315
+      "trade_count": 405
     },
     {
       "date": "2026-10-23",
@@ -123805,7 +123805,7 @@
       "standard": "15.000kg-",
       "kg_per_package": 15.0,
       "price_kg": 967,
-      "trade_count": 14
+      "trade_count": 18
     },
     {
       "date": "2026-10-23",
@@ -123827,7 +123827,7 @@
       "standard": "8.000kg-",
       "kg_per_package": 8.0,
       "price_kg": 1438,
-      "trade_count": 35
+      "trade_count": 45
     },
     {
       "date": "2026-10-23",
@@ -123849,7 +123849,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 1270,
-      "trade_count": 14
+      "trade_count": 18
     },
     {
       "date": "2026-10-23",
@@ -123871,7 +123871,7 @@
       "standard": "12.000kg-",
       "kg_per_package": 12.0,
       "price_kg": 975,
-      "trade_count": 21
+      "trade_count": 27
     },
     {
       "date": "2026-10-23",
@@ -123893,7 +123893,7 @@
       "standard": "15.000kg-",
       "kg_per_package": 15.0,
       "price_kg": 1173,
-      "trade_count": 273
+      "trade_count": 351
     },
     {
       "date": "2026-10-23",
@@ -123915,7 +123915,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 1800,
-      "trade_count": 14
+      "trade_count": 18
     },
     {
       "date": "2026-10-23",
@@ -123937,7 +123937,7 @@
       "standard": "15.000kg-",
       "kg_per_package": 15.0,
       "price_kg": 1193,
-      "trade_count": 49
+      "trade_count": 63
     },
     {
       "date": "2026-10-23",
@@ -123959,7 +123959,7 @@
       "standard": "12.000kg-",
       "kg_per_package": 12.0,
       "price_kg": 525,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -123981,7 +123981,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 1150,
-      "trade_count": 63
+      "trade_count": 81
     },
     {
       "date": "2026-10-23",
@@ -124003,7 +124003,7 @@
       "standard": "12.000kg-",
       "kg_per_package": 12.0,
       "price_kg": 962,
-      "trade_count": 546
+      "trade_count": 702
     },
     {
       "date": "2026-10-23",
@@ -124025,7 +124025,7 @@
       "standard": "15.000kg-",
       "kg_per_package": 15.0,
       "price_kg": 1207,
-      "trade_count": 1099
+      "trade_count": 1413
     },
     {
       "date": "2026-10-23",
@@ -124047,7 +124047,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 675,
-      "trade_count": 84
+      "trade_count": 108
     },
     {
       "date": "2026-10-23",
@@ -124069,7 +124069,7 @@
       "standard": "15.000kg-",
       "kg_per_package": 15.0,
       "price_kg": 400,
-      "trade_count": 63
+      "trade_count": 81
     },
     {
       "date": "2026-10-23",
@@ -124091,7 +124091,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 1800,
-      "trade_count": 42
+      "trade_count": 54
     },
     {
       "date": "2026-10-23",
@@ -124113,7 +124113,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 1000,
-      "trade_count": 2891
+      "trade_count": 3717
     },
     {
       "date": "2026-10-23",
@@ -124146,7 +124146,7 @@
       "standard": "18.000kg-",
       "kg_per_package": 18.0,
       "price_kg": 1000,
-      "trade_count": 4837
+      "trade_count": 6219
     },
     {
       "date": "2026-10-23",
@@ -124179,7 +124179,7 @@
       "standard": "8.000kg-",
       "kg_per_package": 8.0,
       "price_kg": 375,
-      "trade_count": 21
+      "trade_count": 27
     },
     {
       "date": "2026-10-23",
@@ -124201,7 +124201,7 @@
       "standard": "5.000kg-",
       "kg_per_package": 5.0,
       "price_kg": 2150,
-      "trade_count": 14
+      "trade_count": 18
     },
     {
       "date": "2026-10-23",
@@ -124223,7 +124223,7 @@
       "standard": "9.000kg-",
       "kg_per_package": 9.0,
       "price_kg": 2556,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -124245,7 +124245,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 450,
-      "trade_count": 1113
+      "trade_count": 1431
     },
     {
       "date": "2026-10-23",
@@ -124278,7 +124278,7 @@
       "standard": "5.000kg-",
       "kg_per_package": 5.0,
       "price_kg": 1650,
-      "trade_count": 14
+      "trade_count": 18
     },
     {
       "date": "2026-10-23",
@@ -124300,7 +124300,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 750,
-      "trade_count": 1701
+      "trade_count": 2187
     },
     {
       "date": "2026-10-23",
@@ -124333,7 +124333,7 @@
       "standard": "11.000kg-",
       "kg_per_package": 11.0,
       "price_kg": 800,
-      "trade_count": 28
+      "trade_count": 36
     },
     {
       "date": "2026-10-23",
@@ -124355,7 +124355,7 @@
       "standard": "12.000kg-",
       "kg_per_package": 12.0,
       "price_kg": 2500,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -124377,7 +124377,7 @@
       "standard": "3.600kg-",
       "kg_per_package": 3.6,
       "price_kg": 2361,
-      "trade_count": 581
+      "trade_count": 747
     },
     {
       "date": "2026-10-23",
@@ -124399,7 +124399,7 @@
       "standard": "4.000kg-",
       "kg_per_package": 4.0,
       "price_kg": 1350,
-      "trade_count": 42
+      "trade_count": 54
     },
     {
       "date": "2026-10-23",
@@ -124421,7 +124421,7 @@
       "standard": "5.000kg-",
       "kg_per_package": 5.0,
       "price_kg": 300,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -124443,7 +124443,7 @@
       "standard": "7.000kg-",
       "kg_per_package": 7.0,
       "price_kg": 500,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -124465,7 +124465,7 @@
       "standard": "8.000kg-",
       "kg_per_package": 8.0,
       "price_kg": 225,
-      "trade_count": 14
+      "trade_count": 18
     },
     {
       "date": "2026-10-23",
@@ -124487,7 +124487,7 @@
       "standard": "9.000kg-",
       "kg_per_package": 9.0,
       "price_kg": 600,
-      "trade_count": 35
+      "trade_count": 45
     },
     {
       "date": "2026-10-23",
@@ -124509,7 +124509,7 @@
       "standard": "8.000kg-",
       "kg_per_package": 8.0,
       "price_kg": 625,
-      "trade_count": 420
+      "trade_count": 540
     },
     {
       "date": "2026-10-23",
@@ -124542,7 +124542,7 @@
       "standard": "1.000kg-",
       "kg_per_package": 1.0,
       "price_kg": 2850,
-      "trade_count": 42
+      "trade_count": 54
     },
     {
       "date": "2026-10-23",
@@ -124564,7 +124564,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 2300,
-      "trade_count": 2296
+      "trade_count": 2952
     },
     {
       "date": "2026-10-23",
@@ -124586,7 +124586,7 @@
       "standard": "10.010kg-",
       "kg_per_package": 10.01,
       "price_kg": 2747,
-      "trade_count": 14
+      "trade_count": 18
     },
     {
       "date": "2026-10-23",
@@ -124608,7 +124608,7 @@
       "standard": "11.000kg-",
       "kg_per_package": 11.0,
       "price_kg": 2091,
-      "trade_count": 84
+      "trade_count": 108
     },
     {
       "date": "2026-10-23",
@@ -124630,7 +124630,7 @@
       "standard": "12.000kg-",
       "kg_per_package": 12.0,
       "price_kg": 2333,
-      "trade_count": 168
+      "trade_count": 216
     },
     {
       "date": "2026-10-23",
@@ -124652,7 +124652,7 @@
       "standard": "13.000kg-",
       "kg_per_package": 13.0,
       "price_kg": 2000,
-      "trade_count": 35
+      "trade_count": 45
     },
     {
       "date": "2026-10-23",
@@ -124674,7 +124674,7 @@
       "standard": "14.000kg-",
       "kg_per_package": 14.0,
       "price_kg": 2000,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -124696,7 +124696,7 @@
       "standard": "3.000kg-",
       "kg_per_package": 3.0,
       "price_kg": 1667,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -124718,7 +124718,7 @@
       "standard": "4.000kg-",
       "kg_per_package": 4.0,
       "price_kg": 2750,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -124740,7 +124740,7 @@
       "standard": "5.000kg-",
       "kg_per_package": 5.0,
       "price_kg": 3000,
-      "trade_count": 21
+      "trade_count": 27
     },
     {
       "date": "2026-10-23",
@@ -124762,7 +124762,7 @@
       "standard": "6.000kg-",
       "kg_per_package": 6.0,
       "price_kg": 3167,
-      "trade_count": 14
+      "trade_count": 18
     },
     {
       "date": "2026-10-23",
@@ -124784,7 +124784,7 @@
       "standard": "7.000kg-",
       "kg_per_package": 7.0,
       "price_kg": 1571,
-      "trade_count": 35
+      "trade_count": 45
     },
     {
       "date": "2026-10-23",
@@ -124806,7 +124806,7 @@
       "standard": "8.000kg-",
       "kg_per_package": 8.0,
       "price_kg": 2000,
-      "trade_count": 14
+      "trade_count": 18
     },
     {
       "date": "2026-10-23",
@@ -124828,7 +124828,7 @@
       "standard": "9.000kg-",
       "kg_per_package": 9.0,
       "price_kg": 2333,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -124850,7 +124850,7 @@
       "standard": "1.000kg-",
       "kg_per_package": 1.0,
       "price_kg": 500,
-      "trade_count": 28
+      "trade_count": 36
     },
     {
       "date": "2026-10-23",
@@ -124872,7 +124872,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 700,
-      "trade_count": 2051
+      "trade_count": 2637
     },
     {
       "date": "2026-10-23",
@@ -124905,7 +124905,7 @@
       "standard": "10.010kg-",
       "kg_per_package": 10.01,
       "price_kg": 799,
-      "trade_count": 35
+      "trade_count": 45
     },
     {
       "date": "2026-10-23",
@@ -124927,7 +124927,7 @@
       "standard": "12.000kg-",
       "kg_per_package": 12.0,
       "price_kg": 833,
-      "trade_count": 14
+      "trade_count": 18
     },
     {
       "date": "2026-10-23",
@@ -124949,7 +124949,7 @@
       "standard": "15.000kg-",
       "kg_per_package": 15.0,
       "price_kg": 400,
-      "trade_count": 56
+      "trade_count": 72
     },
     {
       "date": "2026-10-23",
@@ -124971,7 +124971,7 @@
       "standard": "5.000kg-",
       "kg_per_package": 5.0,
       "price_kg": 1150,
-      "trade_count": 14
+      "trade_count": 18
     },
     {
       "date": "2026-10-23",
@@ -124993,7 +124993,7 @@
       "standard": "6.500kg-",
       "kg_per_package": 6.5,
       "price_kg": 308,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -125015,7 +125015,7 @@
       "standard": "8.000kg-",
       "kg_per_package": 8.0,
       "price_kg": 344,
-      "trade_count": 28
+      "trade_count": 36
     },
     {
       "date": "2026-10-23",
@@ -125037,7 +125037,7 @@
       "standard": "4.000kg-",
       "kg_per_package": 4.0,
       "price_kg": 1125,
-      "trade_count": 2485
+      "trade_count": 3195
     },
     {
       "date": "2026-10-23",
@@ -125059,7 +125059,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 2550,
-      "trade_count": 3416
+      "trade_count": 4392
     },
     {
       "date": "2026-10-23",
@@ -125081,7 +125081,7 @@
       "standard": "11.000kg-",
       "kg_per_package": 11.0,
       "price_kg": 2407,
-      "trade_count": 70
+      "trade_count": 90
     },
     {
       "date": "2026-10-23",
@@ -125103,7 +125103,7 @@
       "standard": "11.020kg-",
       "kg_per_package": 11.02,
       "price_kg": 1200,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -125125,7 +125125,7 @@
       "standard": "11.200kg-",
       "kg_per_package": 11.2,
       "price_kg": 450,
-      "trade_count": 14
+      "trade_count": 18
     },
     {
       "date": "2026-10-23",
@@ -125147,7 +125147,7 @@
       "standard": "12.000kg-",
       "kg_per_package": 12.0,
       "price_kg": 2600,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -125169,7 +125169,7 @@
       "standard": "12.300kg-",
       "kg_per_package": 12.3,
       "price_kg": 3000,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -125191,7 +125191,7 @@
       "standard": "13.000kg-",
       "kg_per_package": 13.0,
       "price_kg": 1700,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -125213,7 +125213,7 @@
       "standard": "4.000kg-",
       "kg_per_package": 4.0,
       "price_kg": 2750,
-      "trade_count": 28
+      "trade_count": 36
     },
     {
       "date": "2026-10-23",
@@ -125246,7 +125246,7 @@
       "standard": "4.500kg-",
       "kg_per_package": 4.5,
       "price_kg": 2300,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -125268,7 +125268,7 @@
       "standard": "5.000kg-",
       "kg_per_package": 5.0,
       "price_kg": 1500,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -125290,7 +125290,7 @@
       "standard": "7.000kg-",
       "kg_per_package": 7.0,
       "price_kg": 2775,
-      "trade_count": 28
+      "trade_count": 36
     },
     {
       "date": "2026-10-23",
@@ -125312,7 +125312,7 @@
       "standard": "7.500kg-",
       "kg_per_package": 7.5,
       "price_kg": 1651,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -125334,7 +125334,7 @@
       "standard": "8.000kg-",
       "kg_per_package": 8.0,
       "price_kg": 2700,
-      "trade_count": 77
+      "trade_count": 99
     },
     {
       "date": "2026-10-23",
@@ -125356,7 +125356,7 @@
       "standard": "9.000kg-",
       "kg_per_package": 9.0,
       "price_kg": 2456,
-      "trade_count": 28
+      "trade_count": 36
     },
     {
       "date": "2026-10-23",
@@ -125378,7 +125378,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 2000,
-      "trade_count": 329
+      "trade_count": 423
     },
     {
       "date": "2026-10-23",
@@ -125400,7 +125400,7 @@
       "standard": "11.000kg-",
       "kg_per_package": 11.0,
       "price_kg": 1900,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -125422,7 +125422,7 @@
       "standard": "12.000kg-",
       "kg_per_package": 12.0,
       "price_kg": 1000,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -125444,7 +125444,7 @@
       "standard": "4.500kg-",
       "kg_per_package": 4.5,
       "price_kg": 1800,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -125466,7 +125466,7 @@
       "standard": "9.000kg-",
       "kg_per_package": 9.0,
       "price_kg": 1500,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -125488,7 +125488,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 2700,
-      "trade_count": 875
+      "trade_count": 1125
     },
     {
       "date": "2026-10-23",
@@ -125510,7 +125510,7 @@
       "standard": "11.000kg-",
       "kg_per_package": 11.0,
       "price_kg": 4800,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -125532,7 +125532,7 @@
       "standard": "12.000kg-",
       "kg_per_package": 12.0,
       "price_kg": 2000,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -125554,7 +125554,7 @@
       "standard": "14.000kg-",
       "kg_per_package": 14.0,
       "price_kg": 300,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -125576,7 +125576,7 @@
       "standard": "4.000kg-",
       "kg_per_package": 4.0,
       "price_kg": 1812,
-      "trade_count": 42
+      "trade_count": 54
     },
     {
       "date": "2026-10-23",
@@ -125609,7 +125609,7 @@
       "standard": "5.000kg-",
       "kg_per_package": 5.0,
       "price_kg": 3400,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -125631,7 +125631,7 @@
       "standard": "5.500kg-",
       "kg_per_package": 5.5,
       "price_kg": 1600,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -125653,7 +125653,7 @@
       "standard": "6.000kg-",
       "kg_per_package": 6.0,
       "price_kg": 1200,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -125675,7 +125675,7 @@
       "standard": "8.000kg-",
       "kg_per_package": 8.0,
       "price_kg": 3600,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -125697,7 +125697,7 @@
       "standard": "9.000kg-",
       "kg_per_package": 9.0,
       "price_kg": 4300,
-      "trade_count": 14
+      "trade_count": 18
     },
     {
       "date": "2026-10-23",
@@ -125730,7 +125730,7 @@
       "standard": "2.000kg-",
       "kg_per_package": 2.0,
       "price_kg": 3775,
-      "trade_count": 28
+      "trade_count": 36
     },
     {
       "date": "2026-10-23",
@@ -126082,7 +126082,7 @@
       "standard": "2.000kg-",
       "kg_per_package": 2.0,
       "price_kg": 738,
-      "trade_count": 14
+      "trade_count": 18
     },
     {
       "date": "2026-10-23",
@@ -126335,7 +126335,7 @@
       "standard": "8.000kg-",
       "kg_per_package": 8.0,
       "price_kg": 1762,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -126412,7 +126412,7 @@
       "standard": "8.000kg-",
       "kg_per_package": 8.0,
       "price_kg": 1375,
-      "trade_count": 14
+      "trade_count": 18
     },
     {
       "date": "2026-10-23",
@@ -126764,7 +126764,7 @@
       "standard": "4.000kg-",
       "kg_per_package": 4.0,
       "price_kg": 825,
-      "trade_count": 14
+      "trade_count": 18
     },
     {
       "date": "2026-10-23",
@@ -128645,7 +128645,7 @@
       "standard": "1.000kg-",
       "kg_per_package": 1.0,
       "price_kg": 5250,
-      "trade_count": 63
+      "trade_count": 81
     },
     {
       "date": "2026-10-23",
@@ -128667,7 +128667,7 @@
       "standard": "2.000kg-",
       "kg_per_package": 2.0,
       "price_kg": 5150,
-      "trade_count": 1619
+      "trade_count": 2085
     },
     {
       "date": "2026-10-23",
@@ -128700,7 +128700,7 @@
       "standard": "2.700kg-",
       "kg_per_package": 2.7,
       "price_kg": 370,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -128722,7 +128722,7 @@
       "standard": "3.000kg-",
       "kg_per_package": 3.0,
       "price_kg": 500,
-      "trade_count": 35
+      "trade_count": 45
     },
     {
       "date": "2026-10-23",
@@ -128766,7 +128766,7 @@
       "standard": "4.000kg-",
       "kg_per_package": 4.0,
       "price_kg": 875,
-      "trade_count": 918
+      "trade_count": 1182
     },
     {
       "date": "2026-10-23",
@@ -128810,7 +128810,7 @@
       "standard": "5.000kg-",
       "kg_per_package": 5.0,
       "price_kg": 1360,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -128832,7 +128832,7 @@
       "standard": "2.000kg-",
       "kg_per_package": 2.0,
       "price_kg": 2500,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -128854,7 +128854,7 @@
       "standard": "4.000kg-",
       "kg_per_package": 4.0,
       "price_kg": 750,
-      "trade_count": 238
+      "trade_count": 306
     },
     {
       "date": "2026-10-23",
@@ -128876,7 +128876,7 @@
       "standard": "5.000kg-",
       "kg_per_package": 5.0,
       "price_kg": 400,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -128898,7 +128898,7 @@
       "standard": "1.000kg-",
       "kg_per_package": 1.0,
       "price_kg": 3200,
-      "trade_count": 742
+      "trade_count": 954
     },
     {
       "date": "2026-10-23",
@@ -128942,7 +128942,7 @@
       "standard": "1.000kg-",
       "kg_per_package": 1.0,
       "price_kg": 1200,
-      "trade_count": 378
+      "trade_count": 486
     },
     {
       "date": "2026-10-23",
@@ -128986,7 +128986,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 900,
-      "trade_count": 70
+      "trade_count": 90
     },
     {
       "date": "2026-10-23",
@@ -129008,7 +129008,7 @@
       "standard": "2.000kg-",
       "kg_per_package": 2.0,
       "price_kg": 800,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -129030,7 +129030,7 @@
       "standard": "3.000kg-",
       "kg_per_package": 3.0,
       "price_kg": 867,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -129052,7 +129052,7 @@
       "standard": "0.200kg-",
       "kg_per_package": 0.2,
       "price_kg": 4500,
-      "trade_count": 166
+      "trade_count": 216
     },
     {
       "date": "2026-10-23",
@@ -129085,7 +129085,7 @@
       "standard": "0.500kg-",
       "kg_per_package": 0.5,
       "price_kg": 5200,
-      "trade_count": 71
+      "trade_count": 93
     },
     {
       "date": "2026-10-23",
@@ -129140,7 +129140,7 @@
       "standard": "0.600kg-",
       "kg_per_package": 0.6,
       "price_kg": 1667,
-      "trade_count": 105
+      "trade_count": 135
     },
     {
       "date": "2026-10-23",
@@ -129173,7 +129173,7 @@
       "standard": "0.700kg-",
       "kg_per_package": 0.7,
       "price_kg": 1786,
-      "trade_count": 700
+      "trade_count": 900
     },
     {
       "date": "2026-10-23",
@@ -129206,7 +129206,7 @@
       "standard": "4.000kg-",
       "kg_per_package": 4.0,
       "price_kg": 1875,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -129228,7 +129228,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 850,
-      "trade_count": 56
+      "trade_count": 72
     },
     {
       "date": "2026-10-23",
@@ -129250,7 +129250,7 @@
       "standard": "8.000kg-",
       "kg_per_package": 8.0,
       "price_kg": 1125,
-      "trade_count": 732
+      "trade_count": 954
     },
     {
       "date": "2026-10-23",
@@ -129272,7 +129272,7 @@
       "standard": "6.000kg-",
       "kg_per_package": 6.0,
       "price_kg": 3100,
-      "trade_count": 49
+      "trade_count": 63
     },
     {
       "date": "2026-10-23",
@@ -129294,7 +129294,7 @@
       "standard": "8.000kg-",
       "kg_per_package": 8.0,
       "price_kg": 2312,
-      "trade_count": 564
+      "trade_count": 726
     },
     {
       "date": "2026-10-23",
@@ -129316,7 +129316,7 @@
       "standard": "8.000kg-",
       "kg_per_package": 8.0,
       "price_kg": 1000,
-      "trade_count": 210
+      "trade_count": 270
     },
     {
       "date": "2026-10-23",
@@ -129338,7 +129338,7 @@
       "standard": "8.000kg-",
       "kg_per_package": 8.0,
       "price_kg": 2250,
-      "trade_count": 14
+      "trade_count": 18
     },
     {
       "date": "2026-10-23",
@@ -129360,7 +129360,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 1100,
-      "trade_count": 21
+      "trade_count": 27
     },
     {
       "date": "2026-10-23",
@@ -129382,7 +129382,7 @@
       "standard": "15.000kg-",
       "kg_per_package": 15.0,
       "price_kg": 1133,
-      "trade_count": 140
+      "trade_count": 180
     },
     {
       "date": "2026-10-23",
@@ -129404,7 +129404,7 @@
       "standard": "19.500kg-",
       "kg_per_package": 19.5,
       "price_kg": 923,
-      "trade_count": 405
+      "trade_count": 537
     },
     {
       "date": "2026-10-23",
@@ -129426,7 +129426,7 @@
       "standard": "19.500kg-",
       "kg_per_package": 19.5,
       "price_kg": 838,
-      "trade_count": 22
+      "trade_count": 30
     },
     {
       "date": "2026-10-23",
@@ -129448,7 +129448,7 @@
       "standard": "20.000kg-",
       "kg_per_package": 20.0,
       "price_kg": 810,
-      "trade_count": 21
+      "trade_count": 27
     },
     {
       "date": "2026-10-23",
@@ -129470,7 +129470,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 700,
-      "trade_count": 2072
+      "trade_count": 2664
     },
     {
       "date": "2026-10-23",
@@ -129492,7 +129492,7 @@
       "standard": "0.500kg-",
       "kg_per_package": 0.5,
       "price_kg": 1780,
-      "trade_count": 105
+      "trade_count": 135
     },
     {
       "date": "2026-10-23",
@@ -129536,7 +129536,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 250,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -129558,7 +129558,7 @@
       "standard": "2.000kg-",
       "kg_per_package": 2.0,
       "price_kg": 6000,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -129580,7 +129580,7 @@
       "standard": "10.000kg-",
       "kg_per_package": 10.0,
       "price_kg": 1350,
-      "trade_count": 1128
+      "trade_count": 1452
     },
     {
       "date": "2026-10-23",
@@ -129602,7 +129602,7 @@
       "standard": "1.000kg-",
       "kg_per_package": 1.0,
       "price_kg": 1660,
-      "trade_count": 560
+      "trade_count": 720
     },
     {
       "date": "2026-10-23",
@@ -129635,7 +129635,7 @@
       "standard": "16.000kg-",
       "kg_per_package": 16.0,
       "price_kg": 469,
-      "trade_count": 14
+      "trade_count": 18
     },
     {
       "date": "2026-10-23",
@@ -129657,7 +129657,7 @@
       "standard": "8.000kg-",
       "kg_per_package": 8.0,
       "price_kg": 750,
-      "trade_count": 147
+      "trade_count": 189
     },
     {
       "date": "2026-10-23",
@@ -129679,7 +129679,7 @@
       "standard": "1.000kg-",
       "kg_per_package": 1.0,
       "price_kg": 3000,
-      "trade_count": 197
+      "trade_count": 255
     },
     {
       "date": "2026-10-23",
@@ -129712,7 +129712,7 @@
       "standard": "0.500kg-",
       "kg_per_package": 0.5,
       "price_kg": 3000,
-      "trade_count": 7
+      "trade_count": 9
     },
     {
       "date": "2026-10-23",
@@ -129734,7 +129734,7 @@
       "standard": "1.000kg-",
       "kg_per_package": 1.0,
       "price_kg": 1450,
-      "trade_count": 234
+      "trade_count": 306
     },
     {
       "date": "2026-10-23",
@@ -129778,7 +129778,7 @@
       "standard": "4.000kg-",
       "kg_per_package": 4.0,
       "price_kg": 675,
-      "trade_count": 361
+      "trade_count": 465
     },
     {
       "date": "2026-10-23",
@@ -129800,7 +129800,7 @@
       "standard": "1.000kg-",
       "kg_per_package": 1.0,
       "price_kg": 2500,
-      "trade_count": 1778
+      "trade_count": 2286
     },
     {
       "date": "2026-10-23",
@@ -129833,7 +129833,7 @@
       "standard": "1.000kg-",
       "kg_per_package": 1.0,
       "price_kg": 4450,
-      "trade_count": 56
+      "trade_count": 72
     },
     {
       "date": "2026-10-23",
@@ -129866,7 +129866,7 @@
       "standard": "1.000kg-",
       "kg_per_package": 1.0,
       "price_kg": 2300,
-      "trade_count": 774
+      "trade_count": 996
     },
     {
       "date": "2026-10-23",
