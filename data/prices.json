@@ -3,7 +3,7 @@
   "source": "농림축산식품 공공데이터포털 / 전국 공영도매시장 실시간 경락정보",
   "source_url": "https://data.mafra.go.kr/opendata/data/indexOpenDataDetail.do?data_id=20240625000000002460",
   "method": "시장·품목·세부품종·동일 포장규격별 실거래 경락가격(원/kg)의 중앙값; 단위 식별 불가능한 거래 제외",
-  "updated_at": "2026-10-25T16:34:40+09:00",
+  "updated_at": "2026-10-25T22:11:09+09:00",
   "markets": {
     "110001": "서울가락",
     "210001": "부산엄궁",
