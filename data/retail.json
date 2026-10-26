@@ -1,13 +1,12 @@
 {
   "status": "connected",
-  "updated_at": "2026-10-26T16:49:05+09:00",
+  "updated_at": "2026-10-27T00:11:14+09:00",
   "source": "한국농수산식품유통공사 / 농수축산물 소매가격",
   "source_url": "https://data.mafra.go.kr/opendata/data/indexOpenDataDetail.do?data_id=20141225000000000406",
   "method": "지역·시장·품목·품종·등급별 조사 소매가격을 조사단위 kg로 환산",
   "history_days": 30,
   "collection_version": 3,
   "checked_dates": [
-    "2026-09-27",
     "2026-09-30",
     "2026-10-03",
     "2026-10-04",
@@ -21,7 +20,8 @@
     "2026-10-20",
     "2026-10-24",
     "2026-10-25",
-    "2026-10-26"
+    "2026-10-26",
+    "2026-10-27"
   ],
   "records": [
     {
