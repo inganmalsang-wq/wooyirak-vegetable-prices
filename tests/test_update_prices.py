@@ -26,12 +26,13 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(classify('오이','오이'),'오이')
     def test_group_median(self):
         raw=[]
-        for p in (10000,20000,90000):
-            raw.append({'MIDNAME':'고추','SMALLNAME':'청양','SALEDATE':'20261012','WHSALCD':'110001','STD':'10kg 상자','COST':str(p)})
+        for quantity,p in enumerate((10000,20000,90000),start=1):
+            raw.append({'MIDNAME':'고추','SMALLNAME':'청양','SALEDATE':'20261012','WHSALCD':'110001','STD':'10kg 상자','COST':str(p),'QTY':str(quantity)})
         rows=transform_rows(raw)
         self.assertEqual(len(rows),1)
         self.assertEqual(rows[0]['price_kg'],2000)
         self.assertEqual(rows[0]['trade_count'],3)
+        self.assertEqual(rows[0]['quantity_kg'],60)
     def test_backfill_refreshes_recent_and_fills_oldest_missing_dates(self):
         today=dt.date(2026,10,12)
         existing=[{'date':'2026-07-15'},{'date':'2026-10-10'}]

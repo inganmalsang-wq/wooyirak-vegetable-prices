@@ -27,7 +27,7 @@ JS_PATH = ROOT / 'data/prices.js'
 TZ = ZoneInfo('Asia/Seoul')
 MARKETS = {'110001': '서울가락', '210001':'부산엄궁', '210009':'부산반여', '220001':'대구북부'}
 CATEGORIES = ['06','09','10','11','12','13','16']  # 과실, 과채, 엽경채, 근채, 조미채소, 양채, 버섯
-COLLECTION_VERSION = 2
+COLLECTION_VERSION = 3
 HTTP_RETRY_DELAYS = (0, 2, 5)
 # 우이락에서 실제로 사용할 22개 품목. 순서는 홈페이지 표시 순서와 동일하다.
 WATCH = [
@@ -149,8 +149,8 @@ def get_rows(key, when, market, category, limit_pages=100):
 
 
 def transform_rows(raw_rows):
-    """그룹별 kg 환산 실거래 가격의 중앙값 산출 (평균 경락가 아님)."""
-    groups = defaultdict(list)
+    """그룹별 kg 환산 실거래 가격 중앙값과 총 거래량을 산출한다."""
+    groups = defaultdict(lambda: {'prices': [], 'quantity_kg': 0.0})
     for r in raw_rows:
         product = classify(r.get('MIDNAME', ''), r.get('SMALLNAME', ''))
         kg = unit_kg(r.get('STD'))
@@ -170,9 +170,17 @@ def transform_rows(raw_rows):
         packaging = str(r.get('STD') or '').strip()
         # 품종, 원규격, 시장이 동일한 거래끼리만 중앙값 집계.
         key = (date, mkt, product, variant, packaging, kg)
-        groups[key].append(cost / kg)
+        group = groups[key]
+        group['prices'].append(cost / kg)
+        try:
+            quantity = float(str(r.get('QTY', '')).replace(',', ''))
+        except ValueError:
+            quantity = 0
+        if quantity > 0:
+            group['quantity_kg'] += quantity * kg
     result = []
-    for (date, market, product, variety, packaging, kg), values in groups.items():
+    for (date, market, product, variety, packaging, kg), group in groups.items():
+        values = group['prices']
         result.append({
             'date': f'{date[:4]}-{date[4:6]}-{date[6:]}',
             'market': market, 'market_name': MARKETS[market],
@@ -180,6 +188,7 @@ def transform_rows(raw_rows):
             'kg_per_package': kg,
             'price_kg': round(statistics.median(values)),
             'trade_count': len(values),
+            'quantity_kg': round(group['quantity_kg'], 1) if group['quantity_kg'] > 0 else None,
         })
     return sorted(result, key=lambda x:(x['date'],x['market'],x['product'],x['variety'],x['standard']))
 
@@ -211,10 +220,11 @@ def run(args):
     checked_dates = existing.get('checked_dates', [])
     if not isinstance(checked_dates, list):
         checked_dates = []
-    if existing.get('collection_version') != COLLECTION_VERSION:
+    needs_volume_backfill = existing.get('collection_version') != COLLECTION_VERSION
+    if needs_volume_backfill:
         checked_dates = []
     targets = select_target_dates(
-        existing.get('records', []), checked_dates, today,
+        [] if needs_volume_backfill else existing.get('records', []), checked_dates, today,
         refresh_days=args.days, history_days=args.history_days,
         backfill_batch=args.backfill_batch,
     )
@@ -250,7 +260,7 @@ def run(args):
         'status': 'connected',
         'source': '농림축산식품 공공데이터포털 / 전국 공영도매시장 실시간 경락정보',
         'source_url': 'https://data.mafra.go.kr/opendata/data/indexOpenDataDetail.do?data_id=20240625000000002460',
-        'method': '시장·품목·세부품종·동일 포장규격별 실거래 경락가격(원/kg)의 중앙값; 단위 식별 불가능한 거래 제외',
+        'method': '시장·품목·세부품종·동일 포장규격별 실거래 경락가격(원/kg)의 중앙값과 수량(QTY×규격중량) 합계; 단위 식별 불가능한 거래 제외',
         'updated_at': dt.datetime.now(TZ).isoformat(timespec='seconds'),
         'markets': MARKETS,
         'products': [name for name,_ in WATCH],
