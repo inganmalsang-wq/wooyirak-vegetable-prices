@@ -3,7 +3,7 @@
   "source": "농림축산식품 공공데이터포털 / 전국 공영도매시장 실시간 경락정보",
   "source_url": "https://data.mafra.go.kr/opendata/data/indexOpenDataDetail.do?data_id=20240625000000002460",
   "method": "시장·품목·세부품종·동일 포장규격별 실거래 경락가격(원/kg)의 중앙값과 수량(QTY×규격중량) 합계; 단위 식별 불가능한 거래 제외",
-  "updated_at": "2026-10-27T00:11:12+09:00",
+  "updated_at": "2026-10-27T16:52:29+09:00",
   "markets": {
     "110001": "서울가락",
     "210001": "부산엄궁",
@@ -143718,8 +143718,8 @@
       "standard": "3.000kg상자",
       "kg_per_package": 3.0,
       "price_kg": 7167,
-      "trade_count": 67,
-      "quantity_kg": 2934.0
+      "trade_count": 603,
+      "quantity_kg": 26406.0
     },
     {
       "date": "2026-10-26",
@@ -143730,8 +143730,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 6000,
-      "trade_count": 2,
-      "quantity_kg": 208.0
+      "trade_count": 18,
+      "quantity_kg": 1872.0
     },
     {
       "date": "2026-10-26",
@@ -143742,8 +143742,8 @@
       "standard": "1.000kg상자",
       "kg_per_package": 1.0,
       "price_kg": 8000,
-      "trade_count": 8,
-      "quantity_kg": 8.0
+      "trade_count": 80,
+      "quantity_kg": 80.0
     },
     {
       "date": "2026-10-26",
@@ -143754,8 +143754,8 @@
       "standard": "2.000kg상자",
       "kg_per_package": 2.0,
       "price_kg": 9500,
-      "trade_count": 338,
-      "quantity_kg": 12018.0
+      "trade_count": 3050,
+      "quantity_kg": 108226.0
     },
     {
       "date": "2026-10-26",
@@ -143766,8 +143766,8 @@
       "standard": "3.000kg상자",
       "kg_per_package": 3.0,
       "price_kg": 5167,
-      "trade_count": 217,
-      "quantity_kg": 9090.0
+      "trade_count": 1953,
+      "quantity_kg": 81810.0
     },
     {
       "date": "2026-10-26",
@@ -143778,8 +143778,8 @@
       "standard": "3.500kg상자",
       "kg_per_package": 3.5,
       "price_kg": 1000,
-      "trade_count": 1,
-      "quantity_kg": 3.5
+      "trade_count": 9,
+      "quantity_kg": 31.5
     },
     {
       "date": "2026-10-26",
@@ -143790,8 +143790,8 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 2812,
-      "trade_count": 202,
-      "quantity_kg": 5452.0
+      "trade_count": 1818,
+      "quantity_kg": 49068.0
     },
     {
       "date": "2026-10-26",
@@ -143802,8 +143802,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 1562,
-      "trade_count": 3,
-      "quantity_kg": 120.0
+      "trade_count": 27,
+      "quantity_kg": 1080.0
     },
     {
       "date": "2026-10-26",
@@ -143814,8 +143814,8 @@
       "standard": "2.000kg상자",
       "kg_per_package": 2.0,
       "price_kg": 3875,
-      "trade_count": 1,
-      "quantity_kg": 4.0
+      "trade_count": 9,
+      "quantity_kg": 36.0
     },
     {
       "date": "2026-10-26",
@@ -143826,8 +143826,8 @@
       "standard": "2.900kg상자",
       "kg_per_package": 2.9,
       "price_kg": 2876,
-      "trade_count": 1,
-      "quantity_kg": 2.9
+      "trade_count": 9,
+      "quantity_kg": 26.1
     },
     {
       "date": "2026-10-26",
@@ -143838,8 +143838,8 @@
       "standard": "3.000kg상자",
       "kg_per_package": 3.0,
       "price_kg": 1127,
-      "trade_count": 1,
-      "quantity_kg": 3.0
+      "trade_count": 9,
+      "quantity_kg": 27.0
     },
     {
       "date": "2026-10-26",
@@ -143850,8 +143850,8 @@
       "standard": "3.300kg상자",
       "kg_per_package": 3.3,
       "price_kg": 2124,
-      "trade_count": 1,
-      "quantity_kg": 3.3
+      "trade_count": 9,
+      "quantity_kg": 29.7
     },
     {
       "date": "2026-10-26",
@@ -143862,8 +143862,8 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 3125,
-      "trade_count": 212,
-      "quantity_kg": 4348.0
+      "trade_count": 1924,
+      "quantity_kg": 40540.0
     },
     {
       "date": "2026-10-26",
@@ -143873,9 +143873,9 @@
       "variety": "깻잎순",
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
-      "price_kg": 1562,
-      "trade_count": 10,
-      "quantity_kg": 264.0
+      "price_kg": 1500,
+      "trade_count": 106,
+      "quantity_kg": 2504.0
     },
     {
       "date": "2026-10-26",
@@ -143895,11 +143895,23 @@
       "market_name": "서울가락",
       "product": "꽈리고추",
       "variety": "꽈리고추(일반)",
+      "standard": "2.000kg상자",
+      "kg_per_package": 2.0,
+      "price_kg": 4750,
+      "trade_count": 8,
+      "quantity_kg": 16.0
+    },
+    {
+      "date": "2026-10-26",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "꽈리고추",
+      "variety": "꽈리고추(일반)",
       "standard": "3.000kg상자",
       "kg_per_package": 3.0,
-      "price_kg": 5250,
-      "trade_count": 6,
-      "quantity_kg": 18.0
+      "price_kg": 5000,
+      "trade_count": 78,
+      "quantity_kg": 234.0
     },
     {
       "date": "2026-10-26",
@@ -143910,8 +143922,32 @@
       "standard": "3.300kg상자",
       "kg_per_package": 3.3,
       "price_kg": 3876,
-      "trade_count": 1,
-      "quantity_kg": 3.3
+      "trade_count": 9,
+      "quantity_kg": 29.7
+    },
+    {
+      "date": "2026-10-26",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "꽈리고추",
+      "variety": "꽈리고추(일반)",
+      "standard": "3.400kg상자",
+      "kg_per_package": 3.4,
+      "price_kg": 5875,
+      "trade_count": 8,
+      "quantity_kg": 27.2
+    },
+    {
+      "date": "2026-10-26",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "꽈리고추",
+      "variety": "꽈리고추(일반)",
+      "standard": "3.500kg상자",
+      "kg_per_package": 3.5,
+      "price_kg": 4000,
+      "trade_count": 8,
+      "quantity_kg": 28.0
     },
     {
       "date": "2026-10-26",
@@ -143921,9 +143957,9 @@
       "variety": "꽈리고추(일반)",
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
-      "price_kg": 4000,
-      "trade_count": 219,
-      "quantity_kg": 17740.0
+      "price_kg": 4500,
+      "trade_count": 2795,
+      "quantity_kg": 210892.0
     },
     {
       "date": "2026-10-26",
@@ -143934,8 +143970,8 @@
       "standard": "4.000kg파렛트",
       "kg_per_package": 4.0,
       "price_kg": 4500,
-      "trade_count": 7,
-      "quantity_kg": 1920.0
+      "trade_count": 63,
+      "quantity_kg": 17280.0
     },
     {
       "date": "2026-10-26",
@@ -143945,9 +143981,9 @@
       "variety": "꽈리고추(일반)",
       "standard": "5.000kg상자",
       "kg_per_package": 5.0,
-      "price_kg": 3813,
-      "trade_count": 4,
-      "quantity_kg": 25.0
+      "price_kg": 4750,
+      "trade_count": 68,
+      "quantity_kg": 465.0
     },
     {
       "date": "2026-10-26",
@@ -143970,8 +144006,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 630,
-      "trade_count": 59,
-      "quantity_kg": 71000.0
+      "trade_count": 627,
+      "quantity_kg": 735000.0
     },
     {
       "date": "2026-10-26",
@@ -143982,8 +144018,8 @@
       "standard": "20.000kg.",
       "kg_per_package": 20.0,
       "price_kg": 700,
-      "trade_count": 3,
-      "quantity_kg": 2860.0
+      "trade_count": 27,
+      "quantity_kg": 25740.0
     },
     {
       "date": "2026-10-26",
@@ -143994,8 +144030,8 @@
       "standard": "20.000kg상자",
       "kg_per_package": 20.0,
       "price_kg": 2275,
-      "trade_count": 45,
-      "quantity_kg": 77200.0
+      "trade_count": 445,
+      "quantity_kg": 758800.0
     },
     {
       "date": "2026-10-26",
@@ -144006,8 +144042,8 @@
       "standard": "20.000kg파렛트",
       "kg_per_package": 20.0,
       "price_kg": 2000,
-      "trade_count": 7,
-      "quantity_kg": 10460.0
+      "trade_count": 63,
+      "quantity_kg": 94140.0
     },
     {
       "date": "2026-10-26",
@@ -144018,8 +144054,8 @@
       "standard": "10.000kg그물망",
       "kg_per_package": 10.0,
       "price_kg": 1270,
-      "trade_count": 138,
-      "quantity_kg": 272370.0
+      "trade_count": 1242,
+      "quantity_kg": 2451330.0
     },
     {
       "date": "2026-10-26",
@@ -144030,8 +144066,8 @@
       "standard": "10.000kg단",
       "kg_per_package": 10.0,
       "price_kg": 1300,
-      "trade_count": 7,
-      "quantity_kg": 7980.0
+      "trade_count": 63,
+      "quantity_kg": 71820.0
     },
     {
       "date": "2026-10-26",
@@ -144042,8 +144078,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 860,
-      "trade_count": 11,
-      "quantity_kg": 7970.0
+      "trade_count": 99,
+      "quantity_kg": 71730.0
     },
     {
       "date": "2026-10-26",
@@ -144054,8 +144090,20 @@
       "standard": "10.000kg파렛트",
       "kg_per_package": 10.0,
       "price_kg": 1090,
-      "trade_count": 26,
-      "quantity_kg": 11900.0
+      "trade_count": 234,
+      "quantity_kg": 107100.0
+    },
+    {
+      "date": "2026-10-26",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "대파",
+      "variety": "대파(일반)",
+      "standard": "5.000kg봉지",
+      "kg_per_package": 5.0,
+      "price_kg": 700,
+      "trade_count": 8,
+      "quantity_kg": 200.0
     },
     {
       "date": "2026-10-26",
@@ -144066,8 +144114,8 @@
       "standard": "3.000kg그물망",
       "kg_per_package": 3.0,
       "price_kg": 5283,
-      "trade_count": 6,
-      "quantity_kg": 180.0
+      "trade_count": 54,
+      "quantity_kg": 1620.0
     },
     {
       "date": "2026-10-26",
@@ -144078,8 +144126,8 @@
       "standard": "4.000kg봉지",
       "kg_per_package": 4.0,
       "price_kg": 1725,
-      "trade_count": 3,
-      "quantity_kg": 280.0
+      "trade_count": 27,
+      "quantity_kg": 2520.0
     },
     {
       "date": "2026-10-26",
@@ -144090,8 +144138,8 @@
       "standard": "4.000kg비닐봉지",
       "kg_per_package": 4.0,
       "price_kg": 1900,
-      "trade_count": 9,
-      "quantity_kg": 1036.0
+      "trade_count": 81,
+      "quantity_kg": 9324.0
     },
     {
       "date": "2026-10-26",
@@ -144102,8 +144150,8 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 4075,
-      "trade_count": 83,
-      "quantity_kg": 27292.0
+      "trade_count": 747,
+      "quantity_kg": 245628.0
     },
     {
       "date": "2026-10-26",
@@ -144114,8 +144162,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 5500,
-      "trade_count": 2,
-      "quantity_kg": 210.0
+      "trade_count": 18,
+      "quantity_kg": 1890.0
     },
     {
       "date": "2026-10-26",
@@ -144126,8 +144174,20 @@
       "standard": "10.000kg포",
       "kg_per_package": 10.0,
       "price_kg": 4200,
-      "trade_count": 2,
-      "quantity_kg": 390.0
+      "trade_count": 18,
+      "quantity_kg": 3510.0
+    },
+    {
+      "date": "2026-10-26",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "미나리",
+      "variety": "미나리(일반)",
+      "standard": "4.000kg상자",
+      "kg_per_package": 4.0,
+      "price_kg": 7000,
+      "trade_count": 168,
+      "quantity_kg": 6176.0
     },
     {
       "date": "2026-10-26",
@@ -144138,8 +144198,8 @@
       "standard": "8.000kg.",
       "kg_per_package": 8.0,
       "price_kg": 3812,
-      "trade_count": 22,
-      "quantity_kg": 2888.0
+      "trade_count": 198,
+      "quantity_kg": 25992.0
     },
     {
       "date": "2026-10-26",
@@ -144150,8 +144210,8 @@
       "standard": "8.000kg단",
       "kg_per_package": 8.0,
       "price_kg": 4500,
-      "trade_count": 8,
-      "quantity_kg": 688.0
+      "trade_count": 72,
+      "quantity_kg": 6192.0
     },
     {
       "date": "2026-10-26",
@@ -144162,8 +144222,8 @@
       "standard": "8.000kg포",
       "kg_per_package": 8.0,
       "price_kg": 4188,
-      "trade_count": 34,
-      "quantity_kg": 5312.0
+      "trade_count": 306,
+      "quantity_kg": 47808.0
     },
     {
       "date": "2026-10-26",
@@ -144174,8 +144234,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 1000,
-      "trade_count": 32,
-      "quantity_kg": 7700.0
+      "trade_count": 288,
+      "quantity_kg": 69300.0
     },
     {
       "date": "2026-10-26",
@@ -144186,8 +144246,8 @@
       "standard": "10.000kg파렛트",
       "kg_per_package": 10.0,
       "price_kg": 1325,
-      "trade_count": 24,
-      "quantity_kg": 11090.0
+      "trade_count": 216,
+      "quantity_kg": 99810.0
     },
     {
       "date": "2026-10-26",
@@ -144198,8 +144258,8 @@
       "standard": "2.000kg상자",
       "kg_per_package": 2.0,
       "price_kg": 7400,
-      "trade_count": 3,
-      "quantity_kg": 112.0
+      "trade_count": 27,
+      "quantity_kg": 1008.0
     },
     {
       "date": "2026-10-26",
@@ -144210,8 +144270,8 @@
       "standard": "2.000kg상자",
       "kg_per_package": 2.0,
       "price_kg": 2550,
-      "trade_count": 37,
-      "quantity_kg": 430.0
+      "trade_count": 333,
+      "quantity_kg": 3870.0
     },
     {
       "date": "2026-10-26",
@@ -144222,8 +144282,8 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 3125,
-      "trade_count": 17,
-      "quantity_kg": 1020.0
+      "trade_count": 153,
+      "quantity_kg": 9180.0
     },
     {
       "date": "2026-10-26",
@@ -144306,8 +144366,8 @@
       "standard": "0.500kg단",
       "kg_per_package": 0.5,
       "price_kg": 2300,
-      "trade_count": 286,
-      "quantity_kg": 53487.5
+      "trade_count": 2742,
+      "quantity_kg": 510255.5
     },
     {
       "date": "2026-10-26",
@@ -144318,8 +144378,8 @@
       "standard": "0.500kg상자",
       "kg_per_package": 0.5,
       "price_kg": 1500,
-      "trade_count": 36,
-      "quantity_kg": 8643.5
+      "trade_count": 324,
+      "quantity_kg": 77791.5
     },
     {
       "date": "2026-10-26",
@@ -144330,8 +144390,8 @@
       "standard": "0.500kg파렛트",
       "kg_per_package": 0.5,
       "price_kg": 1650,
-      "trade_count": 2,
-      "quantity_kg": 410.0
+      "trade_count": 18,
+      "quantity_kg": 3690.0
     },
     {
       "date": "2026-10-26",
@@ -144342,8 +144402,8 @@
       "standard": "0.200kg단",
       "kg_per_package": 0.2,
       "price_kg": 29750,
-      "trade_count": 23,
-      "quantity_kg": 832.6
+      "trade_count": 207,
+      "quantity_kg": 7493.4
     },
     {
       "date": "2026-10-26",
@@ -144354,8 +144414,20 @@
       "standard": "2.000kg비닐봉지",
       "kg_per_package": 2.0,
       "price_kg": 5250,
-      "trade_count": 1,
-      "quantity_kg": 2.0
+      "trade_count": 9,
+      "quantity_kg": 18.0
+    },
+    {
+      "date": "2026-10-26",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "부추",
+      "variety": "영양부추",
+      "standard": "2.000kg상자",
+      "kg_per_package": 2.0,
+      "price_kg": 6438,
+      "trade_count": 16,
+      "quantity_kg": 32.0
     },
     {
       "date": "2026-10-26",
@@ -144366,8 +144438,20 @@
       "standard": "4.000kg비닐봉지",
       "kg_per_package": 4.0,
       "price_kg": 4812,
-      "trade_count": 6,
-      "quantity_kg": 144.0
+      "trade_count": 54,
+      "quantity_kg": 1296.0
+    },
+    {
+      "date": "2026-10-26",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "부추",
+      "variety": "영양부추",
+      "standard": "4.000kg상자",
+      "kg_per_package": 4.0,
+      "price_kg": 5750,
+      "trade_count": 88,
+      "quantity_kg": 2720.0
     },
     {
       "date": "2026-10-26",
@@ -144378,8 +144462,8 @@
       "standard": "5.000kg상자",
       "kg_per_package": 5.0,
       "price_kg": 800,
-      "trade_count": 19,
-      "quantity_kg": 5245.0
+      "trade_count": 171,
+      "quantity_kg": 47205.0
     },
     {
       "date": "2026-10-26",
@@ -144390,8 +144474,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 1062,
-      "trade_count": 437,
-      "quantity_kg": 183832.0
+      "trade_count": 3981,
+      "quantity_kg": 1675032.0
     },
     {
       "date": "2026-10-26",
@@ -144402,8 +144486,8 @@
       "standard": "8.000kg파렛트",
       "kg_per_package": 8.0,
       "price_kg": 1238,
-      "trade_count": 8,
-      "quantity_kg": 3392.0
+      "trade_count": 72,
+      "quantity_kg": 30528.0
     },
     {
       "date": "2026-10-26",
@@ -144414,8 +144498,8 @@
       "standard": "8.010kg상자",
       "kg_per_package": 8.01,
       "price_kg": 599,
-      "trade_count": 5,
-      "quantity_kg": 2346.9
+      "trade_count": 45,
+      "quantity_kg": 21122.4
     },
     {
       "date": "2026-10-26",
@@ -144426,8 +144510,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 1375,
-      "trade_count": 1,
-      "quantity_kg": 400.0
+      "trade_count": 9,
+      "quantity_kg": 3600.0
     },
     {
       "date": "2026-10-26",
@@ -144438,8 +144522,8 @@
       "standard": "2.000kg상자",
       "kg_per_package": 2.0,
       "price_kg": 4950,
-      "trade_count": 4,
-      "quantity_kg": 74.0
+      "trade_count": 36,
+      "quantity_kg": 666.0
     },
     {
       "date": "2026-10-26",
@@ -144450,8 +144534,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 1688,
-      "trade_count": 46,
-      "quantity_kg": 13568.0
+      "trade_count": 414,
+      "quantity_kg": 122112.0
     },
     {
       "date": "2026-10-26",
@@ -144462,8 +144546,8 @@
       "standard": "6.000kg상자",
       "kg_per_package": 6.0,
       "price_kg": 3375,
-      "trade_count": 18,
-      "quantity_kg": 1350.0
+      "trade_count": 162,
+      "quantity_kg": 12150.0
     },
     {
       "date": "2026-10-26",
@@ -144474,8 +144558,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 2750,
-      "trade_count": 99,
-      "quantity_kg": 11192.0
+      "trade_count": 891,
+      "quantity_kg": 100728.0
     },
     {
       "date": "2026-10-26",
@@ -144486,8 +144570,8 @@
       "standard": "15.000kg상자",
       "kg_per_package": 15.0,
       "price_kg": 800,
-      "trade_count": 3,
-      "quantity_kg": 9000.0
+      "trade_count": 27,
+      "quantity_kg": 81000.0
     },
     {
       "date": "2026-10-26",
@@ -144498,8 +144582,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 410,
-      "trade_count": 5,
-      "quantity_kg": 370.0
+      "trade_count": 45,
+      "quantity_kg": 3330.0
     },
     {
       "date": "2026-10-26",
@@ -144510,8 +144594,8 @@
       "standard": "10.000kg파렛트",
       "kg_per_package": 10.0,
       "price_kg": 380,
-      "trade_count": 1,
-      "quantity_kg": 540.0
+      "trade_count": 9,
+      "quantity_kg": 4860.0
     },
     {
       "date": "2026-10-26",
@@ -144522,8 +144606,8 @@
       "standard": "8.000kg그물망",
       "kg_per_package": 8.0,
       "price_kg": 812,
-      "trade_count": 178,
-      "quantity_kg": 297040.0
+      "trade_count": 1602,
+      "quantity_kg": 2673360.0
     },
     {
       "date": "2026-10-26",
@@ -144534,8 +144618,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 488,
-      "trade_count": 5,
-      "quantity_kg": 6800.0
+      "trade_count": 45,
+      "quantity_kg": 61200.0
     },
     {
       "date": "2026-10-26",
@@ -144546,8 +144630,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 1200,
-      "trade_count": 27,
-      "quantity_kg": 2810.0
+      "trade_count": 243,
+      "quantity_kg": 25290.0
     },
     {
       "date": "2026-10-26",
@@ -144558,8 +144642,8 @@
       "standard": "10.000kg파렛트",
       "kg_per_package": 10.0,
       "price_kg": 1100,
-      "trade_count": 9,
-      "quantity_kg": 3870.0
+      "trade_count": 81,
+      "quantity_kg": 34830.0
     },
     {
       "date": "2026-10-26",
@@ -144570,8 +144654,8 @@
       "standard": "15.000kg상자",
       "kg_per_package": 15.0,
       "price_kg": 1017,
-      "trade_count": 2,
-      "quantity_kg": 525.0
+      "trade_count": 18,
+      "quantity_kg": 4725.0
     },
     {
       "date": "2026-10-26",
@@ -144582,8 +144666,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 1438,
-      "trade_count": 43,
-      "quantity_kg": 3920.0
+      "trade_count": 387,
+      "quantity_kg": 35280.0
     },
     {
       "date": "2026-10-26",
@@ -144594,8 +144678,8 @@
       "standard": "8.000kg파렛트",
       "kg_per_package": 8.0,
       "price_kg": 2312,
-      "trade_count": 1,
-      "quantity_kg": 400.0
+      "trade_count": 9,
+      "quantity_kg": 3600.0
     },
     {
       "date": "2026-10-26",
@@ -144605,9 +144689,9 @@
       "variety": "콜라비(일반)",
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
-      "price_kg": 1150,
-      "trade_count": 7,
-      "quantity_kg": 1750.0
+      "price_kg": 900,
+      "trade_count": 367,
+      "quantity_kg": 69990.0
     },
     {
       "date": "2026-10-26",
@@ -144618,8 +144702,8 @@
       "standard": "15.000kg상자",
       "kg_per_package": 15.0,
       "price_kg": 983,
-      "trade_count": 2,
-      "quantity_kg": 180.0
+      "trade_count": 18,
+      "quantity_kg": 1620.0
     },
     {
       "date": "2026-10-26",
@@ -144630,8 +144714,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 1312,
-      "trade_count": 4,
-      "quantity_kg": 424.0
+      "trade_count": 36,
+      "quantity_kg": 3816.0
     },
     {
       "date": "2026-10-26",
@@ -144642,8 +144726,8 @@
       "standard": "10.000kg그물망",
       "kg_per_package": 10.0,
       "price_kg": 1900,
-      "trade_count": 1,
-      "quantity_kg": 300.0
+      "trade_count": 9,
+      "quantity_kg": 2700.0
     },
     {
       "date": "2026-10-26",
@@ -144654,8 +144738,8 @@
       "standard": "15.000kg파렛트",
       "kg_per_package": 15.0,
       "price_kg": 1173,
-      "trade_count": 21,
-      "quantity_kg": 33000.0
+      "trade_count": 189,
+      "quantity_kg": 297000.0
     },
     {
       "date": "2026-10-26",
@@ -144666,8 +144750,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 1800,
-      "trade_count": 3,
-      "quantity_kg": 2300.0
+      "trade_count": 27,
+      "quantity_kg": 20700.0
     },
     {
       "date": "2026-10-26",
@@ -144678,8 +144762,20 @@
       "standard": "15.000kg그물망",
       "kg_per_package": 15.0,
       "price_kg": 1230,
-      "trade_count": 10,
-      "quantity_kg": 16845.0
+      "trade_count": 90,
+      "quantity_kg": 151605.0
+    },
+    {
+      "date": "2026-10-26",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "양파",
+      "variety": "양파(일반)",
+      "standard": "20.000kg그물망",
+      "kg_per_package": 20.0,
+      "price_kg": 1900,
+      "trade_count": 24,
+      "quantity_kg": 28800.0
     },
     {
       "date": "2026-10-26",
@@ -144690,8 +144786,8 @@
       "standard": "12.000kg그물망",
       "kg_per_package": 12.0,
       "price_kg": 1550,
-      "trade_count": 1,
-      "quantity_kg": 1020.0
+      "trade_count": 9,
+      "quantity_kg": 9180.0
     },
     {
       "date": "2026-10-26",
@@ -144702,8 +144798,8 @@
       "standard": "15.000kg그물망",
       "kg_per_package": 15.0,
       "price_kg": 1273,
-      "trade_count": 2,
-      "quantity_kg": 1965.0
+      "trade_count": 18,
+      "quantity_kg": 17685.0
     },
     {
       "date": "2026-10-26",
@@ -144714,8 +144810,8 @@
       "standard": "10.000kg그물망",
       "kg_per_package": 10.0,
       "price_kg": 850,
-      "trade_count": 2,
-      "quantity_kg": 4330.0
+      "trade_count": 18,
+      "quantity_kg": 38970.0
     },
     {
       "date": "2026-10-26",
@@ -144726,8 +144822,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 1220,
-      "trade_count": 6,
-      "quantity_kg": 4800.0
+      "trade_count": 54,
+      "quantity_kg": 43200.0
     },
     {
       "date": "2026-10-26",
@@ -144738,8 +144834,8 @@
       "standard": "12.000kg그물망",
       "kg_per_package": 12.0,
       "price_kg": 1108,
-      "trade_count": 111,
-      "quantity_kg": 195744.0
+      "trade_count": 1007,
+      "quantity_kg": 1777056.0
     },
     {
       "date": "2026-10-26",
@@ -144750,8 +144846,8 @@
       "standard": "15.000kg그물망",
       "kg_per_package": 15.0,
       "price_kg": 1213,
-      "trade_count": 155,
-      "quantity_kg": 305760.0
+      "trade_count": 1499,
+      "quantity_kg": 2938440.0
     },
     {
       "date": "2026-10-26",
@@ -144761,9 +144857,9 @@
       "variety": "가시오이",
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
-      "price_kg": 1200,
-      "trade_count": 3,
-      "quantity_kg": 410.0
+      "price_kg": 1350,
+      "trade_count": 99,
+      "quantity_kg": 8570.0
     },
     {
       "date": "2026-10-26",
@@ -144774,8 +144870,44 @@
       "standard": "15.000kg상자",
       "kg_per_package": 15.0,
       "price_kg": 1100,
-      "trade_count": 4,
-      "quantity_kg": 150.0
+      "trade_count": 36,
+      "quantity_kg": 1350.0
+    },
+    {
+      "date": "2026-10-26",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "오이",
+      "variety": "미니오이",
+      "standard": "10.000kg상자",
+      "kg_per_package": 10.0,
+      "price_kg": 1625,
+      "trade_count": 32,
+      "quantity_kg": 9760.0
+    },
+    {
+      "date": "2026-10-26",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "오이",
+      "variety": "미니오이",
+      "standard": "5.000kg상자",
+      "kg_per_package": 5.0,
+      "price_kg": 1800,
+      "trade_count": 8,
+      "quantity_kg": 360.0
+    },
+    {
+      "date": "2026-10-26",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "오이",
+      "variety": "백다다기",
+      "standard": "10.000kg비닐봉지",
+      "kg_per_package": 10.0,
+      "price_kg": 400,
+      "trade_count": 8,
+      "quantity_kg": 560.0
     },
     {
       "date": "2026-10-26",
@@ -144785,9 +144917,9 @@
       "variety": "백다다기",
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
-      "price_kg": 1525,
-      "trade_count": 204,
-      "quantity_kg": 32540.0
+      "price_kg": 1500,
+      "trade_count": 2652,
+      "quantity_kg": 436620.0
     },
     {
       "date": "2026-10-26",
@@ -144798,8 +144930,20 @@
       "standard": "10.000kg파렛트",
       "kg_per_package": 10.0,
       "price_kg": 1900,
-      "trade_count": 6,
-      "quantity_kg": 2210.0
+      "trade_count": 54,
+      "quantity_kg": 19890.0
+    },
+    {
+      "date": "2026-10-26",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "오이",
+      "variety": "백다다기",
+      "standard": "18.000kg비닐봉지",
+      "kg_per_package": 18.0,
+      "price_kg": 56,
+      "trade_count": 16,
+      "quantity_kg": 432.0
     },
     {
       "date": "2026-10-26",
@@ -144809,9 +144953,9 @@
       "variety": "백다다기",
       "standard": "18.000kg상자",
       "kg_per_package": 18.0,
-      "price_kg": 1556,
-      "trade_count": 482,
-      "quantity_kg": 101826.0
+      "price_kg": 1583,
+      "trade_count": 5234,
+      "quantity_kg": 1159938.0
     },
     {
       "date": "2026-10-26",
@@ -144822,8 +144966,8 @@
       "standard": "18.000kg파렛트",
       "kg_per_package": 18.0,
       "price_kg": 2417,
-      "trade_count": 8,
-      "quantity_kg": 5778.0
+      "trade_count": 72,
+      "quantity_kg": 52002.0
     },
     {
       "date": "2026-10-26",
@@ -144834,8 +144978,8 @@
       "standard": "5.000kg상자",
       "kg_per_package": 5.0,
       "price_kg": 2750,
-      "trade_count": 2,
-      "quantity_kg": 235.0
+      "trade_count": 18,
+      "quantity_kg": 2115.0
     },
     {
       "date": "2026-10-26",
@@ -144846,8 +144990,8 @@
       "standard": "9.000kg상자",
       "kg_per_package": 9.0,
       "price_kg": 2278,
-      "trade_count": 1,
-      "quantity_kg": 180.0
+      "trade_count": 9,
+      "quantity_kg": 1620.0
     },
     {
       "date": "2026-10-26",
@@ -144857,9 +145001,9 @@
       "variety": "취청",
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
-      "price_kg": 800,
-      "trade_count": 79,
-      "quantity_kg": 19160.0
+      "price_kg": 850,
+      "trade_count": 1111,
+      "quantity_kg": 259240.0
     },
     {
       "date": "2026-10-26",
@@ -144870,8 +145014,8 @@
       "standard": "10.000kg파렛트",
       "kg_per_package": 10.0,
       "price_kg": 1050,
-      "trade_count": 8,
-      "quantity_kg": 4110.0
+      "trade_count": 72,
+      "quantity_kg": 36990.0
     },
     {
       "date": "2026-10-26",
@@ -144881,9 +145025,9 @@
       "variety": "오이고추",
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
-      "price_kg": 1750,
-      "trade_count": 151,
-      "quantity_kg": 18320.0
+      "price_kg": 1700,
+      "trade_count": 1815,
+      "quantity_kg": 222560.0
     },
     {
       "date": "2026-10-26",
@@ -144906,8 +145050,8 @@
       "standard": "13.000kg상자",
       "kg_per_package": 13.0,
       "price_kg": 1650,
-      "trade_count": 1,
-      "quantity_kg": 13.0
+      "trade_count": 9,
+      "quantity_kg": 117.0
     },
     {
       "date": "2026-10-26",
@@ -144918,8 +145062,8 @@
       "standard": "14.000kg상자",
       "kg_per_package": 14.0,
       "price_kg": 2850,
-      "trade_count": 1,
-      "quantity_kg": 14.0
+      "trade_count": 9,
+      "quantity_kg": 126.0
     },
     {
       "date": "2026-10-26",
@@ -144930,8 +145074,8 @@
       "standard": "3.600kg상자",
       "kg_per_package": 3.6,
       "price_kg": 2639,
-      "trade_count": 32,
-      "quantity_kg": 3297.6
+      "trade_count": 392,
+      "quantity_kg": 39614.4
     },
     {
       "date": "2026-10-26",
@@ -144942,8 +145086,8 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 1750,
-      "trade_count": 2,
-      "quantity_kg": 12.0
+      "trade_count": 18,
+      "quantity_kg": 108.0
     },
     {
       "date": "2026-10-26",
@@ -144954,8 +145098,8 @@
       "standard": "5.000kg상자",
       "kg_per_package": 5.0,
       "price_kg": 1100,
-      "trade_count": 1,
-      "quantity_kg": 5.0
+      "trade_count": 17,
+      "quantity_kg": 85.0
     },
     {
       "date": "2026-10-26",
@@ -144966,8 +145110,8 @@
       "standard": "6.000kg상자",
       "kg_per_package": 6.0,
       "price_kg": 1750,
-      "trade_count": 1,
-      "quantity_kg": 6.0
+      "trade_count": 17,
+      "quantity_kg": 102.0
     },
     {
       "date": "2026-10-26",
@@ -144977,9 +145121,9 @@
       "variety": "오이고추",
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
-      "price_kg": 2300,
-      "trade_count": 1,
-      "quantity_kg": 8.0
+      "price_kg": 1700,
+      "trade_count": 25,
+      "quantity_kg": 200.0
     },
     {
       "date": "2026-10-26",
@@ -144989,9 +145133,9 @@
       "variety": "오이고추",
       "standard": "9.000kg상자",
       "kg_per_package": 9.0,
-      "price_kg": 1056,
-      "trade_count": 2,
-      "quantity_kg": 18.0
+      "price_kg": 1000,
+      "trade_count": 26,
+      "quantity_kg": 234.0
     },
     {
       "date": "2026-10-26",
@@ -145002,8 +145146,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 625,
-      "trade_count": 27,
-      "quantity_kg": 8808.0
+      "trade_count": 243,
+      "quantity_kg": 79272.0
     },
     {
       "date": "2026-10-26",
@@ -145014,8 +145158,20 @@
       "standard": "8.000kg파렛트",
       "kg_per_package": 8.0,
       "price_kg": 688,
-      "trade_count": 21,
-      "quantity_kg": 9360.0
+      "trade_count": 189,
+      "quantity_kg": 84240.0
+    },
+    {
+      "date": "2026-10-26",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "쪽파",
+      "variety": "깐쪽파",
+      "standard": "1.000kg단",
+      "kg_per_package": 1.0,
+      "price_kg": 3100,
+      "trade_count": 88,
+      "quantity_kg": 4416.0
     },
     {
       "date": "2026-10-26",
@@ -145026,8 +145182,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 3300,
-      "trade_count": 324,
-      "quantity_kg": 25380.0
+      "trade_count": 2916,
+      "quantity_kg": 228420.0
     },
     {
       "date": "2026-10-26",
@@ -145038,8 +145194,8 @@
       "standard": "10.000kg파렛트",
       "kg_per_package": 10.0,
       "price_kg": 400,
-      "trade_count": 3,
-      "quantity_kg": 320.0
+      "trade_count": 27,
+      "quantity_kg": 2880.0
     },
     {
       "date": "2026-10-26",
@@ -145050,8 +145206,8 @@
       "standard": "10.010kg상자",
       "kg_per_package": 10.01,
       "price_kg": 3097,
-      "trade_count": 1,
-      "quantity_kg": 140.1
+      "trade_count": 9,
+      "quantity_kg": 1261.3
     },
     {
       "date": "2026-10-26",
@@ -145062,8 +145218,8 @@
       "standard": "11.000kg상자",
       "kg_per_package": 11.0,
       "price_kg": 3136,
-      "trade_count": 12,
-      "quantity_kg": 154.0
+      "trade_count": 108,
+      "quantity_kg": 1386.0
     },
     {
       "date": "2026-10-26",
@@ -145074,8 +145230,8 @@
       "standard": "12.000kg상자",
       "kg_per_package": 12.0,
       "price_kg": 3125,
-      "trade_count": 30,
-      "quantity_kg": 408.0
+      "trade_count": 270,
+      "quantity_kg": 3672.0
     },
     {
       "date": "2026-10-26",
@@ -145086,8 +145242,8 @@
       "standard": "13.000kg상자",
       "kg_per_package": 13.0,
       "price_kg": 3692,
-      "trade_count": 1,
-      "quantity_kg": 13.0
+      "trade_count": 9,
+      "quantity_kg": 117.0
     },
     {
       "date": "2026-10-26",
@@ -145098,8 +145254,8 @@
       "standard": "14.000kg상자",
       "kg_per_package": 14.0,
       "price_kg": 3214,
-      "trade_count": 1,
-      "quantity_kg": 14.0
+      "trade_count": 9,
+      "quantity_kg": 126.0
     },
     {
       "date": "2026-10-26",
@@ -145110,8 +145266,8 @@
       "standard": "3.000kg상자",
       "kg_per_package": 3.0,
       "price_kg": 2667,
-      "trade_count": 1,
-      "quantity_kg": 3.0
+      "trade_count": 9,
+      "quantity_kg": 27.0
     },
     {
       "date": "2026-10-26",
@@ -145122,8 +145278,8 @@
       "standard": "5.000kg상자",
       "kg_per_package": 5.0,
       "price_kg": 2400,
-      "trade_count": 2,
-      "quantity_kg": 10.0
+      "trade_count": 18,
+      "quantity_kg": 90.0
     },
     {
       "date": "2026-10-26",
@@ -145134,8 +145290,8 @@
       "standard": "6.000kg상자",
       "kg_per_package": 6.0,
       "price_kg": 2833,
-      "trade_count": 1,
-      "quantity_kg": 6.0
+      "trade_count": 9,
+      "quantity_kg": 54.0
     },
     {
       "date": "2026-10-26",
@@ -145146,8 +145302,8 @@
       "standard": "7.000kg상자",
       "kg_per_package": 7.0,
       "price_kg": 4000,
-      "trade_count": 3,
-      "quantity_kg": 21.0
+      "trade_count": 27,
+      "quantity_kg": 189.0
     },
     {
       "date": "2026-10-26",
@@ -145158,8 +145314,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 2562,
-      "trade_count": 6,
-      "quantity_kg": 48.0
+      "trade_count": 54,
+      "quantity_kg": 432.0
     },
     {
       "date": "2026-10-26",
@@ -145170,8 +145326,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 2000,
-      "trade_count": 185,
-      "quantity_kg": 33340.0
+      "trade_count": 1665,
+      "quantity_kg": 300060.0
     },
     {
       "date": "2026-10-26",
@@ -145182,8 +145338,8 @@
       "standard": "10.000kg파렛트",
       "kg_per_package": 10.0,
       "price_kg": 1750,
-      "trade_count": 8,
-      "quantity_kg": 1700.0
+      "trade_count": 72,
+      "quantity_kg": 15300.0
     },
     {
       "date": "2026-10-26",
@@ -145194,8 +145350,8 @@
       "standard": "10.010kg상자",
       "kg_per_package": 10.01,
       "price_kg": 2398,
-      "trade_count": 1,
-      "quantity_kg": 310.3
+      "trade_count": 9,
+      "quantity_kg": 2792.8
     },
     {
       "date": "2026-10-26",
@@ -145206,8 +145362,8 @@
       "standard": "11.000kg상자",
       "kg_per_package": 11.0,
       "price_kg": 2000,
-      "trade_count": 1,
-      "quantity_kg": 11.0
+      "trade_count": 9,
+      "quantity_kg": 99.0
     },
     {
       "date": "2026-10-26",
@@ -145218,8 +145374,8 @@
       "standard": "5.000kg상자",
       "kg_per_package": 5.0,
       "price_kg": 1000,
-      "trade_count": 3,
-      "quantity_kg": 350.0
+      "trade_count": 27,
+      "quantity_kg": 3150.0
     },
     {
       "date": "2026-10-26",
@@ -145230,8 +145386,20 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 825,
-      "trade_count": 390,
-      "quantity_kg": 66376.0
+      "trade_count": 3542,
+      "quantity_kg": 604840.0
+    },
+    {
+      "date": "2026-10-26",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "청양고추",
+      "variety": "청양",
+      "standard": "10.000kg그물망",
+      "kg_per_package": 10.0,
+      "price_kg": 2100,
+      "trade_count": 8,
+      "quantity_kg": 80.0
     },
     {
       "date": "2026-10-26",
@@ -145241,9 +145409,9 @@
       "variety": "청양",
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
-      "price_kg": 5400,
-      "trade_count": 275,
-      "quantity_kg": 40840.0
+      "price_kg": 5200,
+      "trade_count": 3963,
+      "quantity_kg": 530360.0
     },
     {
       "date": "2026-10-26",
@@ -145253,9 +145421,9 @@
       "variety": "청양",
       "standard": "11.000kg상자",
       "kg_per_package": 11.0,
-      "price_kg": 4400,
-      "trade_count": 7,
-      "quantity_kg": 330.0
+      "price_kg": 4318,
+      "trade_count": 55,
+      "quantity_kg": 2882.0
     },
     {
       "date": "2026-10-26",
@@ -145265,9 +145433,9 @@
       "variety": "청양",
       "standard": "12.000kg상자",
       "kg_per_package": 12.0,
-      "price_kg": 4600,
-      "trade_count": 2,
-      "quantity_kg": 24.0
+      "price_kg": 3800,
+      "trade_count": 10,
+      "quantity_kg": 120.0
     },
     {
       "date": "2026-10-26",
@@ -145278,8 +145446,8 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 6600,
-      "trade_count": 6,
-      "quantity_kg": 32.0
+      "trade_count": 70,
+      "quantity_kg": 384.0
     },
     {
       "date": "2026-10-26",
@@ -145289,9 +145457,9 @@
       "variety": "청양",
       "standard": "5.000kg상자",
       "kg_per_package": 5.0,
-      "price_kg": 5500,
-      "trade_count": 1,
-      "quantity_kg": 5.0
+      "price_kg": 4800,
+      "trade_count": 17,
+      "quantity_kg": 85.0
     },
     {
       "date": "2026-10-26",
@@ -145302,8 +145470,8 @@
       "standard": "6.000kg상자",
       "kg_per_package": 6.0,
       "price_kg": 7000,
-      "trade_count": 1,
-      "quantity_kg": 6.0
+      "trade_count": 9,
+      "quantity_kg": 54.0
     },
     {
       "date": "2026-10-26",
@@ -145313,9 +145481,9 @@
       "variety": "청양",
       "standard": "7.000kg상자",
       "kg_per_package": 7.0,
-      "price_kg": 5950,
-      "trade_count": 2,
-      "quantity_kg": 14.0
+      "price_kg": 5600,
+      "trade_count": 42,
+      "quantity_kg": 294.0
     },
     {
       "date": "2026-10-26",
@@ -145326,8 +145494,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 3350,
-      "trade_count": 3,
-      "quantity_kg": 24.0
+      "trade_count": 19,
+      "quantity_kg": 152.0
     },
     {
       "date": "2026-10-26",
@@ -145338,8 +145506,8 @@
       "standard": "9.000kg상자",
       "kg_per_package": 9.0,
       "price_kg": 1333,
-      "trade_count": 3,
-      "quantity_kg": 27.0
+      "trade_count": 27,
+      "quantity_kg": 243.0
     },
     {
       "date": "2026-10-26",
@@ -145349,9 +145517,33 @@
       "variety": "홍청양",
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
-      "price_kg": 2750,
-      "trade_count": 17,
-      "quantity_kg": 880.0
+      "price_kg": 4000,
+      "trade_count": 321,
+      "quantity_kg": 14560.0
+    },
+    {
+      "date": "2026-10-26",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "청양고추",
+      "variety": "홍청양",
+      "standard": "11.000kg상자",
+      "kg_per_package": 11.0,
+      "price_kg": 2600,
+      "trade_count": 8,
+      "quantity_kg": 88.0
+    },
+    {
+      "date": "2026-10-26",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "청양고추",
+      "variety": "홍청양",
+      "standard": "12.000kg상자",
+      "kg_per_package": 12.0,
+      "price_kg": 2200,
+      "trade_count": 16,
+      "quantity_kg": 192.0
     },
     {
       "date": "2026-10-26",
@@ -145362,8 +145554,8 @@
       "standard": "6.000kg상자",
       "kg_per_package": 6.0,
       "price_kg": 1500,
-      "trade_count": 1,
-      "quantity_kg": 6.0
+      "trade_count": 9,
+      "quantity_kg": 54.0
     },
     {
       "date": "2026-10-26",
@@ -145374,8 +145566,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 1250,
-      "trade_count": 1,
-      "quantity_kg": 8.0
+      "trade_count": 9,
+      "quantity_kg": 72.0
     },
     {
       "date": "2026-10-26",
@@ -145386,8 +145578,8 @@
       "standard": "9.000kg상자",
       "kg_per_package": 9.0,
       "price_kg": 667,
-      "trade_count": 1,
-      "quantity_kg": 9.0
+      "trade_count": 9,
+      "quantity_kg": 81.0
     },
     {
       "date": "2026-10-26",
@@ -145397,9 +145589,9 @@
       "variety": "홍고추(일반)",
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
-      "price_kg": 3300,
-      "trade_count": 124,
-      "quantity_kg": 7820.0
+      "price_kg": 3500,
+      "trade_count": 1588,
+      "quantity_kg": 100060.0
     },
     {
       "date": "2026-10-26",
@@ -145410,8 +145602,8 @@
       "standard": "11.000kg상자",
       "kg_per_package": 11.0,
       "price_kg": 7000,
-      "trade_count": 1,
-      "quantity_kg": 11.0
+      "trade_count": 9,
+      "quantity_kg": 99.0
     },
     {
       "date": "2026-10-26",
@@ -145422,8 +145614,8 @@
       "standard": "3.000kg상자",
       "kg_per_package": 3.0,
       "price_kg": 7900,
-      "trade_count": 1,
-      "quantity_kg": 3.0
+      "trade_count": 9,
+      "quantity_kg": 27.0
     },
     {
       "date": "2026-10-26",
@@ -145434,8 +145626,8 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 1750,
-      "trade_count": 1,
-      "quantity_kg": 12.0
+      "trade_count": 17,
+      "quantity_kg": 172.0
     },
     {
       "date": "2026-10-26",
@@ -145446,8 +145638,8 @@
       "standard": "5.000kg상자",
       "kg_per_package": 5.0,
       "price_kg": 3100,
-      "trade_count": 1,
-      "quantity_kg": 5.0
+      "trade_count": 9,
+      "quantity_kg": 45.0
     },
     {
       "date": "2026-10-26",
@@ -145458,8 +145650,8 @@
       "standard": "6.000kg상자",
       "kg_per_package": 6.0,
       "price_kg": 2650,
-      "trade_count": 1,
-      "quantity_kg": 6.0
+      "trade_count": 9,
+      "quantity_kg": 54.0
     },
     {
       "date": "2026-10-26",
@@ -145482,8 +145674,8 @@
       "standard": "7.000kg상자",
       "kg_per_package": 7.0,
       "price_kg": 2900,
-      "trade_count": 1,
-      "quantity_kg": 7.0
+      "trade_count": 17,
+      "quantity_kg": 119.0
     },
     {
       "date": "2026-10-26",
@@ -145494,8 +145686,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 1700,
-      "trade_count": 2,
-      "quantity_kg": 16.0
+      "trade_count": 18,
+      "quantity_kg": 144.0
     },
     {
       "date": "2026-10-26",
@@ -145506,8 +145698,8 @@
       "standard": "9.000kg상자",
       "kg_per_package": 9.0,
       "price_kg": 4400,
-      "trade_count": 4,
-      "quantity_kg": 36.0
+      "trade_count": 20,
+      "quantity_kg": 180.0
     },
     {
       "date": "2026-10-26",
@@ -148278,8 +148470,8 @@
       "standard": "1.000kg상자",
       "kg_per_package": 1.0,
       "price_kg": 6000,
-      "trade_count": 7,
-      "quantity_kg": 147.0
+      "trade_count": 63,
+      "quantity_kg": 1323.0
     },
     {
       "date": "2026-10-26",
@@ -148290,8 +148482,8 @@
       "standard": "2.000kg상자",
       "kg_per_package": 2.0,
       "price_kg": 5750,
-      "trade_count": 155,
-      "quantity_kg": 3778.0
+      "trade_count": 1687,
+      "quantity_kg": 39410.0
     },
     {
       "date": "2026-10-26",
@@ -148302,8 +148494,8 @@
       "standard": "3.000kg비닐봉지",
       "kg_per_package": 3.0,
       "price_kg": 1333,
-      "trade_count": 1,
-      "quantity_kg": 3.0
+      "trade_count": 9,
+      "quantity_kg": 27.0
     },
     {
       "date": "2026-10-26",
@@ -148314,8 +148506,8 @@
       "standard": "4.000kg봉지",
       "kg_per_package": 4.0,
       "price_kg": 1250,
-      "trade_count": 31,
-      "quantity_kg": 528.0
+      "trade_count": 289,
+      "quantity_kg": 4928.0
     },
     {
       "date": "2026-10-26",
@@ -148326,8 +148518,8 @@
       "standard": "4.000kg비닐봉지",
       "kg_per_package": 4.0,
       "price_kg": 1150,
-      "trade_count": 51,
-      "quantity_kg": 840.0
+      "trade_count": 459,
+      "quantity_kg": 7560.0
     },
     {
       "date": "2026-10-26",
@@ -148338,8 +148530,8 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 1375,
-      "trade_count": 36,
-      "quantity_kg": 528.0
+      "trade_count": 324,
+      "quantity_kg": 4752.0
     },
     {
       "date": "2026-10-26",
@@ -148350,8 +148542,8 @@
       "standard": "5.000kg봉지",
       "kg_per_package": 5.0,
       "price_kg": 800,
-      "trade_count": 1,
-      "quantity_kg": 5.0
+      "trade_count": 9,
+      "quantity_kg": 45.0
     },
     {
       "date": "2026-10-26",
@@ -148362,8 +148554,20 @@
       "standard": "5.000kg상자",
       "kg_per_package": 5.0,
       "price_kg": 800,
-      "trade_count": 1,
-      "quantity_kg": 5.0
+      "trade_count": 9,
+      "quantity_kg": 45.0
+    },
+    {
+      "date": "2026-10-26",
+      "market": "220001",
+      "market_name": "대구북부",
+      "product": "깻잎",
+      "variety": "깻잎순",
+      "standard": "4.000kg비닐봉지",
+      "kg_per_package": 4.0,
+      "price_kg": 1500,
+      "trade_count": 184,
+      "quantity_kg": 3744.0
     },
     {
       "date": "2026-10-26",
@@ -148373,9 +148577,9 @@
       "variety": "꽈리고추(일반)",
       "standard": "1.000kg상자",
       "kg_per_package": 1.0,
-      "price_kg": 4150,
-      "trade_count": 65,
-      "quantity_kg": 3018.0
+      "price_kg": 4200,
+      "trade_count": 631,
+      "quantity_kg": 29390.0
     },
     {
       "date": "2026-10-26",
@@ -148386,8 +148590,8 @@
       "standard": "20.000kg상자",
       "kg_per_package": 20.0,
       "price_kg": 1712,
-      "trade_count": 2,
-      "quantity_kg": 140.0
+      "trade_count": 22,
+      "quantity_kg": 1540.0
     },
     {
       "date": "2026-10-26",
@@ -148410,8 +148614,8 @@
       "standard": "1.000kg그물망",
       "kg_per_package": 1.0,
       "price_kg": 1240,
-      "trade_count": 12,
-      "quantity_kg": 5800.0
+      "trade_count": 108,
+      "quantity_kg": 52200.0
     },
     {
       "date": "2026-10-26",
@@ -148421,9 +148625,9 @@
       "variety": "대파(일반)",
       "standard": "1.000kg단",
       "kg_per_package": 1.0,
-      "price_kg": 1100,
-      "trade_count": 15,
-      "quantity_kg": 6345.0
+      "price_kg": 1150,
+      "trade_count": 231,
+      "quantity_kg": 70705.0
     },
     {
       "date": "2026-10-26",
@@ -148434,8 +148638,8 @@
       "standard": "1.000kg상자",
       "kg_per_package": 1.0,
       "price_kg": 1100,
-      "trade_count": 24,
-      "quantity_kg": 7860.0
+      "trade_count": 216,
+      "quantity_kg": 70740.0
     },
     {
       "date": "2026-10-26",
@@ -148446,8 +148650,20 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 740,
-      "trade_count": 14,
-      "quantity_kg": 1960.0
+      "trade_count": 126,
+      "quantity_kg": 17640.0
+    },
+    {
+      "date": "2026-10-26",
+      "market": "220001",
+      "market_name": "대구북부",
+      "product": "마늘",
+      "variety": "기타",
+      "standard": "2.000kg단",
+      "kg_per_package": 2.0,
+      "price_kg": 6000,
+      "trade_count": 8,
+      "quantity_kg": 96.0
     },
     {
       "date": "2026-10-26",
@@ -148458,8 +148674,8 @@
       "standard": "0.200kg단",
       "kg_per_package": 0.2,
       "price_kg": 4500,
-      "trade_count": 5,
-      "quantity_kg": 164.0
+      "trade_count": 61,
+      "quantity_kg": 1828.0
     },
     {
       "date": "2026-10-26",
@@ -148470,8 +148686,8 @@
       "standard": "0.200kg상자",
       "kg_per_package": 0.2,
       "price_kg": 6750,
-      "trade_count": 17,
-      "quantity_kg": 626.0
+      "trade_count": 159,
+      "quantity_kg": 5898.0
     },
     {
       "date": "2026-10-26",
@@ -148482,8 +148698,8 @@
       "standard": "0.500kg단",
       "kg_per_package": 0.5,
       "price_kg": 4600,
-      "trade_count": 7,
-      "quantity_kg": 283.0
+      "trade_count": 95,
+      "quantity_kg": 3355.0
     },
     {
       "date": "2026-10-26",
@@ -148494,8 +148710,8 @@
       "standard": "0.500kg상자",
       "kg_per_package": 0.5,
       "price_kg": 5000,
-      "trade_count": 6,
-      "quantity_kg": 230.0
+      "trade_count": 58,
+      "quantity_kg": 2270.0
     },
     {
       "date": "2026-10-26",
@@ -148530,8 +148746,8 @@
       "standard": "0.600kg단",
       "kg_per_package": 0.6,
       "price_kg": 1600,
-      "trade_count": 9,
-      "quantity_kg": 1068.0
+      "trade_count": 81,
+      "quantity_kg": 9612.0
     },
     {
       "date": "2026-10-26",
@@ -148541,9 +148757,9 @@
       "variety": "부추(일반)",
       "standard": "0.600kg상자",
       "kg_per_package": 0.6,
-      "price_kg": 1683,
-      "trade_count": 16,
-      "quantity_kg": 1697.4
+      "price_kg": 1833,
+      "trade_count": 164,
+      "quantity_kg": 17335.8
     },
     {
       "date": "2026-10-26",
@@ -148554,8 +148770,8 @@
       "standard": "0.700kg단",
       "kg_per_package": 0.7,
       "price_kg": 1571,
-      "trade_count": 13,
-      "quantity_kg": 3831.8
+      "trade_count": 93,
+      "quantity_kg": 15278.2
     },
     {
       "date": "2026-10-26",
@@ -148566,8 +148782,8 @@
       "standard": "0.700kg상자",
       "kg_per_package": 0.7,
       "price_kg": 1750,
-      "trade_count": 80,
-      "quantity_kg": 18074.0
+      "trade_count": 720,
+      "quantity_kg": 162666.0
     },
     {
       "date": "2026-10-26",
@@ -148578,8 +148794,8 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 2000,
-      "trade_count": 3,
-      "quantity_kg": 828.0
+      "trade_count": 27,
+      "quantity_kg": 7452.0
     },
     {
       "date": "2026-10-26",
@@ -148590,8 +148806,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 1125,
-      "trade_count": 139,
-      "quantity_kg": 56424.0
+      "trade_count": 1287,
+      "quantity_kg": 525560.0
     },
     {
       "date": "2026-10-26",
@@ -148602,8 +148818,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 2250,
-      "trade_count": 1,
-      "quantity_kg": 50.0
+      "trade_count": 9,
+      "quantity_kg": 450.0
     },
     {
       "date": "2026-10-26",
@@ -148613,9 +148829,9 @@
       "variety": "브로콜리(일반)",
       "standard": "6.000kg상자",
       "kg_per_package": 6.0,
-      "price_kg": 2458,
-      "trade_count": 6,
-      "quantity_kg": 192.0
+      "price_kg": 2500,
+      "trade_count": 74,
+      "quantity_kg": 3324.0
     },
     {
       "date": "2026-10-26",
@@ -148626,8 +148842,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 2375,
-      "trade_count": 98,
-      "quantity_kg": 8992.0
+      "trade_count": 946,
+      "quantity_kg": 85584.0
     },
     {
       "date": "2026-10-26",
@@ -148638,8 +148854,8 @@
       "standard": "13.000kg상자",
       "kg_per_package": 13.0,
       "price_kg": 792,
-      "trade_count": 6,
-      "quantity_kg": 598.0
+      "trade_count": 54,
+      "quantity_kg": 5382.0
     },
     {
       "date": "2026-10-26",
@@ -148649,9 +148865,21 @@
       "variety": "양배추(일반)",
       "standard": "8.000kg그물망",
       "kg_per_package": 8.0,
-      "price_kg": 975,
-      "trade_count": 20,
-      "quantity_kg": 19112.0
+      "price_kg": 1000,
+      "trade_count": 140,
+      "quantity_kg": 77672.0
+    },
+    {
+      "date": "2026-10-26",
+      "market": "220001",
+      "market_name": "대구북부",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "8.000kg상자",
+      "kg_per_package": 8.0,
+      "price_kg": 1375,
+      "trade_count": 32,
+      "quantity_kg": 7680.0
     },
     {
       "date": "2026-10-26",
@@ -148662,8 +148890,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 2050,
-      "trade_count": 1,
-      "quantity_kg": 40.0
+      "trade_count": 9,
+      "quantity_kg": 360.0
     },
     {
       "date": "2026-10-26",
@@ -148674,8 +148902,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 850,
-      "trade_count": 1,
-      "quantity_kg": 80.0
+      "trade_count": 9,
+      "quantity_kg": 720.0
     },
     {
       "date": "2026-10-26",
@@ -148685,9 +148913,21 @@
       "variety": "양파(일반)",
       "standard": "19.500kg그물망",
       "kg_per_package": 19.5,
-      "price_kg": 1015,
-      "trade_count": 22,
-      "quantity_kg": 39838.5
+      "price_kg": 1005,
+      "trade_count": 222,
+      "quantity_kg": 404683.5
+    },
+    {
+      "date": "2026-10-26",
+      "market": "220001",
+      "market_name": "대구북부",
+      "product": "양파",
+      "variety": "양파(일반)",
+      "standard": "20.000kg그물망",
+      "kg_per_package": 20.0,
+      "price_kg": 1100,
+      "trade_count": 80,
+      "quantity_kg": 96000.0
     },
     {
       "date": "2026-10-26",
@@ -148698,8 +148938,8 @@
       "standard": "20.000kg그물망",
       "kg_per_package": 20.0,
       "price_kg": 750,
-      "trade_count": 3,
-      "quantity_kg": 2900.0
+      "trade_count": 27,
+      "quantity_kg": 26100.0
     },
     {
       "date": "2026-10-26",
@@ -148710,8 +148950,20 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 1250,
-      "trade_count": 300,
-      "quantity_kg": 35170.0
+      "trade_count": 2902,
+      "quantity_kg": 339330.0
+    },
+    {
+      "date": "2026-10-26",
+      "market": "220001",
+      "market_name": "대구북부",
+      "product": "오이",
+      "variety": "미니오이",
+      "standard": "0.500kg.",
+      "kg_per_package": 0.5,
+      "price_kg": 1500,
+      "trade_count": 32,
+      "quantity_kg": 1600.0
     },
     {
       "date": "2026-10-26",
@@ -148722,8 +148974,8 @@
       "standard": "0.500kg비닐봉지",
       "kg_per_package": 0.5,
       "price_kg": 3000,
-      "trade_count": 3,
-      "quantity_kg": 350.0
+      "trade_count": 27,
+      "quantity_kg": 3150.0
     },
     {
       "date": "2026-10-26",
@@ -148734,8 +148986,8 @@
       "standard": "0.500kg상자",
       "kg_per_package": 0.5,
       "price_kg": 2600,
-      "trade_count": 17,
-      "quantity_kg": 1550.0
+      "trade_count": 153,
+      "quantity_kg": 13950.0
     },
     {
       "date": "2026-10-26",
@@ -148746,8 +148998,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 805,
-      "trade_count": 2,
-      "quantity_kg": 20.0
+      "trade_count": 18,
+      "quantity_kg": 180.0
     },
     {
       "date": "2026-10-26",
@@ -148758,8 +149010,8 @@
       "standard": "2.000kg상자",
       "kg_per_package": 2.0,
       "price_kg": 6000,
-      "trade_count": 1,
-      "quantity_kg": 20.0
+      "trade_count": 11,
+      "quantity_kg": 220.0
     },
     {
       "date": "2026-10-26",
@@ -148770,8 +149022,20 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 1450,
-      "trade_count": 197,
-      "quantity_kg": 18680.0
+      "trade_count": 1837,
+      "quantity_kg": 176440.0
+    },
+    {
+      "date": "2026-10-26",
+      "market": "220001",
+      "market_name": "대구북부",
+      "product": "오이고추",
+      "variety": "오이고추",
+      "standard": "1.000kg개",
+      "kg_per_package": 1.0,
+      "price_kg": 1800,
+      "trade_count": 72,
+      "quantity_kg": 4056.0
     },
     {
       "date": "2026-10-26",
@@ -148782,8 +149046,8 @@
       "standard": "1.000kg상자",
       "kg_per_package": 1.0,
       "price_kg": 2300,
-      "trade_count": 69,
-      "quantity_kg": 8751.0
+      "trade_count": 649,
+      "quantity_kg": 82945.0
     },
     {
       "date": "2026-10-26",
@@ -148794,8 +149058,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 600,
-      "trade_count": 2,
-      "quantity_kg": 300.0
+      "trade_count": 18,
+      "quantity_kg": 2700.0
     },
     {
       "date": "2026-10-26",
@@ -148806,8 +149070,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 812,
-      "trade_count": 21,
-      "quantity_kg": 4008.0
+      "trade_count": 209,
+      "quantity_kg": 38472.0
     },
     {
       "date": "2026-10-26",
@@ -148817,9 +149081,9 @@
       "variety": "깐쪽파",
       "standard": "1.000kg단",
       "kg_per_package": 1.0,
-      "price_kg": 4600,
-      "trade_count": 9,
-      "quantity_kg": 441.0
+      "price_kg": 4200,
+      "trade_count": 97,
+      "quantity_kg": 5169.0
     },
     {
       "date": "2026-10-26",
@@ -148830,8 +149094,8 @@
       "standard": "1.000kg상자",
       "kg_per_package": 1.0,
       "price_kg": 2600,
-      "trade_count": 17,
-      "quantity_kg": 1089.0
+      "trade_count": 155,
+      "quantity_kg": 9875.0
     },
     {
       "date": "2026-10-26",
@@ -148842,8 +149106,8 @@
       "standard": "1.000kg단",
       "kg_per_package": 1.0,
       "price_kg": 1260,
-      "trade_count": 5,
-      "quantity_kg": 390.0
+      "trade_count": 45,
+      "quantity_kg": 3510.0
     },
     {
       "date": "2026-10-26",
@@ -148854,8 +149118,8 @@
       "standard": "1.000kg봉지",
       "kg_per_package": 1.0,
       "price_kg": 1700,
-      "trade_count": 2,
-      "quantity_kg": 170.0
+      "trade_count": 22,
+      "quantity_kg": 1870.0
     },
     {
       "date": "2026-10-26",
@@ -148866,8 +149130,8 @@
       "standard": "1.000kg상자",
       "kg_per_package": 1.0,
       "price_kg": 800,
-      "trade_count": 15,
-      "quantity_kg": 1325.0
+      "trade_count": 143,
+      "quantity_kg": 12405.0
     },
     {
       "date": "2026-10-26",
@@ -148878,8 +149142,20 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 1375,
-      "trade_count": 66,
-      "quantity_kg": 15920.0
+      "trade_count": 618,
+      "quantity_kg": 147216.0
+    },
+    {
+      "date": "2026-10-26",
+      "market": "220001",
+      "market_name": "대구북부",
+      "product": "청양고추",
+      "variety": "청양",
+      "standard": "1.000kg개",
+      "kg_per_package": 1.0,
+      "price_kg": 4600,
+      "trade_count": 80,
+      "quantity_kg": 10080.0
     },
     {
       "date": "2026-10-26",
@@ -148890,8 +149166,8 @@
       "standard": "1.000kg상자",
       "kg_per_package": 1.0,
       "price_kg": 4450,
-      "trade_count": 191,
-      "quantity_kg": 18406.0
+      "trade_count": 1827,
+      "quantity_kg": 175668.0
     },
     {
       "date": "2026-10-26",
@@ -148902,8 +149178,20 @@
       "standard": "1.000kg상자",
       "kg_per_package": 1.0,
       "price_kg": 3900,
-      "trade_count": 12,
-      "quantity_kg": 560.0
+      "trade_count": 108,
+      "quantity_kg": 5040.0
+    },
+    {
+      "date": "2026-10-26",
+      "market": "220001",
+      "market_name": "대구북부",
+      "product": "홍고추",
+      "variety": "홍고추(일반)",
+      "standard": "1.000kg개",
+      "kg_per_package": 1.0,
+      "price_kg": 2800,
+      "trade_count": 8,
+      "quantity_kg": 720.0
     },
     {
       "date": "2026-10-26",
@@ -148913,9 +149201,2829 @@
       "variety": "홍고추(일반)",
       "standard": "1.000kg상자",
       "kg_per_package": 1.0,
-      "price_kg": 3015,
-      "trade_count": 44,
-      "quantity_kg": 1500.0
+      "price_kg": 3030,
+      "trade_count": 414,
+      "quantity_kg": 14040.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "꽈리고추",
+      "variety": "꽈리고추(일반)",
+      "standard": "3.000kg상자",
+      "kg_per_package": 3.0,
+      "price_kg": 3000,
+      "trade_count": 1,
+      "quantity_kg": 3.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "배",
+      "variety": "신고",
+      "standard": "15.000kg상자",
+      "kg_per_package": 15.0,
+      "price_kg": 2200,
+      "trade_count": 188,
+      "quantity_kg": 41790.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "배",
+      "variety": "신고",
+      "standard": "15.000kg파렛트",
+      "kg_per_package": 15.0,
+      "price_kg": 2200,
+      "trade_count": 7,
+      "quantity_kg": 4305.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "배",
+      "variety": "신고",
+      "standard": "5.000kg파렛트",
+      "kg_per_package": 5.0,
+      "price_kg": 2600,
+      "trade_count": 2,
+      "quantity_kg": 1560.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "배",
+      "variety": "신고",
+      "standard": "7.500kg상자",
+      "kg_per_package": 7.5,
+      "price_kg": 1167,
+      "trade_count": 4,
+      "quantity_kg": 270.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "오이고추",
+      "variety": "오이고추",
+      "standard": "11.000kg상자",
+      "kg_per_package": 11.0,
+      "price_kg": 3000,
+      "trade_count": 1,
+      "quantity_kg": 22.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "오이고추",
+      "variety": "오이고추",
+      "standard": "4.000kg상자",
+      "kg_per_package": 4.0,
+      "price_kg": 2000,
+      "trade_count": 2,
+      "quantity_kg": 8.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "오이고추",
+      "variety": "오이고추",
+      "standard": "6.000kg상자",
+      "kg_per_package": 6.0,
+      "price_kg": 1300,
+      "trade_count": 2,
+      "quantity_kg": 12.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "청경채",
+      "variety": "청경채(일반)",
+      "standard": "4.000kg상자",
+      "kg_per_package": 4.0,
+      "price_kg": 2000,
+      "trade_count": 1,
+      "quantity_kg": 360.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "청양고추",
+      "variety": "청양",
+      "standard": "4.000kg상자",
+      "kg_per_package": 4.0,
+      "price_kg": 7200,
+      "trade_count": 1,
+      "quantity_kg": 4.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "청양고추",
+      "variety": "청양",
+      "standard": "6.000kg상자",
+      "kg_per_package": 6.0,
+      "price_kg": 3200,
+      "trade_count": 1,
+      "quantity_kg": 6.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "청양고추",
+      "variety": "청양",
+      "standard": "8.000kg상자",
+      "kg_per_package": 8.0,
+      "price_kg": 5700,
+      "trade_count": 1,
+      "quantity_kg": 8.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "홍고추",
+      "variety": "홍고추(일반)",
+      "standard": "7.000kg상자",
+      "kg_per_package": 7.0,
+      "price_kg": 2200,
+      "trade_count": 1,
+      "quantity_kg": 7.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "110001",
+      "market_name": "서울가락",
+      "product": "홍고추",
+      "variety": "홍고추(일반)",
+      "standard": "8.000kg상자",
+      "kg_per_package": 8.0,
+      "price_kg": 2600,
+      "trade_count": 1,
+      "quantity_kg": 8.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "깻잎",
+      "variety": "깻잎(일반)",
+      "standard": "1.000kg상자",
+      "kg_per_package": 1.0,
+      "price_kg": 6300,
+      "trade_count": 11,
+      "quantity_kg": 318.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "깻잎",
+      "variety": "깻잎(일반)",
+      "standard": "2.000kg상자",
+      "kg_per_package": 2.0,
+      "price_kg": 4500,
+      "trade_count": 49,
+      "quantity_kg": 1958.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "깻잎",
+      "variety": "깻잎(일반)",
+      "standard": "4.000kg비닐봉지",
+      "kg_per_package": 4.0,
+      "price_kg": 1000,
+      "trade_count": 2,
+      "quantity_kg": 16.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "깻잎",
+      "variety": "깻잎순",
+      "standard": "4.000kg비닐봉지",
+      "kg_per_package": 4.0,
+      "price_kg": 900,
+      "trade_count": 45,
+      "quantity_kg": 900.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "깻잎",
+      "variety": "깻잎순",
+      "standard": "5.000kg비닐봉지",
+      "kg_per_package": 5.0,
+      "price_kg": 1380,
+      "trade_count": 3,
+      "quantity_kg": 25.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "깻잎",
+      "variety": "깻잎순",
+      "standard": "6.000kg비닐봉지",
+      "kg_per_package": 6.0,
+      "price_kg": 617,
+      "trade_count": 1,
+      "quantity_kg": 6.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "꽈리고추",
+      "variety": "꽈리고추(일반)",
+      "standard": "2.000kg상자",
+      "kg_per_package": 2.0,
+      "price_kg": 5000,
+      "trade_count": 1,
+      "quantity_kg": 2.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "꽈리고추",
+      "variety": "꽈리고추(일반)",
+      "standard": "4.000kg상자",
+      "kg_per_package": 4.0,
+      "price_kg": 5750,
+      "trade_count": 13,
+      "quantity_kg": 320.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "꽈리고추",
+      "variety": "꽈리고추(일반)",
+      "standard": "4.600kg상자",
+      "kg_per_package": 4.6,
+      "price_kg": 4457,
+      "trade_count": 25,
+      "quantity_kg": 1173.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "꽈리고추",
+      "variety": "꽈리고추(일반)",
+      "standard": "5.000kg상자",
+      "kg_per_package": 5.0,
+      "price_kg": 4120,
+      "trade_count": 2,
+      "quantity_kg": 10.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "당근",
+      "variety": "당근(수입)",
+      "standard": "10.000kg상자",
+      "kg_per_package": 10.0,
+      "price_kg": 700,
+      "trade_count": 2,
+      "quantity_kg": 1100.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "당근",
+      "variety": "당근(수입)",
+      "standard": "10.000kg파렛트",
+      "kg_per_package": 10.0,
+      "price_kg": 680,
+      "trade_count": 3,
+      "quantity_kg": 800.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "대파",
+      "variety": "대파(수입)",
+      "standard": "10.000kg상자",
+      "kg_per_package": 10.0,
+      "price_kg": 1600,
+      "trade_count": 1,
+      "quantity_kg": 100.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "대파",
+      "variety": "대파(일반)",
+      "standard": "0.900kg단",
+      "kg_per_package": 0.9,
+      "price_kg": 1417,
+      "trade_count": 6,
+      "quantity_kg": 1066.5
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "대파",
+      "variety": "대파(일반)",
+      "standard": "1.000kg단",
+      "kg_per_package": 1.0,
+      "price_kg": 1155,
+      "trade_count": 24,
+      "quantity_kg": 7310.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "대파",
+      "variety": "대파(일반)",
+      "standard": "1.000kg파렛트",
+      "kg_per_package": 1.0,
+      "price_kg": 1180,
+      "trade_count": 10,
+      "quantity_kg": 2880.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "대파",
+      "variety": "대파(일반)",
+      "standard": "1.100kg단",
+      "kg_per_package": 1.1,
+      "price_kg": 1027,
+      "trade_count": 15,
+      "quantity_kg": 3950.1
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "대파",
+      "variety": "대파(일반)",
+      "standard": "10.000kg상자",
+      "kg_per_package": 10.0,
+      "price_kg": 810,
+      "trade_count": 26,
+      "quantity_kg": 3510.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "대파",
+      "variety": "대파(일반)",
+      "standard": "5.000kg비닐봉지",
+      "kg_per_package": 5.0,
+      "price_kg": 500,
+      "trade_count": 1,
+      "quantity_kg": 40.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "마늘",
+      "variety": "마늘쫑(수입)",
+      "standard": "8.000kg상자",
+      "kg_per_package": 8.0,
+      "price_kg": 2625,
+      "trade_count": 1,
+      "quantity_kg": 8.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "미나리",
+      "variety": "미나리(일반)",
+      "standard": "0.200kg비닐봉지",
+      "kg_per_package": 0.2,
+      "price_kg": 7750,
+      "trade_count": 4,
+      "quantity_kg": 60.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "미나리",
+      "variety": "미나리(일반)",
+      "standard": "0.400kg단",
+      "kg_per_package": 0.4,
+      "price_kg": 3500,
+      "trade_count": 7,
+      "quantity_kg": 384.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "미나리",
+      "variety": "미나리(일반)",
+      "standard": "1.000kg단",
+      "kg_per_package": 1.0,
+      "price_kg": 1910,
+      "trade_count": 8,
+      "quantity_kg": 240.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "배",
+      "variety": "신고",
+      "standard": "15.000kg상자",
+      "kg_per_package": 15.0,
+      "price_kg": 1800,
+      "trade_count": 29,
+      "quantity_kg": 4020.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "배",
+      "variety": "신고",
+      "standard": "15.000kg파렛트",
+      "kg_per_package": 15.0,
+      "price_kg": 2467,
+      "trade_count": 8,
+      "quantity_kg": 3480.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "배",
+      "variety": "추황",
+      "standard": "15.000kg상자",
+      "kg_per_package": 15.0,
+      "price_kg": 2200,
+      "trade_count": 3,
+      "quantity_kg": 1260.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "부추",
+      "variety": "부추(일반)",
+      "standard": "0.500kg단",
+      "kg_per_package": 0.5,
+      "price_kg": 1840,
+      "trade_count": 10,
+      "quantity_kg": 1137.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "부추",
+      "variety": "부추(일반)",
+      "standard": "1.000kg단",
+      "kg_per_package": 1.0,
+      "price_kg": 2020,
+      "trade_count": 5,
+      "quantity_kg": 1720.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "양배추",
+      "variety": "브로콜리(일반)",
+      "standard": "8.000kg상자",
+      "kg_per_package": 8.0,
+      "price_kg": 2675,
+      "trade_count": 33,
+      "quantity_kg": 2376.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "양배추",
+      "variety": "브로콜리(일반)",
+      "standard": "8.000kg파렛트",
+      "kg_per_package": 8.0,
+      "price_kg": 2125,
+      "trade_count": 1,
+      "quantity_kg": 240.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "10.000kg그물망",
+      "kg_per_package": 10.0,
+      "price_kg": 800,
+      "trade_count": 2,
+      "quantity_kg": 1300.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "10.000kg상자",
+      "kg_per_package": 10.0,
+      "price_kg": 550,
+      "trade_count": 5,
+      "quantity_kg": 1550.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "10.000kg파렛트",
+      "kg_per_package": 10.0,
+      "price_kg": 860,
+      "trade_count": 5,
+      "quantity_kg": 1860.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "양배추",
+      "variety": "칼리플라워(일반)",
+      "standard": "8.000kg상자",
+      "kg_per_package": 8.0,
+      "price_kg": 1131,
+      "trade_count": 8,
+      "quantity_kg": 488.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "양파",
+      "variety": "양파(일반)",
+      "standard": "20.000kg그물망",
+      "kg_per_package": 20.0,
+      "price_kg": 950,
+      "trade_count": 15,
+      "quantity_kg": 49280.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "양파",
+      "variety": "양파(일반)",
+      "standard": "20.000kg상자",
+      "kg_per_package": 20.0,
+      "price_kg": 1010,
+      "trade_count": 3,
+      "quantity_kg": 8000.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "양파",
+      "variety": "양파(일반)",
+      "standard": "20.000kg파렛트",
+      "kg_per_package": 20.0,
+      "price_kg": 1035,
+      "trade_count": 5,
+      "quantity_kg": 5000.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "오이",
+      "variety": "가시오이",
+      "standard": "10.000kg상자",
+      "kg_per_package": 10.0,
+      "price_kg": 1260,
+      "trade_count": 85,
+      "quantity_kg": 12190.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "오이",
+      "variety": "가시오이",
+      "standard": "10.000kg파렛트",
+      "kg_per_package": 10.0,
+      "price_kg": 1730,
+      "trade_count": 1,
+      "quantity_kg": 640.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "오이",
+      "variety": "미니오이",
+      "standard": "0.500kg상자",
+      "kg_per_package": 0.5,
+      "price_kg": 2240,
+      "trade_count": 1,
+      "quantity_kg": 80.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "오이",
+      "variety": "백다다기",
+      "standard": "10.000kg상자",
+      "kg_per_package": 10.0,
+      "price_kg": 2190,
+      "trade_count": 29,
+      "quantity_kg": 5040.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "오이",
+      "variety": "백다다기",
+      "standard": "15.000kg상자",
+      "kg_per_package": 15.0,
+      "price_kg": 287,
+      "trade_count": 1,
+      "quantity_kg": 90.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "오이",
+      "variety": "백다다기",
+      "standard": "20.000kg상자",
+      "kg_per_package": 20.0,
+      "price_kg": 1050,
+      "trade_count": 3,
+      "quantity_kg": 280.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "오이",
+      "variety": "취청",
+      "standard": "0.500kg비닐봉지",
+      "kg_per_package": 0.5,
+      "price_kg": 2500,
+      "trade_count": 3,
+      "quantity_kg": 170.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "오이고추",
+      "variety": "오이고추",
+      "standard": "10.000kg상자",
+      "kg_per_package": 10.0,
+      "price_kg": 1905,
+      "trade_count": 2,
+      "quantity_kg": 110.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "오이고추",
+      "variety": "오이고추",
+      "standard": "11.200kg상자",
+      "kg_per_package": 11.2,
+      "price_kg": 1205,
+      "trade_count": 43,
+      "quantity_kg": 5084.8
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "오이고추",
+      "variety": "오이고추",
+      "standard": "12.200kg상자",
+      "kg_per_package": 12.2,
+      "price_kg": 1393,
+      "trade_count": 1,
+      "quantity_kg": 12.2
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "오이고추",
+      "variety": "오이고추",
+      "standard": "14.300kg상자",
+      "kg_per_package": 14.3,
+      "price_kg": 1189,
+      "trade_count": 1,
+      "quantity_kg": 14.3
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "적양배추",
+      "variety": "적채(일반)",
+      "standard": "8.000kg상자",
+      "kg_per_package": 8.0,
+      "price_kg": 944,
+      "trade_count": 4,
+      "quantity_kg": 352.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "쪽파",
+      "variety": "깐쪽파",
+      "standard": "1.000kg단",
+      "kg_per_package": 1.0,
+      "price_kg": 2220,
+      "trade_count": 1,
+      "quantity_kg": 20.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "쪽파",
+      "variety": "쪽파(일반)",
+      "standard": "1.000kg단",
+      "kg_per_package": 1.0,
+      "price_kg": 1190,
+      "trade_count": 32,
+      "quantity_kg": 3520.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "쪽파",
+      "variety": "쪽파(일반)",
+      "standard": "1.500kg단",
+      "kg_per_package": 1.5,
+      "price_kg": 960,
+      "trade_count": 3,
+      "quantity_kg": 900.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "쪽파",
+      "variety": "쪽파(일반)",
+      "standard": "1.600kg단",
+      "kg_per_package": 1.6,
+      "price_kg": 625,
+      "trade_count": 3,
+      "quantity_kg": 964.8
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "쪽파",
+      "variety": "쪽파(일반)",
+      "standard": "2.000kg단",
+      "kg_per_package": 2.0,
+      "price_kg": 500,
+      "trade_count": 6,
+      "quantity_kg": 1200.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "쪽파",
+      "variety": "쪽파(일반)",
+      "standard": "2.100kg단",
+      "kg_per_package": 2.1,
+      "price_kg": 476,
+      "trade_count": 6,
+      "quantity_kg": 1260.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "청경채",
+      "variety": "청경채(일반)",
+      "standard": "4.000kg상자",
+      "kg_per_package": 4.0,
+      "price_kg": 1388,
+      "trade_count": 2,
+      "quantity_kg": 816.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "청양고추",
+      "variety": "청양",
+      "standard": "10.000kg상자",
+      "kg_per_package": 10.0,
+      "price_kg": 3510,
+      "trade_count": 14,
+      "quantity_kg": 560.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "청양고추",
+      "variety": "청양",
+      "standard": "10.300kg상자",
+      "kg_per_package": 10.3,
+      "price_kg": 4854,
+      "trade_count": 1,
+      "quantity_kg": 10.3
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "청양고추",
+      "variety": "청양",
+      "standard": "11.200kg상자",
+      "kg_per_package": 11.2,
+      "price_kg": 4196,
+      "trade_count": 61,
+      "quantity_kg": 5633.6
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "청양고추",
+      "variety": "청양",
+      "standard": "6.300kg상자",
+      "kg_per_package": 6.3,
+      "price_kg": 1587,
+      "trade_count": 1,
+      "quantity_kg": 6.3
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "청양고추",
+      "variety": "청양",
+      "standard": "7.000kg상자",
+      "kg_per_package": 7.0,
+      "price_kg": 5000,
+      "trade_count": 1,
+      "quantity_kg": 7.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "청양고추",
+      "variety": "청양",
+      "standard": "7.200kg상자",
+      "kg_per_package": 7.2,
+      "price_kg": 4028,
+      "trade_count": 1,
+      "quantity_kg": 7.2
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "청양고추",
+      "variety": "청양",
+      "standard": "7.300kg상자",
+      "kg_per_package": 7.3,
+      "price_kg": 5479,
+      "trade_count": 1,
+      "quantity_kg": 7.3
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "청양고추",
+      "variety": "청양",
+      "standard": "7.800kg상자",
+      "kg_per_package": 7.8,
+      "price_kg": 3205,
+      "trade_count": 1,
+      "quantity_kg": 7.8
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "청양고추",
+      "variety": "청양",
+      "standard": "8.400kg상자",
+      "kg_per_package": 8.4,
+      "price_kg": 2857,
+      "trade_count": 1,
+      "quantity_kg": 8.4
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "청양고추",
+      "variety": "홍청양",
+      "standard": "10.000kg상자",
+      "kg_per_package": 10.0,
+      "price_kg": 3010,
+      "trade_count": 1,
+      "quantity_kg": 10.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "청양고추",
+      "variety": "홍청양",
+      "standard": "11.200kg상자",
+      "kg_per_package": 11.2,
+      "price_kg": 2612,
+      "trade_count": 6,
+      "quantity_kg": 280.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "청양고추",
+      "variety": "홍청양",
+      "standard": "9.500kg상자",
+      "kg_per_package": 9.5,
+      "price_kg": 947,
+      "trade_count": 1,
+      "quantity_kg": 9.5
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "홍고추",
+      "variety": "홍고추(일반)",
+      "standard": "10.000kg상자",
+      "kg_per_package": 10.0,
+      "price_kg": 3330,
+      "trade_count": 15,
+      "quantity_kg": 540.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "홍고추",
+      "variety": "홍고추(일반)",
+      "standard": "11.200kg상자",
+      "kg_per_package": 11.2,
+      "price_kg": 2589,
+      "trade_count": 29,
+      "quantity_kg": 1008.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "홍고추",
+      "variety": "홍고추(일반)",
+      "standard": "12.200kg상자",
+      "kg_per_package": 12.2,
+      "price_kg": 2828,
+      "trade_count": 2,
+      "quantity_kg": 73.2
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210001",
+      "market_name": "부산엄궁",
+      "product": "홍고추",
+      "variety": "홍고추(일반)",
+      "standard": "9.200kg상자",
+      "kg_per_package": 9.2,
+      "price_kg": 2283,
+      "trade_count": 1,
+      "quantity_kg": 9.2
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "깻잎",
+      "variety": "깻잎(일반)",
+      "standard": "1.000kg상자",
+      "kg_per_package": 1.0,
+      "price_kg": 5800,
+      "trade_count": 3,
+      "quantity_kg": 62.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "깻잎",
+      "variety": "깻잎(일반)",
+      "standard": "1.300kg상자",
+      "kg_per_package": 1.3,
+      "price_kg": 4654,
+      "trade_count": 2,
+      "quantity_kg": 70.2
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "깻잎",
+      "variety": "깻잎(일반)",
+      "standard": "1.400kg상자",
+      "kg_per_package": 1.4,
+      "price_kg": 5571,
+      "trade_count": 2,
+      "quantity_kg": 16.8
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "깻잎",
+      "variety": "깻잎(일반)",
+      "standard": "1.500kg상자",
+      "kg_per_package": 1.5,
+      "price_kg": 5633,
+      "trade_count": 2,
+      "quantity_kg": 27.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "깻잎",
+      "variety": "깻잎(일반)",
+      "standard": "1.600kg상자",
+      "kg_per_package": 1.6,
+      "price_kg": 7188,
+      "trade_count": 1,
+      "quantity_kg": 11.2
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "깻잎",
+      "variety": "깻잎(일반)",
+      "standard": "1.700kg상자",
+      "kg_per_package": 1.7,
+      "price_kg": 5118,
+      "trade_count": 4,
+      "quantity_kg": 66.3
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "깻잎",
+      "variety": "깻잎(일반)",
+      "standard": "1.800kg상자",
+      "kg_per_package": 1.8,
+      "price_kg": 4083,
+      "trade_count": 6,
+      "quantity_kg": 68.4
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "깻잎",
+      "variety": "깻잎(일반)",
+      "standard": "1.900kg상자",
+      "kg_per_package": 1.9,
+      "price_kg": 3605,
+      "trade_count": 2,
+      "quantity_kg": 26.6
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "깻잎",
+      "variety": "깻잎(일반)",
+      "standard": "2.000kg상자",
+      "kg_per_package": 2.0,
+      "price_kg": 5150,
+      "trade_count": 1,
+      "quantity_kg": 12.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "깻잎",
+      "variety": "깻잎(일반)",
+      "standard": "2.100kg상자",
+      "kg_per_package": 2.1,
+      "price_kg": 5857,
+      "trade_count": 7,
+      "quantity_kg": 153.3
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "깻잎",
+      "variety": "깻잎(일반)",
+      "standard": "2.200kg상자",
+      "kg_per_package": 2.2,
+      "price_kg": 5818,
+      "trade_count": 5,
+      "quantity_kg": 158.4
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "깻잎",
+      "variety": "깻잎(일반)",
+      "standard": "2.300kg상자",
+      "kg_per_package": 2.3,
+      "price_kg": 5848,
+      "trade_count": 4,
+      "quantity_kg": 131.1
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "깻잎",
+      "variety": "깻잎(일반)",
+      "standard": "2.400kg상자",
+      "kg_per_package": 2.4,
+      "price_kg": 5917,
+      "trade_count": 3,
+      "quantity_kg": 110.4
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "깻잎",
+      "variety": "깻잎(일반)",
+      "standard": "2.500kg상자",
+      "kg_per_package": 2.5,
+      "price_kg": 5700,
+      "trade_count": 4,
+      "quantity_kg": 135.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "깻잎",
+      "variety": "깻잎(일반)",
+      "standard": "2.600kg상자",
+      "kg_per_package": 2.6,
+      "price_kg": 3692,
+      "trade_count": 1,
+      "quantity_kg": 39.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "깻잎",
+      "variety": "깻잎(일반)",
+      "standard": "2.700kg상자",
+      "kg_per_package": 2.7,
+      "price_kg": 4037,
+      "trade_count": 2,
+      "quantity_kg": 45.9
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "깻잎",
+      "variety": "깻잎(일반)",
+      "standard": "2.800kg상자",
+      "kg_per_package": 2.8,
+      "price_kg": 3607,
+      "trade_count": 1,
+      "quantity_kg": 2.8
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "깻잎",
+      "variety": "깻잎(일반)",
+      "standard": "3.000kg상자",
+      "kg_per_package": 3.0,
+      "price_kg": 3633,
+      "trade_count": 30,
+      "quantity_kg": 1200.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "깻잎",
+      "variety": "깻잎순",
+      "standard": "3.400kg봉지",
+      "kg_per_package": 3.4,
+      "price_kg": 275,
+      "trade_count": 1,
+      "quantity_kg": 3.4
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "깻잎",
+      "variety": "깻잎순",
+      "standard": "4.000kg봉지",
+      "kg_per_package": 4.0,
+      "price_kg": 500,
+      "trade_count": 63,
+      "quantity_kg": 1292.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "깻잎",
+      "variety": "깻잎순",
+      "standard": "5.000kg봉지",
+      "kg_per_package": 5.0,
+      "price_kg": 400,
+      "trade_count": 3,
+      "quantity_kg": 35.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "깻잎",
+      "variety": "깻잎순",
+      "standard": "8.400kg상자",
+      "kg_per_package": 8.4,
+      "price_kg": 357,
+      "trade_count": 1,
+      "quantity_kg": 25.2
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "꽈리고추",
+      "variety": "꽈리고추(일반)",
+      "standard": "4.400kg상자",
+      "kg_per_package": 4.4,
+      "price_kg": 3455,
+      "trade_count": 5,
+      "quantity_kg": 176.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "꽈리고추",
+      "variety": "꽈리고추(일반)",
+      "standard": "4.500kg상자",
+      "kg_per_package": 4.5,
+      "price_kg": 3611,
+      "trade_count": 8,
+      "quantity_kg": 216.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "꽈리고추",
+      "variety": "꽈리고추(일반)",
+      "standard": "4.600kg상자",
+      "kg_per_package": 4.6,
+      "price_kg": 4391,
+      "trade_count": 13,
+      "quantity_kg": 593.4
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "꽈리고추",
+      "variety": "꽈리고추(일반)",
+      "standard": "4.700kg상자",
+      "kg_per_package": 4.7,
+      "price_kg": 3809,
+      "trade_count": 1,
+      "quantity_kg": 23.5
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "꽈리고추",
+      "variety": "꽈리고추(일반)",
+      "standard": "4.800kg상자",
+      "kg_per_package": 4.8,
+      "price_kg": 3365,
+      "trade_count": 2,
+      "quantity_kg": 19.2
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "당근",
+      "variety": "당근(수입)",
+      "standard": "10.000kg상자",
+      "kg_per_package": 10.0,
+      "price_kg": 700,
+      "trade_count": 1,
+      "quantity_kg": 100.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "당근",
+      "variety": "당근(일반)",
+      "standard": "10.000kg상자",
+      "kg_per_package": 10.0,
+      "price_kg": 1650,
+      "trade_count": 7,
+      "quantity_kg": 1210.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "당근",
+      "variety": "당근(일반)",
+      "standard": "20.000kg상자",
+      "kg_per_package": 20.0,
+      "price_kg": 2085,
+      "trade_count": 15,
+      "quantity_kg": 9140.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "당근",
+      "variety": "흙당근",
+      "standard": "10.000kg상자",
+      "kg_per_package": 10.0,
+      "price_kg": 1450,
+      "trade_count": 7,
+      "quantity_kg": 1170.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "당근",
+      "variety": "흙당근",
+      "standard": "20.000kg상자",
+      "kg_per_package": 20.0,
+      "price_kg": 1600,
+      "trade_count": 7,
+      "quantity_kg": 2800.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "대파",
+      "variety": "대파(일반)",
+      "standard": "0.800kg단",
+      "kg_per_package": 0.8,
+      "price_kg": 1581,
+      "trade_count": 18,
+      "quantity_kg": 4427.2
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "대파",
+      "variety": "대파(일반)",
+      "standard": "0.820kg단",
+      "kg_per_package": 0.82,
+      "price_kg": 1537,
+      "trade_count": 13,
+      "quantity_kg": 3795.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "대파",
+      "variety": "대파(일반)",
+      "standard": "0.850kg단",
+      "kg_per_package": 0.85,
+      "price_kg": 1471,
+      "trade_count": 1,
+      "quantity_kg": 425.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "대파",
+      "variety": "대파(일반)",
+      "standard": "0.870kg단",
+      "kg_per_package": 0.87,
+      "price_kg": 1391,
+      "trade_count": 1,
+      "quantity_kg": 348.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "대파",
+      "variety": "대파(일반)",
+      "standard": "0.900kg단",
+      "kg_per_package": 0.9,
+      "price_kg": 1472,
+      "trade_count": 18,
+      "quantity_kg": 2538.9
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "대파",
+      "variety": "대파(일반)",
+      "standard": "0.920kg단",
+      "kg_per_package": 0.92,
+      "price_kg": 1315,
+      "trade_count": 1,
+      "quantity_kg": 552.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "대파",
+      "variety": "대파(일반)",
+      "standard": "1.000kg단",
+      "kg_per_package": 1.0,
+      "price_kg": 1170,
+      "trade_count": 7,
+      "quantity_kg": 1600.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "대파",
+      "variety": "대파(일반)",
+      "standard": "10.000kg상자",
+      "kg_per_package": 10.0,
+      "price_kg": 750,
+      "trade_count": 35,
+      "quantity_kg": 3480.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "대파",
+      "variety": "대파(일반)",
+      "standard": "10.800kg상자",
+      "kg_per_package": 10.8,
+      "price_kg": 741,
+      "trade_count": 3,
+      "quantity_kg": 594.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "대파",
+      "variety": "대파(일반)",
+      "standard": "11.000kg상자",
+      "kg_per_package": 11.0,
+      "price_kg": 691,
+      "trade_count": 1,
+      "quantity_kg": 396.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "대파",
+      "variety": "대파(일반)",
+      "standard": "11.100kg상자",
+      "kg_per_package": 11.1,
+      "price_kg": 977,
+      "trade_count": 2,
+      "quantity_kg": 55.5
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "대파",
+      "variety": "대파(일반)",
+      "standard": "11.200kg상자",
+      "kg_per_package": 11.2,
+      "price_kg": 607,
+      "trade_count": 3,
+      "quantity_kg": 302.4
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "마늘",
+      "variety": "마늘쫑(수입)",
+      "standard": "20.000kg상자",
+      "kg_per_package": 20.0,
+      "price_kg": 1000,
+      "trade_count": 7,
+      "quantity_kg": 960.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "마늘",
+      "variety": "햇마늘 대서",
+      "standard": "10.000kg그물망",
+      "kg_per_package": 10.0,
+      "price_kg": 6700,
+      "trade_count": 1,
+      "quantity_kg": 20.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "마늘",
+      "variety": "햇마늘 대서",
+      "standard": "8.000kg그물망",
+      "kg_per_package": 8.0,
+      "price_kg": 4212,
+      "trade_count": 1,
+      "quantity_kg": 16.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "미나리",
+      "variety": "미나리(일반)",
+      "standard": "0.200kg.",
+      "kg_per_package": 0.2,
+      "price_kg": 6450,
+      "trade_count": 1,
+      "quantity_kg": 12.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "미나리",
+      "variety": "미나리(일반)",
+      "standard": "0.500kg단",
+      "kg_per_package": 0.5,
+      "price_kg": 3710,
+      "trade_count": 10,
+      "quantity_kg": 226.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "미나리",
+      "variety": "미나리(일반)",
+      "standard": "1.000kg단",
+      "kg_per_package": 1.0,
+      "price_kg": 1260,
+      "trade_count": 9,
+      "quantity_kg": 819.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "미나리",
+      "variety": "미나리(일반)",
+      "standard": "10.000kg봉지",
+      "kg_per_package": 10.0,
+      "price_kg": 3600,
+      "trade_count": 1,
+      "quantity_kg": 20.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "미나리",
+      "variety": "미나리(일반)",
+      "standard": "10.000kg상자",
+      "kg_per_package": 10.0,
+      "price_kg": 5500,
+      "trade_count": 1,
+      "quantity_kg": 30.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "미나리",
+      "variety": "미나리(일반)",
+      "standard": "4.000kg상자",
+      "kg_per_package": 4.0,
+      "price_kg": 4825,
+      "trade_count": 4,
+      "quantity_kg": 120.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "배",
+      "variety": "신고",
+      "standard": "15.000kg상자",
+      "kg_per_package": 15.0,
+      "price_kg": 1233,
+      "trade_count": 45,
+      "quantity_kg": 6630.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "배",
+      "variety": "황금",
+      "standard": "15.000kg상자",
+      "kg_per_package": 15.0,
+      "price_kg": 1253,
+      "trade_count": 2,
+      "quantity_kg": 690.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "부추",
+      "variety": "부추(일반)",
+      "standard": "0.500kg단",
+      "kg_per_package": 0.5,
+      "price_kg": 2000,
+      "trade_count": 94,
+      "quantity_kg": 6132.5
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "브로코리(수입)",
+      "standard": "8.000kg상자",
+      "kg_per_package": 8.0,
+      "price_kg": 2250,
+      "trade_count": 7,
+      "quantity_kg": 456.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "브로콜리(일반)",
+      "standard": "5.300kg.",
+      "kg_per_package": 5.3,
+      "price_kg": 2811,
+      "trade_count": 1,
+      "quantity_kg": 10.6
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "브로콜리(일반)",
+      "standard": "5.500kg상자",
+      "kg_per_package": 5.5,
+      "price_kg": 3073,
+      "trade_count": 2,
+      "quantity_kg": 44.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "브로콜리(일반)",
+      "standard": "6.000kg상자",
+      "kg_per_package": 6.0,
+      "price_kg": 2942,
+      "trade_count": 6,
+      "quantity_kg": 210.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "브로콜리(일반)",
+      "standard": "6.500kg상자",
+      "kg_per_package": 6.5,
+      "price_kg": 2508,
+      "trade_count": 3,
+      "quantity_kg": 169.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "브로콜리(일반)",
+      "standard": "7.000kg.",
+      "kg_per_package": 7.0,
+      "price_kg": 2586,
+      "trade_count": 2,
+      "quantity_kg": 28.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "브로콜리(일반)",
+      "standard": "7.200kg.",
+      "kg_per_package": 7.2,
+      "price_kg": 2417,
+      "trade_count": 2,
+      "quantity_kg": 43.2
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "브로콜리(일반)",
+      "standard": "8.000kg상자",
+      "kg_per_package": 8.0,
+      "price_kg": 2500,
+      "trade_count": 69,
+      "quantity_kg": 2560.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(수입)",
+      "standard": "15.000kg상자",
+      "kg_per_package": 15.0,
+      "price_kg": 673,
+      "trade_count": 3,
+      "quantity_kg": 1200.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "10.400kg상자",
+      "kg_per_package": 10.4,
+      "price_kg": 981,
+      "trade_count": 1,
+      "quantity_kg": 353.6
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "11.000kg상자",
+      "kg_per_package": 11.0,
+      "price_kg": 664,
+      "trade_count": 1,
+      "quantity_kg": 22.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "11.400kg상자",
+      "kg_per_package": 11.4,
+      "price_kg": 877,
+      "trade_count": 1,
+      "quantity_kg": 79.8
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "11.500kg상자",
+      "kg_per_package": 11.5,
+      "price_kg": 983,
+      "trade_count": 15,
+      "quantity_kg": 2403.5
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "11.700kg상자",
+      "kg_per_package": 11.7,
+      "price_kg": 778,
+      "trade_count": 1,
+      "quantity_kg": 46.8
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "12.000kg상자",
+      "kg_per_package": 12.0,
+      "price_kg": 833,
+      "trade_count": 3,
+      "quantity_kg": 540.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "12.100kg상자",
+      "kg_per_package": 12.1,
+      "price_kg": 1058,
+      "trade_count": 1,
+      "quantity_kg": 12.1
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "12.300kg상자",
+      "kg_per_package": 12.3,
+      "price_kg": 955,
+      "trade_count": 2,
+      "quantity_kg": 615.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "12.400kg상자",
+      "kg_per_package": 12.4,
+      "price_kg": 1056,
+      "trade_count": 1,
+      "quantity_kg": 24.8
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "12.500kg상자",
+      "kg_per_package": 12.5,
+      "price_kg": 1064,
+      "trade_count": 3,
+      "quantity_kg": 250.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "12.900kg상자",
+      "kg_per_package": 12.9,
+      "price_kg": 775,
+      "trade_count": 1,
+      "quantity_kg": 25.8
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "13.300kg상자",
+      "kg_per_package": 13.3,
+      "price_kg": 1060,
+      "trade_count": 2,
+      "quantity_kg": 625.1
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "13.600kg상자",
+      "kg_per_package": 13.6,
+      "price_kg": 1022,
+      "trade_count": 1,
+      "quantity_kg": 720.8
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "14.000kg상자",
+      "kg_per_package": 14.0,
+      "price_kg": 829,
+      "trade_count": 9,
+      "quantity_kg": 3192.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "14.300kg상자",
+      "kg_per_package": 14.3,
+      "price_kg": 951,
+      "trade_count": 1,
+      "quantity_kg": 28.6
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "15.000kg상자",
+      "kg_per_package": 15.0,
+      "price_kg": 733,
+      "trade_count": 2,
+      "quantity_kg": 735.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "16.500kg상자",
+      "kg_per_package": 16.5,
+      "price_kg": 900,
+      "trade_count": 2,
+      "quantity_kg": 874.5
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "16.600kg상자",
+      "kg_per_package": 16.6,
+      "price_kg": 819,
+      "trade_count": 1,
+      "quantity_kg": 66.4
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "17.000kg상자",
+      "kg_per_package": 17.0,
+      "price_kg": 829,
+      "trade_count": 1,
+      "quantity_kg": 119.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "18.100kg상자",
+      "kg_per_package": 18.1,
+      "price_kg": 453,
+      "trade_count": 1,
+      "quantity_kg": 90.5
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "18.700kg상자",
+      "kg_per_package": 18.7,
+      "price_kg": 818,
+      "trade_count": 1,
+      "quantity_kg": 224.4
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "8.000kg상자",
+      "kg_per_package": 8.0,
+      "price_kg": 638,
+      "trade_count": 2,
+      "quantity_kg": 480.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "9.000kg상자",
+      "kg_per_package": 9.0,
+      "price_kg": 567,
+      "trade_count": 3,
+      "quantity_kg": 540.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "9.500kg상자",
+      "kg_per_package": 9.5,
+      "price_kg": 853,
+      "trade_count": 1,
+      "quantity_kg": 9.5
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "양배추(일반)",
+      "standard": "9.800kg상자",
+      "kg_per_package": 9.8,
+      "price_kg": 1286,
+      "trade_count": 1,
+      "quantity_kg": 186.2
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "칼리플라워(일반)",
+      "standard": "8.000kg상자",
+      "kg_per_package": 8.0,
+      "price_kg": 1438,
+      "trade_count": 8,
+      "quantity_kg": 144.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양배추",
+      "variety": "콜라비(일반)",
+      "standard": "10.000kg상자",
+      "kg_per_package": 10.0,
+      "price_kg": 875,
+      "trade_count": 2,
+      "quantity_kg": 110.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양파",
+      "variety": "만생양파",
+      "standard": "20.000kg그물망",
+      "kg_per_package": 20.0,
+      "price_kg": 930,
+      "trade_count": 9,
+      "quantity_kg": 8900.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양파",
+      "variety": "양파(일반)",
+      "standard": "10.000kg상자",
+      "kg_per_package": 10.0,
+      "price_kg": 1170,
+      "trade_count": 2,
+      "quantity_kg": 1100.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양파",
+      "variety": "양파(일반)",
+      "standard": "19.500kg그물망",
+      "kg_per_package": 19.5,
+      "price_kg": 949,
+      "trade_count": 15,
+      "quantity_kg": 14605.5
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양파",
+      "variety": "양파(일반)",
+      "standard": "19.800kg그물망",
+      "kg_per_package": 19.8,
+      "price_kg": 177,
+      "trade_count": 1,
+      "quantity_kg": 99.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "양파",
+      "variety": "양파(일반)",
+      "standard": "20.000kg그물망",
+      "kg_per_package": 20.0,
+      "price_kg": 965,
+      "trade_count": 18,
+      "quantity_kg": 16220.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "오이",
+      "variety": "가시오이",
+      "standard": "10.000kg상자",
+      "kg_per_package": 10.0,
+      "price_kg": 1340,
+      "trade_count": 164,
+      "quantity_kg": 21000.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "오이",
+      "variety": "미니오이",
+      "standard": "0.520kg봉지",
+      "kg_per_package": 0.52,
+      "price_kg": 2692,
+      "trade_count": 1,
+      "quantity_kg": 239.2
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "오이",
+      "variety": "백다다기",
+      "standard": "10.000kg상자",
+      "kg_per_package": 10.0,
+      "price_kg": 1950,
+      "trade_count": 21,
+      "quantity_kg": 2950.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "오이",
+      "variety": "백다다기",
+      "standard": "18.600kg상자",
+      "kg_per_package": 18.6,
+      "price_kg": 995,
+      "trade_count": 1,
+      "quantity_kg": 37.2
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "오이",
+      "variety": "백다다기",
+      "standard": "9.000kg상자",
+      "kg_per_package": 9.0,
+      "price_kg": 2144,
+      "trade_count": 1,
+      "quantity_kg": 108.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "오이고추",
+      "variety": "오이고추",
+      "standard": "10.700kg상자",
+      "kg_per_package": 10.7,
+      "price_kg": 2033,
+      "trade_count": 2,
+      "quantity_kg": 171.2
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "오이고추",
+      "variety": "오이고추",
+      "standard": "10.900kg상자",
+      "kg_per_package": 10.9,
+      "price_kg": 1165,
+      "trade_count": 4,
+      "quantity_kg": 337.9
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "오이고추",
+      "variety": "오이고추",
+      "standard": "11.200kg상자",
+      "kg_per_package": 11.2,
+      "price_kg": 1906,
+      "trade_count": 4,
+      "quantity_kg": 470.4
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "오이고추",
+      "variety": "오이고추",
+      "standard": "11.300kg상자",
+      "kg_per_package": 11.3,
+      "price_kg": 1549,
+      "trade_count": 7,
+      "quantity_kg": 418.1
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "오이고추",
+      "variety": "오이고추",
+      "standard": "11.400kg상자",
+      "kg_per_package": 11.4,
+      "price_kg": 2044,
+      "trade_count": 4,
+      "quantity_kg": 319.2
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "오이고추",
+      "variety": "오이고추",
+      "standard": "11.500kg상자",
+      "kg_per_package": 11.5,
+      "price_kg": 1935,
+      "trade_count": 2,
+      "quantity_kg": 126.5
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "오이고추",
+      "variety": "오이고추",
+      "standard": "13.400kg상자",
+      "kg_per_package": 13.4,
+      "price_kg": 2612,
+      "trade_count": 1,
+      "quantity_kg": 13.4
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "오이고추",
+      "variety": "오이고추",
+      "standard": "5.700kg상자",
+      "kg_per_package": 5.7,
+      "price_kg": 2281,
+      "trade_count": 1,
+      "quantity_kg": 5.7
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "적양배추",
+      "variety": "적채(일반)",
+      "standard": "10.000kg상자",
+      "kg_per_package": 10.0,
+      "price_kg": 410,
+      "trade_count": 3,
+      "quantity_kg": 340.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "적양배추",
+      "variety": "적채(일반)",
+      "standard": "11.000kg상자",
+      "kg_per_package": 11.0,
+      "price_kg": 673,
+      "trade_count": 1,
+      "quantity_kg": 132.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "적양배추",
+      "variety": "적채(일반)",
+      "standard": "11.700kg상자",
+      "kg_per_package": 11.7,
+      "price_kg": 628,
+      "trade_count": 2,
+      "quantity_kg": 140.4
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "적양배추",
+      "variety": "적채(일반)",
+      "standard": "16.000kg상자",
+      "kg_per_package": 16.0,
+      "price_kg": 575,
+      "trade_count": 2,
+      "quantity_kg": 48.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "적양배추",
+      "variety": "적채(일반)",
+      "standard": "8.000kg상자",
+      "kg_per_package": 8.0,
+      "price_kg": 512,
+      "trade_count": 3,
+      "quantity_kg": 264.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "쪽파",
+      "variety": "깐쪽파",
+      "standard": "1.000kg단",
+      "kg_per_package": 1.0,
+      "price_kg": 2300,
+      "trade_count": 9,
+      "quantity_kg": 215.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "쪽파",
+      "variety": "깐쪽파",
+      "standard": "10.000kg상자",
+      "kg_per_package": 10.0,
+      "price_kg": 2600,
+      "trade_count": 5,
+      "quantity_kg": 90.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "쪽파",
+      "variety": "깐쪽파",
+      "standard": "20.000kg상자",
+      "kg_per_package": 20.0,
+      "price_kg": 3200,
+      "trade_count": 1,
+      "quantity_kg": 40.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "쪽파",
+      "variety": "쪽파(일반)",
+      "standard": "1.200kg단",
+      "kg_per_package": 1.2,
+      "price_kg": 417,
+      "trade_count": 11,
+      "quantity_kg": 1348.8
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "쪽파",
+      "variety": "쪽파(일반)",
+      "standard": "1.300kg단",
+      "kg_per_package": 1.3,
+      "price_kg": 769,
+      "trade_count": 7,
+      "quantity_kg": 912.6
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "쪽파",
+      "variety": "쪽파(일반)",
+      "standard": "1.400kg단",
+      "kg_per_package": 1.4,
+      "price_kg": 2714,
+      "trade_count": 1,
+      "quantity_kg": 72.8
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "쪽파",
+      "variety": "쪽파(일반)",
+      "standard": "1.500kg단",
+      "kg_per_package": 1.5,
+      "price_kg": 1540,
+      "trade_count": 5,
+      "quantity_kg": 309.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "쪽파",
+      "variety": "쪽파(일반)",
+      "standard": "1.600kg단",
+      "kg_per_package": 1.6,
+      "price_kg": 878,
+      "trade_count": 10,
+      "quantity_kg": 1297.6
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "쪽파",
+      "variety": "쪽파(일반)",
+      "standard": "1.700kg단",
+      "kg_per_package": 1.7,
+      "price_kg": 524,
+      "trade_count": 4,
+      "quantity_kg": 688.5
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "쪽파",
+      "variety": "쪽파(일반)",
+      "standard": "10.000kg봉지",
+      "kg_per_package": 10.0,
+      "price_kg": 440,
+      "trade_count": 1,
+      "quantity_kg": 200.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "쪽파",
+      "variety": "쪽파(일반)",
+      "standard": "6.000kg상자",
+      "kg_per_package": 6.0,
+      "price_kg": 450,
+      "trade_count": 1,
+      "quantity_kg": 30.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "청경채",
+      "variety": "청경채(일반)",
+      "standard": "4.000kg상자",
+      "kg_per_package": 4.0,
+      "price_kg": 1375,
+      "trade_count": 34,
+      "quantity_kg": 1788.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "청양고추",
+      "variety": "청양",
+      "standard": "10.900kg상자",
+      "kg_per_package": 10.9,
+      "price_kg": 4266,
+      "trade_count": 6,
+      "quantity_kg": 141.7
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "청양고추",
+      "variety": "청양",
+      "standard": "11.000kg상자",
+      "kg_per_package": 11.0,
+      "price_kg": 5045,
+      "trade_count": 16,
+      "quantity_kg": 1419.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "청양고추",
+      "variety": "청양",
+      "standard": "11.100kg상자",
+      "kg_per_package": 11.1,
+      "price_kg": 2658,
+      "trade_count": 1,
+      "quantity_kg": 188.7
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "청양고추",
+      "variety": "청양",
+      "standard": "11.200kg상자",
+      "kg_per_package": 11.2,
+      "price_kg": 2973,
+      "trade_count": 3,
+      "quantity_kg": 347.2
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "청양고추",
+      "variety": "청양",
+      "standard": "11.300kg상자",
+      "kg_per_package": 11.3,
+      "price_kg": 3673,
+      "trade_count": 15,
+      "quantity_kg": 1491.6
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "청양고추",
+      "variety": "청양",
+      "standard": "11.400kg상자",
+      "kg_per_package": 11.4,
+      "price_kg": 4325,
+      "trade_count": 17,
+      "quantity_kg": 1402.2
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "청양고추",
+      "variety": "청양",
+      "standard": "11.500kg상자",
+      "kg_per_package": 11.5,
+      "price_kg": 3609,
+      "trade_count": 6,
+      "quantity_kg": 552.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "청양고추",
+      "variety": "홍청양",
+      "standard": "11.300kg상자",
+      "kg_per_package": 11.3,
+      "price_kg": 3788,
+      "trade_count": 2,
+      "quantity_kg": 79.1
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "청양고추",
+      "variety": "홍청양",
+      "standard": "13.300kg상자",
+      "kg_per_package": 13.3,
+      "price_kg": 4098,
+      "trade_count": 1,
+      "quantity_kg": 26.6
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "홍고추",
+      "variety": "홍고추(일반)",
+      "standard": "10.700kg상자",
+      "kg_per_package": 10.7,
+      "price_kg": 3645,
+      "trade_count": 2,
+      "quantity_kg": 32.1
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "홍고추",
+      "variety": "홍고추(일반)",
+      "standard": "10.900kg상자",
+      "kg_per_package": 10.9,
+      "price_kg": 3206,
+      "trade_count": 10,
+      "quantity_kg": 523.2
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "홍고추",
+      "variety": "홍고추(일반)",
+      "standard": "11.000kg상자",
+      "kg_per_package": 11.0,
+      "price_kg": 5159,
+      "trade_count": 6,
+      "quantity_kg": 231.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "홍고추",
+      "variety": "홍고추(일반)",
+      "standard": "11.100kg상자",
+      "kg_per_package": 11.1,
+      "price_kg": 3045,
+      "trade_count": 5,
+      "quantity_kg": 321.9
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "홍고추",
+      "variety": "홍고추(일반)",
+      "standard": "11.200kg상자",
+      "kg_per_package": 11.2,
+      "price_kg": 4071,
+      "trade_count": 3,
+      "quantity_kg": 134.4
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "홍고추",
+      "variety": "홍고추(일반)",
+      "standard": "11.300kg상자",
+      "kg_per_package": 11.3,
+      "price_kg": 5133,
+      "trade_count": 7,
+      "quantity_kg": 169.5
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "홍고추",
+      "variety": "홍고추(일반)",
+      "standard": "11.400kg상자",
+      "kg_per_package": 11.4,
+      "price_kg": 3303,
+      "trade_count": 2,
+      "quantity_kg": 22.8
+    },
+    {
+      "date": "2026-10-27",
+      "market": "210009",
+      "market_name": "부산반여",
+      "product": "홍고추",
+      "variety": "홍고추(일반)",
+      "standard": "2.000kg상자",
+      "kg_per_package": 2.0,
+      "price_kg": 1000,
+      "trade_count": 1,
+      "quantity_kg": 2.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "220001",
+      "market_name": "대구북부",
+      "product": "당근",
+      "variety": "당근(일반)",
+      "standard": "20.000kg상자",
+      "kg_per_package": 20.0,
+      "price_kg": 2450,
+      "trade_count": 3,
+      "quantity_kg": 4000.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "220001",
+      "market_name": "대구북부",
+      "product": "배",
+      "variety": "신고",
+      "standard": "15.000kg상자",
+      "kg_per_package": 15.0,
+      "price_kg": 1900,
+      "trade_count": 136,
+      "quantity_kg": 21645.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "220001",
+      "market_name": "대구북부",
+      "product": "배",
+      "variety": "추황",
+      "standard": "15.000kg상자",
+      "kg_per_package": 15.0,
+      "price_kg": 1240,
+      "trade_count": 13,
+      "quantity_kg": 825.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "220001",
+      "market_name": "대구북부",
+      "product": "부추",
+      "variety": "부추(일반)",
+      "standard": "0.700kg단",
+      "kg_per_package": 0.7,
+      "price_kg": 1964,
+      "trade_count": 2,
+      "quantity_kg": 1365.0
+    },
+    {
+      "date": "2026-10-27",
+      "market": "220001",
+      "market_name": "대구북부",
+      "product": "양파",
+      "variety": "양파(일반)",
+      "standard": "19.500kg그물망",
+      "kg_per_package": 19.5,
+      "price_kg": 949,
+      "trade_count": 1,
+      "quantity_kg": 780.0
     }
   ]
 }
