@@ -3,7 +3,7 @@
   "source": "농림축산식품 공공데이터포털 / 전국 공영도매시장 실시간 경락정보",
   "source_url": "https://data.mafra.go.kr/opendata/data/indexOpenDataDetail.do?data_id=20240625000000002460",
   "method": "시장·품목·세부품종·동일 포장규격별 실거래 경락가격(원/kg)의 중앙값과 수량(QTY×규격중량) 합계; 단위 식별 불가능한 거래 제외",
-  "updated_at": "2026-10-27T16:52:29+09:00",
+  "updated_at": "2026-10-27T23:32:23+09:00",
   "markets": {
     "110001": "서울가락",
     "210001": "부산엄궁",
@@ -143718,8 +143718,8 @@
       "standard": "3.000kg상자",
       "kg_per_package": 3.0,
       "price_kg": 7167,
-      "trade_count": 603,
-      "quantity_kg": 26406.0
+      "trade_count": 804,
+      "quantity_kg": 35208.0
     },
     {
       "date": "2026-10-26",
@@ -143730,8 +143730,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 6000,
-      "trade_count": 18,
-      "quantity_kg": 1872.0
+      "trade_count": 24,
+      "quantity_kg": 2496.0
     },
     {
       "date": "2026-10-26",
@@ -143742,8 +143742,8 @@
       "standard": "1.000kg상자",
       "kg_per_package": 1.0,
       "price_kg": 8000,
-      "trade_count": 80,
-      "quantity_kg": 80.0
+      "trade_count": 107,
+      "quantity_kg": 107.0
     },
     {
       "date": "2026-10-26",
@@ -143754,8 +143754,8 @@
       "standard": "2.000kg상자",
       "kg_per_package": 2.0,
       "price_kg": 9500,
-      "trade_count": 3050,
-      "quantity_kg": 108226.0
+      "trade_count": 4067,
+      "quantity_kg": 144304.0
     },
     {
       "date": "2026-10-26",
@@ -143766,8 +143766,8 @@
       "standard": "3.000kg상자",
       "kg_per_package": 3.0,
       "price_kg": 5167,
-      "trade_count": 1953,
-      "quantity_kg": 81810.0
+      "trade_count": 2604,
+      "quantity_kg": 109080.0
     },
     {
       "date": "2026-10-26",
@@ -143778,8 +143778,8 @@
       "standard": "3.500kg상자",
       "kg_per_package": 3.5,
       "price_kg": 1000,
-      "trade_count": 9,
-      "quantity_kg": 31.5
+      "trade_count": 12,
+      "quantity_kg": 42.0
     },
     {
       "date": "2026-10-26",
@@ -143790,8 +143790,8 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 2812,
-      "trade_count": 1818,
-      "quantity_kg": 49068.0
+      "trade_count": 2424,
+      "quantity_kg": 65424.0
     },
     {
       "date": "2026-10-26",
@@ -143802,8 +143802,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 1562,
-      "trade_count": 27,
-      "quantity_kg": 1080.0
+      "trade_count": 36,
+      "quantity_kg": 1440.0
     },
     {
       "date": "2026-10-26",
@@ -143814,8 +143814,8 @@
       "standard": "2.000kg상자",
       "kg_per_package": 2.0,
       "price_kg": 3875,
-      "trade_count": 9,
-      "quantity_kg": 36.0
+      "trade_count": 12,
+      "quantity_kg": 48.0
     },
     {
       "date": "2026-10-26",
@@ -143826,8 +143826,8 @@
       "standard": "2.900kg상자",
       "kg_per_package": 2.9,
       "price_kg": 2876,
-      "trade_count": 9,
-      "quantity_kg": 26.1
+      "trade_count": 12,
+      "quantity_kg": 34.8
     },
     {
       "date": "2026-10-26",
@@ -143838,8 +143838,8 @@
       "standard": "3.000kg상자",
       "kg_per_package": 3.0,
       "price_kg": 1127,
-      "trade_count": 9,
-      "quantity_kg": 27.0
+      "trade_count": 12,
+      "quantity_kg": 36.0
     },
     {
       "date": "2026-10-26",
@@ -143850,8 +143850,8 @@
       "standard": "3.300kg상자",
       "kg_per_package": 3.3,
       "price_kg": 2124,
-      "trade_count": 9,
-      "quantity_kg": 29.7
+      "trade_count": 12,
+      "quantity_kg": 39.6
     },
     {
       "date": "2026-10-26",
@@ -143862,8 +143862,8 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 3125,
-      "trade_count": 1924,
-      "quantity_kg": 40540.0
+      "trade_count": 2566,
+      "quantity_kg": 54112.0
     },
     {
       "date": "2026-10-26",
@@ -143874,8 +143874,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 1500,
-      "trade_count": 106,
-      "quantity_kg": 2504.0
+      "trade_count": 142,
+      "quantity_kg": 3344.0
     },
     {
       "date": "2026-10-26",
@@ -143898,8 +143898,8 @@
       "standard": "2.000kg상자",
       "kg_per_package": 2.0,
       "price_kg": 4750,
-      "trade_count": 8,
-      "quantity_kg": 16.0
+      "trade_count": 11,
+      "quantity_kg": 22.0
     },
     {
       "date": "2026-10-26",
@@ -143910,8 +143910,8 @@
       "standard": "3.000kg상자",
       "kg_per_package": 3.0,
       "price_kg": 5000,
-      "trade_count": 78,
-      "quantity_kg": 234.0
+      "trade_count": 105,
+      "quantity_kg": 315.0
     },
     {
       "date": "2026-10-26",
@@ -143922,8 +143922,8 @@
       "standard": "3.300kg상자",
       "kg_per_package": 3.3,
       "price_kg": 3876,
-      "trade_count": 9,
-      "quantity_kg": 29.7
+      "trade_count": 12,
+      "quantity_kg": 39.6
     },
     {
       "date": "2026-10-26",
@@ -143934,8 +143934,8 @@
       "standard": "3.400kg상자",
       "kg_per_package": 3.4,
       "price_kg": 5875,
-      "trade_count": 8,
-      "quantity_kg": 27.2
+      "trade_count": 11,
+      "quantity_kg": 37.4
     },
     {
       "date": "2026-10-26",
@@ -143946,8 +143946,8 @@
       "standard": "3.500kg상자",
       "kg_per_package": 3.5,
       "price_kg": 4000,
-      "trade_count": 8,
-      "quantity_kg": 28.0
+      "trade_count": 11,
+      "quantity_kg": 38.5
     },
     {
       "date": "2026-10-26",
@@ -143958,8 +143958,8 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 4500,
-      "trade_count": 2795,
-      "quantity_kg": 210892.0
+      "trade_count": 3761,
+      "quantity_kg": 283324.0
     },
     {
       "date": "2026-10-26",
@@ -143970,8 +143970,8 @@
       "standard": "4.000kg파렛트",
       "kg_per_package": 4.0,
       "price_kg": 4500,
-      "trade_count": 63,
-      "quantity_kg": 17280.0
+      "trade_count": 84,
+      "quantity_kg": 23040.0
     },
     {
       "date": "2026-10-26",
@@ -143982,8 +143982,8 @@
       "standard": "5.000kg상자",
       "kg_per_package": 5.0,
       "price_kg": 4750,
-      "trade_count": 68,
-      "quantity_kg": 465.0
+      "trade_count": 92,
+      "quantity_kg": 630.0
     },
     {
       "date": "2026-10-26",
@@ -144006,8 +144006,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 630,
-      "trade_count": 627,
-      "quantity_kg": 735000.0
+      "trade_count": 840,
+      "quantity_kg": 984000.0
     },
     {
       "date": "2026-10-26",
@@ -144018,8 +144018,8 @@
       "standard": "20.000kg.",
       "kg_per_package": 20.0,
       "price_kg": 700,
-      "trade_count": 27,
-      "quantity_kg": 25740.0
+      "trade_count": 36,
+      "quantity_kg": 34320.0
     },
     {
       "date": "2026-10-26",
@@ -144030,8 +144030,8 @@
       "standard": "20.000kg상자",
       "kg_per_package": 20.0,
       "price_kg": 2275,
-      "trade_count": 445,
-      "quantity_kg": 758800.0
+      "trade_count": 595,
+      "quantity_kg": 1014400.0
     },
     {
       "date": "2026-10-26",
@@ -144042,8 +144042,8 @@
       "standard": "20.000kg파렛트",
       "kg_per_package": 20.0,
       "price_kg": 2000,
-      "trade_count": 63,
-      "quantity_kg": 94140.0
+      "trade_count": 84,
+      "quantity_kg": 125520.0
     },
     {
       "date": "2026-10-26",
@@ -144054,8 +144054,8 @@
       "standard": "10.000kg그물망",
       "kg_per_package": 10.0,
       "price_kg": 1270,
-      "trade_count": 1242,
-      "quantity_kg": 2451330.0
+      "trade_count": 1656,
+      "quantity_kg": 3268440.0
     },
     {
       "date": "2026-10-26",
@@ -144066,8 +144066,8 @@
       "standard": "10.000kg단",
       "kg_per_package": 10.0,
       "price_kg": 1300,
-      "trade_count": 63,
-      "quantity_kg": 71820.0
+      "trade_count": 84,
+      "quantity_kg": 95760.0
     },
     {
       "date": "2026-10-26",
@@ -144078,8 +144078,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 860,
-      "trade_count": 99,
-      "quantity_kg": 71730.0
+      "trade_count": 132,
+      "quantity_kg": 95640.0
     },
     {
       "date": "2026-10-26",
@@ -144090,8 +144090,8 @@
       "standard": "10.000kg파렛트",
       "kg_per_package": 10.0,
       "price_kg": 1090,
-      "trade_count": 234,
-      "quantity_kg": 107100.0
+      "trade_count": 312,
+      "quantity_kg": 142800.0
     },
     {
       "date": "2026-10-26",
@@ -144102,8 +144102,8 @@
       "standard": "5.000kg봉지",
       "kg_per_package": 5.0,
       "price_kg": 700,
-      "trade_count": 8,
-      "quantity_kg": 200.0
+      "trade_count": 11,
+      "quantity_kg": 275.0
     },
     {
       "date": "2026-10-26",
@@ -144114,8 +144114,8 @@
       "standard": "3.000kg그물망",
       "kg_per_package": 3.0,
       "price_kg": 5283,
-      "trade_count": 54,
-      "quantity_kg": 1620.0
+      "trade_count": 72,
+      "quantity_kg": 2160.0
     },
     {
       "date": "2026-10-26",
@@ -144126,8 +144126,8 @@
       "standard": "4.000kg봉지",
       "kg_per_package": 4.0,
       "price_kg": 1725,
-      "trade_count": 27,
-      "quantity_kg": 2520.0
+      "trade_count": 36,
+      "quantity_kg": 3360.0
     },
     {
       "date": "2026-10-26",
@@ -144138,8 +144138,8 @@
       "standard": "4.000kg비닐봉지",
       "kg_per_package": 4.0,
       "price_kg": 1900,
-      "trade_count": 81,
-      "quantity_kg": 9324.0
+      "trade_count": 108,
+      "quantity_kg": 12432.0
     },
     {
       "date": "2026-10-26",
@@ -144150,8 +144150,8 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 4075,
-      "trade_count": 747,
-      "quantity_kg": 245628.0
+      "trade_count": 996,
+      "quantity_kg": 327504.0
     },
     {
       "date": "2026-10-26",
@@ -144162,8 +144162,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 5500,
-      "trade_count": 18,
-      "quantity_kg": 1890.0
+      "trade_count": 24,
+      "quantity_kg": 2520.0
     },
     {
       "date": "2026-10-26",
@@ -144174,8 +144174,8 @@
       "standard": "10.000kg포",
       "kg_per_package": 10.0,
       "price_kg": 4200,
-      "trade_count": 18,
-      "quantity_kg": 3510.0
+      "trade_count": 24,
+      "quantity_kg": 4680.0
     },
     {
       "date": "2026-10-26",
@@ -144186,8 +144186,8 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 7000,
-      "trade_count": 168,
-      "quantity_kg": 6176.0
+      "trade_count": 231,
+      "quantity_kg": 8492.0
     },
     {
       "date": "2026-10-26",
@@ -144198,8 +144198,8 @@
       "standard": "8.000kg.",
       "kg_per_package": 8.0,
       "price_kg": 3812,
-      "trade_count": 198,
-      "quantity_kg": 25992.0
+      "trade_count": 264,
+      "quantity_kg": 34656.0
     },
     {
       "date": "2026-10-26",
@@ -144210,8 +144210,8 @@
       "standard": "8.000kg단",
       "kg_per_package": 8.0,
       "price_kg": 4500,
-      "trade_count": 72,
-      "quantity_kg": 6192.0
+      "trade_count": 96,
+      "quantity_kg": 8256.0
     },
     {
       "date": "2026-10-26",
@@ -144222,8 +144222,8 @@
       "standard": "8.000kg포",
       "kg_per_package": 8.0,
       "price_kg": 4188,
-      "trade_count": 306,
-      "quantity_kg": 47808.0
+      "trade_count": 408,
+      "quantity_kg": 63744.0
     },
     {
       "date": "2026-10-26",
@@ -144234,8 +144234,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 1000,
-      "trade_count": 288,
-      "quantity_kg": 69300.0
+      "trade_count": 384,
+      "quantity_kg": 92400.0
     },
     {
       "date": "2026-10-26",
@@ -144246,8 +144246,8 @@
       "standard": "10.000kg파렛트",
       "kg_per_package": 10.0,
       "price_kg": 1325,
-      "trade_count": 216,
-      "quantity_kg": 99810.0
+      "trade_count": 288,
+      "quantity_kg": 133080.0
     },
     {
       "date": "2026-10-26",
@@ -144258,8 +144258,8 @@
       "standard": "2.000kg상자",
       "kg_per_package": 2.0,
       "price_kg": 7400,
-      "trade_count": 27,
-      "quantity_kg": 1008.0
+      "trade_count": 36,
+      "quantity_kg": 1344.0
     },
     {
       "date": "2026-10-26",
@@ -144270,8 +144270,8 @@
       "standard": "2.000kg상자",
       "kg_per_package": 2.0,
       "price_kg": 2550,
-      "trade_count": 333,
-      "quantity_kg": 3870.0
+      "trade_count": 444,
+      "quantity_kg": 5160.0
     },
     {
       "date": "2026-10-26",
@@ -144282,8 +144282,8 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 3125,
-      "trade_count": 153,
-      "quantity_kg": 9180.0
+      "trade_count": 204,
+      "quantity_kg": 12240.0
     },
     {
       "date": "2026-10-26",
@@ -144366,8 +144366,8 @@
       "standard": "0.500kg단",
       "kg_per_package": 0.5,
       "price_kg": 2300,
-      "trade_count": 2742,
-      "quantity_kg": 510255.5
+      "trade_count": 3663,
+      "quantity_kg": 681543.5
     },
     {
       "date": "2026-10-26",
@@ -144378,8 +144378,8 @@
       "standard": "0.500kg상자",
       "kg_per_package": 0.5,
       "price_kg": 1500,
-      "trade_count": 324,
-      "quantity_kg": 77791.5
+      "trade_count": 432,
+      "quantity_kg": 103722.0
     },
     {
       "date": "2026-10-26",
@@ -144390,8 +144390,8 @@
       "standard": "0.500kg파렛트",
       "kg_per_package": 0.5,
       "price_kg": 1650,
-      "trade_count": 18,
-      "quantity_kg": 3690.0
+      "trade_count": 24,
+      "quantity_kg": 4920.0
     },
     {
       "date": "2026-10-26",
@@ -144402,8 +144402,8 @@
       "standard": "0.200kg단",
       "kg_per_package": 0.2,
       "price_kg": 29750,
-      "trade_count": 207,
-      "quantity_kg": 7493.4
+      "trade_count": 276,
+      "quantity_kg": 9991.2
     },
     {
       "date": "2026-10-26",
@@ -144414,8 +144414,8 @@
       "standard": "2.000kg비닐봉지",
       "kg_per_package": 2.0,
       "price_kg": 5250,
-      "trade_count": 9,
-      "quantity_kg": 18.0
+      "trade_count": 12,
+      "quantity_kg": 24.0
     },
     {
       "date": "2026-10-26",
@@ -144426,8 +144426,8 @@
       "standard": "2.000kg상자",
       "kg_per_package": 2.0,
       "price_kg": 6438,
-      "trade_count": 16,
-      "quantity_kg": 32.0
+      "trade_count": 22,
+      "quantity_kg": 44.0
     },
     {
       "date": "2026-10-26",
@@ -144438,8 +144438,8 @@
       "standard": "4.000kg비닐봉지",
       "kg_per_package": 4.0,
       "price_kg": 4812,
-      "trade_count": 54,
-      "quantity_kg": 1296.0
+      "trade_count": 72,
+      "quantity_kg": 1728.0
     },
     {
       "date": "2026-10-26",
@@ -144450,8 +144450,8 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 5750,
-      "trade_count": 88,
-      "quantity_kg": 2720.0
+      "trade_count": 121,
+      "quantity_kg": 3740.0
     },
     {
       "date": "2026-10-26",
@@ -144462,8 +144462,8 @@
       "standard": "5.000kg상자",
       "kg_per_package": 5.0,
       "price_kg": 800,
-      "trade_count": 171,
-      "quantity_kg": 47205.0
+      "trade_count": 228,
+      "quantity_kg": 62940.0
     },
     {
       "date": "2026-10-26",
@@ -144474,8 +144474,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 1062,
-      "trade_count": 3981,
-      "quantity_kg": 1675032.0
+      "trade_count": 5310,
+      "quantity_kg": 2234232.0
     },
     {
       "date": "2026-10-26",
@@ -144486,8 +144486,8 @@
       "standard": "8.000kg파렛트",
       "kg_per_package": 8.0,
       "price_kg": 1238,
-      "trade_count": 72,
-      "quantity_kg": 30528.0
+      "trade_count": 96,
+      "quantity_kg": 40704.0
     },
     {
       "date": "2026-10-26",
@@ -144498,8 +144498,8 @@
       "standard": "8.010kg상자",
       "kg_per_package": 8.01,
       "price_kg": 599,
-      "trade_count": 45,
-      "quantity_kg": 21122.4
+      "trade_count": 60,
+      "quantity_kg": 28163.2
     },
     {
       "date": "2026-10-26",
@@ -144510,8 +144510,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 1375,
-      "trade_count": 9,
-      "quantity_kg": 3600.0
+      "trade_count": 12,
+      "quantity_kg": 4800.0
     },
     {
       "date": "2026-10-26",
@@ -144522,8 +144522,8 @@
       "standard": "2.000kg상자",
       "kg_per_package": 2.0,
       "price_kg": 4950,
-      "trade_count": 36,
-      "quantity_kg": 666.0
+      "trade_count": 48,
+      "quantity_kg": 888.0
     },
     {
       "date": "2026-10-26",
@@ -144534,8 +144534,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 1688,
-      "trade_count": 414,
-      "quantity_kg": 122112.0
+      "trade_count": 552,
+      "quantity_kg": 162816.0
     },
     {
       "date": "2026-10-26",
@@ -144546,8 +144546,8 @@
       "standard": "6.000kg상자",
       "kg_per_package": 6.0,
       "price_kg": 3375,
-      "trade_count": 162,
-      "quantity_kg": 12150.0
+      "trade_count": 216,
+      "quantity_kg": 16200.0
     },
     {
       "date": "2026-10-26",
@@ -144558,8 +144558,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 2750,
-      "trade_count": 891,
-      "quantity_kg": 100728.0
+      "trade_count": 1188,
+      "quantity_kg": 134304.0
     },
     {
       "date": "2026-10-26",
@@ -144570,8 +144570,8 @@
       "standard": "15.000kg상자",
       "kg_per_package": 15.0,
       "price_kg": 800,
-      "trade_count": 27,
-      "quantity_kg": 81000.0
+      "trade_count": 36,
+      "quantity_kg": 108000.0
     },
     {
       "date": "2026-10-26",
@@ -144582,8 +144582,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 410,
-      "trade_count": 45,
-      "quantity_kg": 3330.0
+      "trade_count": 60,
+      "quantity_kg": 4440.0
     },
     {
       "date": "2026-10-26",
@@ -144594,8 +144594,8 @@
       "standard": "10.000kg파렛트",
       "kg_per_package": 10.0,
       "price_kg": 380,
-      "trade_count": 9,
-      "quantity_kg": 4860.0
+      "trade_count": 12,
+      "quantity_kg": 6480.0
     },
     {
       "date": "2026-10-26",
@@ -144606,8 +144606,8 @@
       "standard": "8.000kg그물망",
       "kg_per_package": 8.0,
       "price_kg": 812,
-      "trade_count": 1602,
-      "quantity_kg": 2673360.0
+      "trade_count": 2136,
+      "quantity_kg": 3564480.0
     },
     {
       "date": "2026-10-26",
@@ -144618,8 +144618,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 488,
-      "trade_count": 45,
-      "quantity_kg": 61200.0
+      "trade_count": 60,
+      "quantity_kg": 81600.0
     },
     {
       "date": "2026-10-26",
@@ -144630,8 +144630,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 1200,
-      "trade_count": 243,
-      "quantity_kg": 25290.0
+      "trade_count": 324,
+      "quantity_kg": 33720.0
     },
     {
       "date": "2026-10-26",
@@ -144642,8 +144642,8 @@
       "standard": "10.000kg파렛트",
       "kg_per_package": 10.0,
       "price_kg": 1100,
-      "trade_count": 81,
-      "quantity_kg": 34830.0
+      "trade_count": 108,
+      "quantity_kg": 46440.0
     },
     {
       "date": "2026-10-26",
@@ -144654,8 +144654,8 @@
       "standard": "15.000kg상자",
       "kg_per_package": 15.0,
       "price_kg": 1017,
-      "trade_count": 18,
-      "quantity_kg": 4725.0
+      "trade_count": 24,
+      "quantity_kg": 6300.0
     },
     {
       "date": "2026-10-26",
@@ -144666,8 +144666,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 1438,
-      "trade_count": 387,
-      "quantity_kg": 35280.0
+      "trade_count": 516,
+      "quantity_kg": 47040.0
     },
     {
       "date": "2026-10-26",
@@ -144678,8 +144678,8 @@
       "standard": "8.000kg파렛트",
       "kg_per_package": 8.0,
       "price_kg": 2312,
-      "trade_count": 9,
-      "quantity_kg": 3600.0
+      "trade_count": 12,
+      "quantity_kg": 4800.0
     },
     {
       "date": "2026-10-26",
@@ -144690,8 +144690,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 900,
-      "trade_count": 367,
-      "quantity_kg": 69990.0
+      "trade_count": 502,
+      "quantity_kg": 95580.0
     },
     {
       "date": "2026-10-26",
@@ -144702,8 +144702,8 @@
       "standard": "15.000kg상자",
       "kg_per_package": 15.0,
       "price_kg": 983,
-      "trade_count": 18,
-      "quantity_kg": 1620.0
+      "trade_count": 24,
+      "quantity_kg": 2160.0
     },
     {
       "date": "2026-10-26",
@@ -144714,8 +144714,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 1312,
-      "trade_count": 36,
-      "quantity_kg": 3816.0
+      "trade_count": 48,
+      "quantity_kg": 5088.0
     },
     {
       "date": "2026-10-26",
@@ -144726,8 +144726,8 @@
       "standard": "10.000kg그물망",
       "kg_per_package": 10.0,
       "price_kg": 1900,
-      "trade_count": 9,
-      "quantity_kg": 2700.0
+      "trade_count": 12,
+      "quantity_kg": 3600.0
     },
     {
       "date": "2026-10-26",
@@ -144738,8 +144738,8 @@
       "standard": "15.000kg파렛트",
       "kg_per_package": 15.0,
       "price_kg": 1173,
-      "trade_count": 189,
-      "quantity_kg": 297000.0
+      "trade_count": 252,
+      "quantity_kg": 396000.0
     },
     {
       "date": "2026-10-26",
@@ -144750,8 +144750,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 1800,
-      "trade_count": 27,
-      "quantity_kg": 20700.0
+      "trade_count": 36,
+      "quantity_kg": 27600.0
     },
     {
       "date": "2026-10-26",
@@ -144762,8 +144762,8 @@
       "standard": "15.000kg그물망",
       "kg_per_package": 15.0,
       "price_kg": 1230,
-      "trade_count": 90,
-      "quantity_kg": 151605.0
+      "trade_count": 120,
+      "quantity_kg": 202140.0
     },
     {
       "date": "2026-10-26",
@@ -144774,8 +144774,8 @@
       "standard": "20.000kg그물망",
       "kg_per_package": 20.0,
       "price_kg": 1900,
-      "trade_count": 24,
-      "quantity_kg": 28800.0
+      "trade_count": 33,
+      "quantity_kg": 39600.0
     },
     {
       "date": "2026-10-26",
@@ -144786,8 +144786,8 @@
       "standard": "12.000kg그물망",
       "kg_per_package": 12.0,
       "price_kg": 1550,
-      "trade_count": 9,
-      "quantity_kg": 9180.0
+      "trade_count": 12,
+      "quantity_kg": 12240.0
     },
     {
       "date": "2026-10-26",
@@ -144798,8 +144798,8 @@
       "standard": "15.000kg그물망",
       "kg_per_package": 15.0,
       "price_kg": 1273,
-      "trade_count": 18,
-      "quantity_kg": 17685.0
+      "trade_count": 24,
+      "quantity_kg": 23580.0
     },
     {
       "date": "2026-10-26",
@@ -144810,8 +144810,8 @@
       "standard": "10.000kg그물망",
       "kg_per_package": 10.0,
       "price_kg": 850,
-      "trade_count": 18,
-      "quantity_kg": 38970.0
+      "trade_count": 24,
+      "quantity_kg": 51960.0
     },
     {
       "date": "2026-10-26",
@@ -144822,8 +144822,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 1220,
-      "trade_count": 54,
-      "quantity_kg": 43200.0
+      "trade_count": 72,
+      "quantity_kg": 57600.0
     },
     {
       "date": "2026-10-26",
@@ -144834,8 +144834,8 @@
       "standard": "12.000kg그물망",
       "kg_per_package": 12.0,
       "price_kg": 1108,
-      "trade_count": 1007,
-      "quantity_kg": 1777056.0
+      "trade_count": 1343,
+      "quantity_kg": 2370048.0
     },
     {
       "date": "2026-10-26",
@@ -144846,8 +144846,8 @@
       "standard": "15.000kg그물망",
       "kg_per_package": 15.0,
       "price_kg": 1213,
-      "trade_count": 1499,
-      "quantity_kg": 2938440.0
+      "trade_count": 2003,
+      "quantity_kg": 3925695.0
     },
     {
       "date": "2026-10-26",
@@ -144858,8 +144858,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 1350,
-      "trade_count": 99,
-      "quantity_kg": 8570.0
+      "trade_count": 135,
+      "quantity_kg": 11630.0
     },
     {
       "date": "2026-10-26",
@@ -144870,8 +144870,8 @@
       "standard": "15.000kg상자",
       "kg_per_package": 15.0,
       "price_kg": 1100,
-      "trade_count": 36,
-      "quantity_kg": 1350.0
+      "trade_count": 48,
+      "quantity_kg": 1800.0
     },
     {
       "date": "2026-10-26",
@@ -144882,8 +144882,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 1625,
-      "trade_count": 32,
-      "quantity_kg": 9760.0
+      "trade_count": 44,
+      "quantity_kg": 13420.0
     },
     {
       "date": "2026-10-26",
@@ -144894,8 +144894,8 @@
       "standard": "5.000kg상자",
       "kg_per_package": 5.0,
       "price_kg": 1800,
-      "trade_count": 8,
-      "quantity_kg": 360.0
+      "trade_count": 11,
+      "quantity_kg": 495.0
     },
     {
       "date": "2026-10-26",
@@ -144906,8 +144906,8 @@
       "standard": "10.000kg비닐봉지",
       "kg_per_package": 10.0,
       "price_kg": 400,
-      "trade_count": 8,
-      "quantity_kg": 560.0
+      "trade_count": 11,
+      "quantity_kg": 770.0
     },
     {
       "date": "2026-10-26",
@@ -144918,8 +144918,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 1500,
-      "trade_count": 2652,
-      "quantity_kg": 436620.0
+      "trade_count": 3570,
+      "quantity_kg": 588150.0
     },
     {
       "date": "2026-10-26",
@@ -144930,8 +144930,8 @@
       "standard": "10.000kg파렛트",
       "kg_per_package": 10.0,
       "price_kg": 1900,
-      "trade_count": 54,
-      "quantity_kg": 19890.0
+      "trade_count": 72,
+      "quantity_kg": 26520.0
     },
     {
       "date": "2026-10-26",
@@ -144942,8 +144942,8 @@
       "standard": "18.000kg비닐봉지",
       "kg_per_package": 18.0,
       "price_kg": 56,
-      "trade_count": 16,
-      "quantity_kg": 432.0
+      "trade_count": 22,
+      "quantity_kg": 594.0
     },
     {
       "date": "2026-10-26",
@@ -144954,8 +144954,8 @@
       "standard": "18.000kg상자",
       "kg_per_package": 18.0,
       "price_kg": 1583,
-      "trade_count": 5234,
-      "quantity_kg": 1159938.0
+      "trade_count": 7016,
+      "quantity_kg": 1556730.0
     },
     {
       "date": "2026-10-26",
@@ -144966,8 +144966,8 @@
       "standard": "18.000kg파렛트",
       "kg_per_package": 18.0,
       "price_kg": 2417,
-      "trade_count": 72,
-      "quantity_kg": 52002.0
+      "trade_count": 96,
+      "quantity_kg": 69336.0
     },
     {
       "date": "2026-10-26",
@@ -144978,8 +144978,8 @@
       "standard": "5.000kg상자",
       "kg_per_package": 5.0,
       "price_kg": 2750,
-      "trade_count": 18,
-      "quantity_kg": 2115.0
+      "trade_count": 24,
+      "quantity_kg": 2820.0
     },
     {
       "date": "2026-10-26",
@@ -144990,8 +144990,8 @@
       "standard": "9.000kg상자",
       "kg_per_package": 9.0,
       "price_kg": 2278,
-      "trade_count": 9,
-      "quantity_kg": 1620.0
+      "trade_count": 12,
+      "quantity_kg": 2160.0
     },
     {
       "date": "2026-10-26",
@@ -145002,8 +145002,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 850,
-      "trade_count": 1111,
-      "quantity_kg": 259240.0
+      "trade_count": 1498,
+      "quantity_kg": 349270.0
     },
     {
       "date": "2026-10-26",
@@ -145014,8 +145014,8 @@
       "standard": "10.000kg파렛트",
       "kg_per_package": 10.0,
       "price_kg": 1050,
-      "trade_count": 72,
-      "quantity_kg": 36990.0
+      "trade_count": 96,
+      "quantity_kg": 49320.0
     },
     {
       "date": "2026-10-26",
@@ -145026,8 +145026,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 1700,
-      "trade_count": 1815,
-      "quantity_kg": 222560.0
+      "trade_count": 2439,
+      "quantity_kg": 299150.0
     },
     {
       "date": "2026-10-26",
@@ -145050,8 +145050,8 @@
       "standard": "13.000kg상자",
       "kg_per_package": 13.0,
       "price_kg": 1650,
-      "trade_count": 9,
-      "quantity_kg": 117.0
+      "trade_count": 12,
+      "quantity_kg": 156.0
     },
     {
       "date": "2026-10-26",
@@ -145062,8 +145062,8 @@
       "standard": "14.000kg상자",
       "kg_per_package": 14.0,
       "price_kg": 2850,
-      "trade_count": 9,
-      "quantity_kg": 126.0
+      "trade_count": 12,
+      "quantity_kg": 168.0
     },
     {
       "date": "2026-10-26",
@@ -145074,8 +145074,8 @@
       "standard": "3.600kg상자",
       "kg_per_package": 3.6,
       "price_kg": 2639,
-      "trade_count": 392,
-      "quantity_kg": 39614.4
+      "trade_count": 527,
+      "quantity_kg": 53233.2
     },
     {
       "date": "2026-10-26",
@@ -145086,8 +145086,8 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 1750,
-      "trade_count": 18,
-      "quantity_kg": 108.0
+      "trade_count": 24,
+      "quantity_kg": 144.0
     },
     {
       "date": "2026-10-26",
@@ -145098,8 +145098,8 @@
       "standard": "5.000kg상자",
       "kg_per_package": 5.0,
       "price_kg": 1100,
-      "trade_count": 17,
-      "quantity_kg": 85.0
+      "trade_count": 23,
+      "quantity_kg": 115.0
     },
     {
       "date": "2026-10-26",
@@ -145110,8 +145110,8 @@
       "standard": "6.000kg상자",
       "kg_per_package": 6.0,
       "price_kg": 1750,
-      "trade_count": 17,
-      "quantity_kg": 102.0
+      "trade_count": 23,
+      "quantity_kg": 138.0
     },
     {
       "date": "2026-10-26",
@@ -145122,8 +145122,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 1700,
-      "trade_count": 25,
-      "quantity_kg": 200.0
+      "trade_count": 34,
+      "quantity_kg": 272.0
     },
     {
       "date": "2026-10-26",
@@ -145134,8 +145134,8 @@
       "standard": "9.000kg상자",
       "kg_per_package": 9.0,
       "price_kg": 1000,
-      "trade_count": 26,
-      "quantity_kg": 234.0
+      "trade_count": 35,
+      "quantity_kg": 315.0
     },
     {
       "date": "2026-10-26",
@@ -145146,8 +145146,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 625,
-      "trade_count": 243,
-      "quantity_kg": 79272.0
+      "trade_count": 324,
+      "quantity_kg": 105696.0
     },
     {
       "date": "2026-10-26",
@@ -145158,8 +145158,8 @@
       "standard": "8.000kg파렛트",
       "kg_per_package": 8.0,
       "price_kg": 688,
-      "trade_count": 189,
-      "quantity_kg": 84240.0
+      "trade_count": 252,
+      "quantity_kg": 112320.0
     },
     {
       "date": "2026-10-26",
@@ -145170,8 +145170,8 @@
       "standard": "1.000kg단",
       "kg_per_package": 1.0,
       "price_kg": 3100,
-      "trade_count": 88,
-      "quantity_kg": 4416.0
+      "trade_count": 121,
+      "quantity_kg": 6072.0
     },
     {
       "date": "2026-10-26",
@@ -145182,8 +145182,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 3300,
-      "trade_count": 2916,
-      "quantity_kg": 228420.0
+      "trade_count": 3888,
+      "quantity_kg": 304560.0
     },
     {
       "date": "2026-10-26",
@@ -145194,8 +145194,8 @@
       "standard": "10.000kg파렛트",
       "kg_per_package": 10.0,
       "price_kg": 400,
-      "trade_count": 27,
-      "quantity_kg": 2880.0
+      "trade_count": 36,
+      "quantity_kg": 3840.0
     },
     {
       "date": "2026-10-26",
@@ -145206,8 +145206,8 @@
       "standard": "10.010kg상자",
       "kg_per_package": 10.01,
       "price_kg": 3097,
-      "trade_count": 9,
-      "quantity_kg": 1261.3
+      "trade_count": 12,
+      "quantity_kg": 1681.7
     },
     {
       "date": "2026-10-26",
@@ -145218,8 +145218,8 @@
       "standard": "11.000kg상자",
       "kg_per_package": 11.0,
       "price_kg": 3136,
-      "trade_count": 108,
-      "quantity_kg": 1386.0
+      "trade_count": 144,
+      "quantity_kg": 1848.0
     },
     {
       "date": "2026-10-26",
@@ -145230,8 +145230,8 @@
       "standard": "12.000kg상자",
       "kg_per_package": 12.0,
       "price_kg": 3125,
-      "trade_count": 270,
-      "quantity_kg": 3672.0
+      "trade_count": 360,
+      "quantity_kg": 4896.0
     },
     {
       "date": "2026-10-26",
@@ -145242,8 +145242,8 @@
       "standard": "13.000kg상자",
       "kg_per_package": 13.0,
       "price_kg": 3692,
-      "trade_count": 9,
-      "quantity_kg": 117.0
+      "trade_count": 12,
+      "quantity_kg": 156.0
     },
     {
       "date": "2026-10-26",
@@ -145254,8 +145254,8 @@
       "standard": "14.000kg상자",
       "kg_per_package": 14.0,
       "price_kg": 3214,
-      "trade_count": 9,
-      "quantity_kg": 126.0
+      "trade_count": 12,
+      "quantity_kg": 168.0
     },
     {
       "date": "2026-10-26",
@@ -145266,8 +145266,8 @@
       "standard": "3.000kg상자",
       "kg_per_package": 3.0,
       "price_kg": 2667,
-      "trade_count": 9,
-      "quantity_kg": 27.0
+      "trade_count": 12,
+      "quantity_kg": 36.0
     },
     {
       "date": "2026-10-26",
@@ -145278,8 +145278,8 @@
       "standard": "5.000kg상자",
       "kg_per_package": 5.0,
       "price_kg": 2400,
-      "trade_count": 18,
-      "quantity_kg": 90.0
+      "trade_count": 24,
+      "quantity_kg": 120.0
     },
     {
       "date": "2026-10-26",
@@ -145290,8 +145290,8 @@
       "standard": "6.000kg상자",
       "kg_per_package": 6.0,
       "price_kg": 2833,
-      "trade_count": 9,
-      "quantity_kg": 54.0
+      "trade_count": 12,
+      "quantity_kg": 72.0
     },
     {
       "date": "2026-10-26",
@@ -145302,8 +145302,8 @@
       "standard": "7.000kg상자",
       "kg_per_package": 7.0,
       "price_kg": 4000,
-      "trade_count": 27,
-      "quantity_kg": 189.0
+      "trade_count": 36,
+      "quantity_kg": 252.0
     },
     {
       "date": "2026-10-26",
@@ -145314,8 +145314,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 2562,
-      "trade_count": 54,
-      "quantity_kg": 432.0
+      "trade_count": 72,
+      "quantity_kg": 576.0
     },
     {
       "date": "2026-10-26",
@@ -145326,8 +145326,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 2000,
-      "trade_count": 1665,
-      "quantity_kg": 300060.0
+      "trade_count": 2220,
+      "quantity_kg": 400080.0
     },
     {
       "date": "2026-10-26",
@@ -145338,8 +145338,8 @@
       "standard": "10.000kg파렛트",
       "kg_per_package": 10.0,
       "price_kg": 1750,
-      "trade_count": 72,
-      "quantity_kg": 15300.0
+      "trade_count": 96,
+      "quantity_kg": 20400.0
     },
     {
       "date": "2026-10-26",
@@ -145350,8 +145350,8 @@
       "standard": "10.010kg상자",
       "kg_per_package": 10.01,
       "price_kg": 2398,
-      "trade_count": 9,
-      "quantity_kg": 2792.8
+      "trade_count": 12,
+      "quantity_kg": 3723.7
     },
     {
       "date": "2026-10-26",
@@ -145362,8 +145362,8 @@
       "standard": "11.000kg상자",
       "kg_per_package": 11.0,
       "price_kg": 2000,
-      "trade_count": 9,
-      "quantity_kg": 99.0
+      "trade_count": 12,
+      "quantity_kg": 132.0
     },
     {
       "date": "2026-10-26",
@@ -145374,8 +145374,8 @@
       "standard": "5.000kg상자",
       "kg_per_package": 5.0,
       "price_kg": 1000,
-      "trade_count": 27,
-      "quantity_kg": 3150.0
+      "trade_count": 36,
+      "quantity_kg": 4200.0
     },
     {
       "date": "2026-10-26",
@@ -145386,8 +145386,8 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 825,
-      "trade_count": 3542,
-      "quantity_kg": 604840.0
+      "trade_count": 4724,
+      "quantity_kg": 806764.0
     },
     {
       "date": "2026-10-26",
@@ -145398,8 +145398,8 @@
       "standard": "10.000kg그물망",
       "kg_per_package": 10.0,
       "price_kg": 2100,
-      "trade_count": 8,
-      "quantity_kg": 80.0
+      "trade_count": 11,
+      "quantity_kg": 110.0
     },
     {
       "date": "2026-10-26",
@@ -145410,8 +145410,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 5200,
-      "trade_count": 3963,
-      "quantity_kg": 530360.0
+      "trade_count": 5346,
+      "quantity_kg": 713930.0
     },
     {
       "date": "2026-10-26",
@@ -145422,8 +145422,8 @@
       "standard": "11.000kg상자",
       "kg_per_package": 11.0,
       "price_kg": 4318,
-      "trade_count": 55,
-      "quantity_kg": 2882.0
+      "trade_count": 73,
+      "quantity_kg": 3839.0
     },
     {
       "date": "2026-10-26",
@@ -145434,8 +145434,8 @@
       "standard": "12.000kg상자",
       "kg_per_package": 12.0,
       "price_kg": 3800,
-      "trade_count": 10,
-      "quantity_kg": 120.0
+      "trade_count": 13,
+      "quantity_kg": 156.0
     },
     {
       "date": "2026-10-26",
@@ -145446,8 +145446,8 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 6600,
-      "trade_count": 70,
-      "quantity_kg": 384.0
+      "trade_count": 94,
+      "quantity_kg": 516.0
     },
     {
       "date": "2026-10-26",
@@ -145458,8 +145458,8 @@
       "standard": "5.000kg상자",
       "kg_per_package": 5.0,
       "price_kg": 4800,
-      "trade_count": 17,
-      "quantity_kg": 85.0
+      "trade_count": 23,
+      "quantity_kg": 115.0
     },
     {
       "date": "2026-10-26",
@@ -145470,8 +145470,8 @@
       "standard": "6.000kg상자",
       "kg_per_package": 6.0,
       "price_kg": 7000,
-      "trade_count": 9,
-      "quantity_kg": 54.0
+      "trade_count": 12,
+      "quantity_kg": 72.0
     },
     {
       "date": "2026-10-26",
@@ -145482,8 +145482,8 @@
       "standard": "7.000kg상자",
       "kg_per_package": 7.0,
       "price_kg": 5600,
-      "trade_count": 42,
-      "quantity_kg": 294.0
+      "trade_count": 57,
+      "quantity_kg": 399.0
     },
     {
       "date": "2026-10-26",
@@ -145494,8 +145494,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 3350,
-      "trade_count": 19,
-      "quantity_kg": 152.0
+      "trade_count": 25,
+      "quantity_kg": 200.0
     },
     {
       "date": "2026-10-26",
@@ -145506,8 +145506,8 @@
       "standard": "9.000kg상자",
       "kg_per_package": 9.0,
       "price_kg": 1333,
-      "trade_count": 27,
-      "quantity_kg": 243.0
+      "trade_count": 36,
+      "quantity_kg": 324.0
     },
     {
       "date": "2026-10-26",
@@ -145518,8 +145518,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 4000,
-      "trade_count": 321,
-      "quantity_kg": 14560.0
+      "trade_count": 435,
+      "quantity_kg": 19690.0
     },
     {
       "date": "2026-10-26",
@@ -145530,8 +145530,8 @@
       "standard": "11.000kg상자",
       "kg_per_package": 11.0,
       "price_kg": 2600,
-      "trade_count": 8,
-      "quantity_kg": 88.0
+      "trade_count": 11,
+      "quantity_kg": 121.0
     },
     {
       "date": "2026-10-26",
@@ -145542,8 +145542,8 @@
       "standard": "12.000kg상자",
       "kg_per_package": 12.0,
       "price_kg": 2200,
-      "trade_count": 16,
-      "quantity_kg": 192.0
+      "trade_count": 22,
+      "quantity_kg": 264.0
     },
     {
       "date": "2026-10-26",
@@ -145554,8 +145554,8 @@
       "standard": "6.000kg상자",
       "kg_per_package": 6.0,
       "price_kg": 1500,
-      "trade_count": 9,
-      "quantity_kg": 54.0
+      "trade_count": 12,
+      "quantity_kg": 72.0
     },
     {
       "date": "2026-10-26",
@@ -145566,8 +145566,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 1250,
-      "trade_count": 9,
-      "quantity_kg": 72.0
+      "trade_count": 12,
+      "quantity_kg": 96.0
     },
     {
       "date": "2026-10-26",
@@ -145578,8 +145578,8 @@
       "standard": "9.000kg상자",
       "kg_per_package": 9.0,
       "price_kg": 667,
-      "trade_count": 9,
-      "quantity_kg": 81.0
+      "trade_count": 12,
+      "quantity_kg": 108.0
     },
     {
       "date": "2026-10-26",
@@ -145590,8 +145590,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 3500,
-      "trade_count": 1588,
-      "quantity_kg": 100060.0
+      "trade_count": 2137,
+      "quantity_kg": 134650.0
     },
     {
       "date": "2026-10-26",
@@ -145602,8 +145602,8 @@
       "standard": "11.000kg상자",
       "kg_per_package": 11.0,
       "price_kg": 7000,
-      "trade_count": 9,
-      "quantity_kg": 99.0
+      "trade_count": 12,
+      "quantity_kg": 132.0
     },
     {
       "date": "2026-10-26",
@@ -145614,8 +145614,8 @@
       "standard": "3.000kg상자",
       "kg_per_package": 3.0,
       "price_kg": 7900,
-      "trade_count": 9,
-      "quantity_kg": 27.0
+      "trade_count": 12,
+      "quantity_kg": 36.0
     },
     {
       "date": "2026-10-26",
@@ -145626,8 +145626,8 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 1750,
-      "trade_count": 17,
-      "quantity_kg": 172.0
+      "trade_count": 23,
+      "quantity_kg": 232.0
     },
     {
       "date": "2026-10-26",
@@ -145638,8 +145638,8 @@
       "standard": "5.000kg상자",
       "kg_per_package": 5.0,
       "price_kg": 3100,
-      "trade_count": 9,
-      "quantity_kg": 45.0
+      "trade_count": 12,
+      "quantity_kg": 60.0
     },
     {
       "date": "2026-10-26",
@@ -145650,8 +145650,8 @@
       "standard": "6.000kg상자",
       "kg_per_package": 6.0,
       "price_kg": 2650,
-      "trade_count": 9,
-      "quantity_kg": 54.0
+      "trade_count": 12,
+      "quantity_kg": 72.0
     },
     {
       "date": "2026-10-26",
@@ -145674,8 +145674,8 @@
       "standard": "7.000kg상자",
       "kg_per_package": 7.0,
       "price_kg": 2900,
-      "trade_count": 17,
-      "quantity_kg": 119.0
+      "trade_count": 23,
+      "quantity_kg": 161.0
     },
     {
       "date": "2026-10-26",
@@ -145686,8 +145686,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 1700,
-      "trade_count": 18,
-      "quantity_kg": 144.0
+      "trade_count": 24,
+      "quantity_kg": 192.0
     },
     {
       "date": "2026-10-26",
@@ -145698,8 +145698,8 @@
       "standard": "9.000kg상자",
       "kg_per_package": 9.0,
       "price_kg": 4400,
-      "trade_count": 20,
-      "quantity_kg": 180.0
+      "trade_count": 26,
+      "quantity_kg": 234.0
     },
     {
       "date": "2026-10-26",
@@ -148470,8 +148470,8 @@
       "standard": "1.000kg상자",
       "kg_per_package": 1.0,
       "price_kg": 6000,
-      "trade_count": 63,
-      "quantity_kg": 1323.0
+      "trade_count": 84,
+      "quantity_kg": 1764.0
     },
     {
       "date": "2026-10-26",
@@ -148482,8 +148482,8 @@
       "standard": "2.000kg상자",
       "kg_per_package": 2.0,
       "price_kg": 5750,
-      "trade_count": 1687,
-      "quantity_kg": 39410.0
+      "trade_count": 2284,
+      "quantity_kg": 53438.0
     },
     {
       "date": "2026-10-26",
@@ -148494,8 +148494,8 @@
       "standard": "3.000kg비닐봉지",
       "kg_per_package": 3.0,
       "price_kg": 1333,
-      "trade_count": 9,
-      "quantity_kg": 27.0
+      "trade_count": 12,
+      "quantity_kg": 36.0
     },
     {
       "date": "2026-10-26",
@@ -148506,8 +148506,8 @@
       "standard": "4.000kg봉지",
       "kg_per_package": 4.0,
       "price_kg": 1250,
-      "trade_count": 289,
-      "quantity_kg": 4928.0
+      "trade_count": 397,
+      "quantity_kg": 6776.0
     },
     {
       "date": "2026-10-26",
@@ -148518,8 +148518,8 @@
       "standard": "4.000kg비닐봉지",
       "kg_per_package": 4.0,
       "price_kg": 1150,
-      "trade_count": 459,
-      "quantity_kg": 7560.0
+      "trade_count": 612,
+      "quantity_kg": 10080.0
     },
     {
       "date": "2026-10-26",
@@ -148530,8 +148530,8 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 1375,
-      "trade_count": 324,
-      "quantity_kg": 4752.0
+      "trade_count": 432,
+      "quantity_kg": 6336.0
     },
     {
       "date": "2026-10-26",
@@ -148542,8 +148542,8 @@
       "standard": "5.000kg봉지",
       "kg_per_package": 5.0,
       "price_kg": 800,
-      "trade_count": 9,
-      "quantity_kg": 45.0
+      "trade_count": 12,
+      "quantity_kg": 60.0
     },
     {
       "date": "2026-10-26",
@@ -148554,8 +148554,8 @@
       "standard": "5.000kg상자",
       "kg_per_package": 5.0,
       "price_kg": 800,
-      "trade_count": 9,
-      "quantity_kg": 45.0
+      "trade_count": 12,
+      "quantity_kg": 60.0
     },
     {
       "date": "2026-10-26",
@@ -148566,8 +148566,8 @@
       "standard": "4.000kg비닐봉지",
       "kg_per_package": 4.0,
       "price_kg": 1500,
-      "trade_count": 184,
-      "quantity_kg": 3744.0
+      "trade_count": 253,
+      "quantity_kg": 5148.0
     },
     {
       "date": "2026-10-26",
@@ -148578,8 +148578,8 @@
       "standard": "1.000kg상자",
       "kg_per_package": 1.0,
       "price_kg": 4200,
-      "trade_count": 631,
-      "quantity_kg": 29390.0
+      "trade_count": 895,
+      "quantity_kg": 41426.0
     },
     {
       "date": "2026-10-26",
@@ -148590,8 +148590,8 @@
       "standard": "20.000kg상자",
       "kg_per_package": 20.0,
       "price_kg": 1712,
-      "trade_count": 22,
-      "quantity_kg": 1540.0
+      "trade_count": 34,
+      "quantity_kg": 2380.0
     },
     {
       "date": "2026-10-26",
@@ -148614,8 +148614,8 @@
       "standard": "1.000kg그물망",
       "kg_per_package": 1.0,
       "price_kg": 1240,
-      "trade_count": 108,
-      "quantity_kg": 52200.0
+      "trade_count": 144,
+      "quantity_kg": 69600.0
     },
     {
       "date": "2026-10-26",
@@ -148626,8 +148626,8 @@
       "standard": "1.000kg단",
       "kg_per_package": 1.0,
       "price_kg": 1150,
-      "trade_count": 231,
-      "quantity_kg": 70705.0
+      "trade_count": 312,
+      "quantity_kg": 94840.0
     },
     {
       "date": "2026-10-26",
@@ -148638,8 +148638,8 @@
       "standard": "1.000kg상자",
       "kg_per_package": 1.0,
       "price_kg": 1100,
-      "trade_count": 216,
-      "quantity_kg": 70740.0
+      "trade_count": 288,
+      "quantity_kg": 94320.0
     },
     {
       "date": "2026-10-26",
@@ -148650,8 +148650,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 740,
-      "trade_count": 126,
-      "quantity_kg": 17640.0
+      "trade_count": 168,
+      "quantity_kg": 23520.0
     },
     {
       "date": "2026-10-26",
@@ -148662,8 +148662,8 @@
       "standard": "2.000kg단",
       "kg_per_package": 2.0,
       "price_kg": 6000,
-      "trade_count": 8,
-      "quantity_kg": 96.0
+      "trade_count": 11,
+      "quantity_kg": 132.0
     },
     {
       "date": "2026-10-26",
@@ -148674,8 +148674,8 @@
       "standard": "0.200kg단",
       "kg_per_package": 0.2,
       "price_kg": 4500,
-      "trade_count": 61,
-      "quantity_kg": 1828.0
+      "trade_count": 82,
+      "quantity_kg": 2452.0
     },
     {
       "date": "2026-10-26",
@@ -148686,8 +148686,8 @@
       "standard": "0.200kg상자",
       "kg_per_package": 0.2,
       "price_kg": 6750,
-      "trade_count": 159,
-      "quantity_kg": 5898.0
+      "trade_count": 219,
+      "quantity_kg": 8172.0
     },
     {
       "date": "2026-10-26",
@@ -148698,8 +148698,8 @@
       "standard": "0.500kg단",
       "kg_per_package": 0.5,
       "price_kg": 4600,
-      "trade_count": 95,
-      "quantity_kg": 3355.0
+      "trade_count": 128,
+      "quantity_kg": 4507.0
     },
     {
       "date": "2026-10-26",
@@ -148710,8 +148710,8 @@
       "standard": "0.500kg상자",
       "kg_per_package": 0.5,
       "price_kg": 5000,
-      "trade_count": 58,
-      "quantity_kg": 2270.0
+      "trade_count": 82,
+      "quantity_kg": 3260.0
     },
     {
       "date": "2026-10-26",
@@ -148746,8 +148746,8 @@
       "standard": "0.600kg단",
       "kg_per_package": 0.6,
       "price_kg": 1600,
-      "trade_count": 81,
-      "quantity_kg": 9612.0
+      "trade_count": 108,
+      "quantity_kg": 12816.0
     },
     {
       "date": "2026-10-26",
@@ -148758,8 +148758,8 @@
       "standard": "0.600kg상자",
       "kg_per_package": 0.6,
       "price_kg": 1833,
-      "trade_count": 164,
-      "quantity_kg": 17335.8
+      "trade_count": 242,
+      "quantity_kg": 25516.8
     },
     {
       "date": "2026-10-26",
@@ -148770,8 +148770,8 @@
       "standard": "0.700kg단",
       "kg_per_package": 0.7,
       "price_kg": 1571,
-      "trade_count": 93,
-      "quantity_kg": 15278.2
+      "trade_count": 123,
+      "quantity_kg": 19570.6
     },
     {
       "date": "2026-10-26",
@@ -148782,8 +148782,8 @@
       "standard": "0.700kg상자",
       "kg_per_package": 0.7,
       "price_kg": 1750,
-      "trade_count": 720,
-      "quantity_kg": 162666.0
+      "trade_count": 960,
+      "quantity_kg": 216888.0
     },
     {
       "date": "2026-10-26",
@@ -148794,8 +148794,8 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 2000,
-      "trade_count": 27,
-      "quantity_kg": 7452.0
+      "trade_count": 36,
+      "quantity_kg": 9936.0
     },
     {
       "date": "2026-10-26",
@@ -148806,8 +148806,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 1125,
-      "trade_count": 1287,
-      "quantity_kg": 525560.0
+      "trade_count": 1767,
+      "quantity_kg": 725048.0
     },
     {
       "date": "2026-10-26",
@@ -148818,8 +148818,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 2250,
-      "trade_count": 9,
-      "quantity_kg": 450.0
+      "trade_count": 12,
+      "quantity_kg": 600.0
     },
     {
       "date": "2026-10-26",
@@ -148830,8 +148830,8 @@
       "standard": "6.000kg상자",
       "kg_per_package": 6.0,
       "price_kg": 2500,
-      "trade_count": 74,
-      "quantity_kg": 3324.0
+      "trade_count": 104,
+      "quantity_kg": 4674.0
     },
     {
       "date": "2026-10-26",
@@ -148842,8 +148842,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 2375,
-      "trade_count": 946,
-      "quantity_kg": 85584.0
+      "trade_count": 1273,
+      "quantity_kg": 115440.0
     },
     {
       "date": "2026-10-26",
@@ -148854,8 +148854,8 @@
       "standard": "13.000kg상자",
       "kg_per_package": 13.0,
       "price_kg": 792,
-      "trade_count": 54,
-      "quantity_kg": 5382.0
+      "trade_count": 72,
+      "quantity_kg": 7176.0
     },
     {
       "date": "2026-10-26",
@@ -148866,8 +148866,8 @@
       "standard": "8.000kg그물망",
       "kg_per_package": 8.0,
       "price_kg": 1000,
-      "trade_count": 140,
-      "quantity_kg": 77672.0
+      "trade_count": 185,
+      "quantity_kg": 99632.0
     },
     {
       "date": "2026-10-26",
@@ -148878,8 +148878,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 1375,
-      "trade_count": 32,
-      "quantity_kg": 7680.0
+      "trade_count": 44,
+      "quantity_kg": 10560.0
     },
     {
       "date": "2026-10-26",
@@ -148890,8 +148890,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 2050,
-      "trade_count": 9,
-      "quantity_kg": 360.0
+      "trade_count": 12,
+      "quantity_kg": 480.0
     },
     {
       "date": "2026-10-26",
@@ -148902,8 +148902,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 850,
-      "trade_count": 9,
-      "quantity_kg": 720.0
+      "trade_count": 12,
+      "quantity_kg": 960.0
     },
     {
       "date": "2026-10-26",
@@ -148914,8 +148914,8 @@
       "standard": "19.500kg그물망",
       "kg_per_package": 19.5,
       "price_kg": 1005,
-      "trade_count": 222,
-      "quantity_kg": 404683.5
+      "trade_count": 333,
+      "quantity_kg": 600424.5
     },
     {
       "date": "2026-10-26",
@@ -148926,8 +148926,8 @@
       "standard": "20.000kg그물망",
       "kg_per_package": 20.0,
       "price_kg": 1100,
-      "trade_count": 80,
-      "quantity_kg": 96000.0
+      "trade_count": 110,
+      "quantity_kg": 132000.0
     },
     {
       "date": "2026-10-26",
@@ -148938,8 +148938,8 @@
       "standard": "20.000kg그물망",
       "kg_per_package": 20.0,
       "price_kg": 750,
-      "trade_count": 27,
-      "quantity_kg": 26100.0
+      "trade_count": 36,
+      "quantity_kg": 34800.0
     },
     {
       "date": "2026-10-26",
@@ -148950,8 +148950,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 1250,
-      "trade_count": 2902,
-      "quantity_kg": 339330.0
+      "trade_count": 3889,
+      "quantity_kg": 454830.0
     },
     {
       "date": "2026-10-26",
@@ -148962,8 +148962,8 @@
       "standard": "0.500kg.",
       "kg_per_package": 0.5,
       "price_kg": 1500,
-      "trade_count": 32,
-      "quantity_kg": 1600.0
+      "trade_count": 44,
+      "quantity_kg": 2200.0
     },
     {
       "date": "2026-10-26",
@@ -148974,8 +148974,8 @@
       "standard": "0.500kg비닐봉지",
       "kg_per_package": 0.5,
       "price_kg": 3000,
-      "trade_count": 27,
-      "quantity_kg": 3150.0
+      "trade_count": 36,
+      "quantity_kg": 4200.0
     },
     {
       "date": "2026-10-26",
@@ -148986,8 +148986,8 @@
       "standard": "0.500kg상자",
       "kg_per_package": 0.5,
       "price_kg": 2600,
-      "trade_count": 153,
-      "quantity_kg": 13950.0
+      "trade_count": 204,
+      "quantity_kg": 18600.0
     },
     {
       "date": "2026-10-26",
@@ -148998,8 +148998,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 805,
-      "trade_count": 18,
-      "quantity_kg": 180.0
+      "trade_count": 24,
+      "quantity_kg": 240.0
     },
     {
       "date": "2026-10-26",
@@ -149010,8 +149010,8 @@
       "standard": "2.000kg상자",
       "kg_per_package": 2.0,
       "price_kg": 6000,
-      "trade_count": 11,
-      "quantity_kg": 220.0
+      "trade_count": 17,
+      "quantity_kg": 340.0
     },
     {
       "date": "2026-10-26",
@@ -149022,8 +149022,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 1450,
-      "trade_count": 1837,
-      "quantity_kg": 176440.0
+      "trade_count": 2461,
+      "quantity_kg": 236410.0
     },
     {
       "date": "2026-10-26",
@@ -149034,8 +149034,8 @@
       "standard": "1.000kg개",
       "kg_per_package": 1.0,
       "price_kg": 1800,
-      "trade_count": 72,
-      "quantity_kg": 4056.0
+      "trade_count": 99,
+      "quantity_kg": 5577.0
     },
     {
       "date": "2026-10-26",
@@ -149045,9 +149045,9 @@
       "variety": "오이고추",
       "standard": "1.000kg상자",
       "kg_per_package": 1.0,
-      "price_kg": 2300,
-      "trade_count": 649,
-      "quantity_kg": 82945.0
+      "price_kg": 2400,
+      "trade_count": 898,
+      "quantity_kg": 115477.0
     },
     {
       "date": "2026-10-26",
@@ -149058,8 +149058,8 @@
       "standard": "10.000kg상자",
       "kg_per_package": 10.0,
       "price_kg": 600,
-      "trade_count": 18,
-      "quantity_kg": 2700.0
+      "trade_count": 24,
+      "quantity_kg": 3600.0
     },
     {
       "date": "2026-10-26",
@@ -149070,8 +149070,8 @@
       "standard": "8.000kg상자",
       "kg_per_package": 8.0,
       "price_kg": 812,
-      "trade_count": 209,
-      "quantity_kg": 38472.0
+      "trade_count": 284,
+      "quantity_kg": 51936.0
     },
     {
       "date": "2026-10-26",
@@ -149082,8 +149082,8 @@
       "standard": "1.000kg단",
       "kg_per_package": 1.0,
       "price_kg": 4200,
-      "trade_count": 97,
-      "quantity_kg": 5169.0
+      "trade_count": 130,
+      "quantity_kg": 6942.0
     },
     {
       "date": "2026-10-26",
@@ -149094,8 +149094,8 @@
       "standard": "1.000kg상자",
       "kg_per_package": 1.0,
       "price_kg": 2600,
-      "trade_count": 155,
-      "quantity_kg": 9875.0
+      "trade_count": 209,
+      "quantity_kg": 13253.0
     },
     {
       "date": "2026-10-26",
@@ -149106,8 +149106,8 @@
       "standard": "1.000kg단",
       "kg_per_package": 1.0,
       "price_kg": 1260,
-      "trade_count": 45,
-      "quantity_kg": 3510.0
+      "trade_count": 60,
+      "quantity_kg": 4680.0
     },
     {
       "date": "2026-10-26",
@@ -149118,8 +149118,8 @@
       "standard": "1.000kg봉지",
       "kg_per_package": 1.0,
       "price_kg": 1700,
-      "trade_count": 22,
-      "quantity_kg": 1870.0
+      "trade_count": 34,
+      "quantity_kg": 2890.0
     },
     {
       "date": "2026-10-26",
@@ -149130,8 +149130,8 @@
       "standard": "1.000kg상자",
       "kg_per_package": 1.0,
       "price_kg": 800,
-      "trade_count": 143,
-      "quantity_kg": 12405.0
+      "trade_count": 200,
+      "quantity_kg": 17100.0
     },
     {
       "date": "2026-10-26",
@@ -149142,8 +149142,8 @@
       "standard": "4.000kg상자",
       "kg_per_package": 4.0,
       "price_kg": 1375,
-      "trade_count": 618,
-      "quantity_kg": 147216.0
+      "trade_count": 834,
+      "quantity_kg": 198720.0
     },
     {
       "date": "2026-10-26",
@@ -149154,8 +149154,8 @@
       "standard": "1.000kg개",
       "kg_per_package": 1.0,
       "price_kg": 4600,
-      "trade_count": 80,
-      "quantity_kg": 10080.0
+      "trade_count": 110,
+      "quantity_kg": 13860.0
     },
     {
       "date": "2026-10-26",
@@ -149165,9 +149165,9 @@
       "variety": "청양",
       "standard": "1.000kg상자",
       "kg_per_package": 1.0,
-      "price_kg": 4450,
-      "trade_count": 1827,
-      "quantity_kg": 175668.0
+      "price_kg": 4400,
+      "trade_count": 2526,
+      "quantity_kg": 244287.0
     },
     {
       "date": "2026-10-26",
@@ -149178,8 +149178,8 @@
       "standard": "1.000kg상자",
       "kg_per_package": 1.0,
       "price_kg": 3900,
-      "trade_count": 108,
-      "quantity_kg": 5040.0
+      "trade_count": 144,
+      "quantity_kg": 6720.0
     },
     {
       "date": "2026-10-26",
@@ -149190,8 +149190,8 @@
       "standard": "1.000kg개",
       "kg_per_package": 1.0,
       "price_kg": 2800,
-      "trade_count": 8,
-      "quantity_kg": 720.0
+      "trade_count": 11,
+      "quantity_kg": 990.0
     },
     {
       "date": "2026-10-26",
@@ -149202,8 +149202,8 @@
       "standard": "1.000kg상자",
       "kg_per_package": 1.0,
       "price_kg": 3030,
-      "trade_count": 414,
-      "quantity_kg": 14040.0
+      "trade_count": 573,
+      "quantity_kg": 19350.0
     },
     {
       "date": "2026-10-27",
